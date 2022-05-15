@@ -1,0 +1,36 @@
+{
+    "Car": "STKO-003",
+    "CarOrigin": "",
+    "Series": "\u307b\u308d\u9154\u3044\u30ad\u30ab\u30bf\u30f3\u9001\u8fce\u30ca\u30f3\u30d1",
+    "Title": "SOD\u9152\u5834\u30c9\u30ad\u30e5\u30e1\u30f3\u30c8 \u307b\u308d\u9154\u3044\u30ad\u30ab\u30bf\u30f3\u9001\u8fce\u30ca\u30f3\u30d1 \u963f\u90e8\u4e43\u307f\u304f\u306e\u5834\u5408",
+    "TitleZh": "SOD\u9152\u9986\u6587\u6863\u5fae\u9189\u5929\u4e3b\u6559\u63a5\u9001\u642d\u8baa\u963f\u90e8\u4e43\u7f8e\u7684\u60c5\u51b5",
+    "Plot": "\u3010\u5f71\u7247\u4e0b\u67b6\uff0c\u6682\u65e0\u7b80\u4ecb\u3011",
+    "PlotZh": "\u3010\u5f71\u7247\u4e0b\u67b6\uff0c\u6682\u65f6\u65e0\u7b80\u4ecb\u3011",
+    "Review": "",
+    "Release": "2020-02-11",
+    "Runtime": 70,
+    "Director": "\u3086\u3081\u307e\u3093\u305f\u308d\u3046",
+    "Studio": "SOD Create",
+    "Publisher": "\u307b\u308d\u9154\u3044\u30ad\u30ab\u30bf\u30f3\u9001\u8fce\u30ca\u30f3\u30d1",
+    "Score": 86,
+    "CoverLibrary": "",
+    "CoverBus": "7j77_b.jpg",
+    "CutType": 1,
+    "Javdb": "r4q1D",
+    "Javlibrary": "",
+    "Javbus": "STKO-003",
+    "Arzon": "",
+    "CompletionStatus": 5,
+    "Version": 1,
+    "Genres": [
+        "\u730e\u8273",
+        "\u7eaa\u5f55\u7247",
+        "\u6570\u4f4d\u9a6c\u8d5b\u514b",
+        "\u4e3b\u89c2\u89c6\u89d2",
+        "\u65e0\u7801\u6d41\u51fa"
+    ],
+    "Actors": [
+        "\u963f\u90e8\u4e43\u307f\u304f"
+    ],
+    "Modify": "2021-10-31 22:23:29"
+}

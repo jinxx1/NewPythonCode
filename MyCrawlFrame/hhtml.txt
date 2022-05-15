@@ -1,0 +1,818 @@
+<html lang="zh-CN"><head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="政府采购网,福建省,政府采购">
+    <meta name="description" content="福建省政府采购网">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>福建省政府采购网</title>
+
+    <!-- Bootstrap -->
+    <link rel="shortcut icon" type="image/png" href="/static/favicon.ico">
+    <link href="/static/bootstrap.min.css" rel="stylesheet">
+    <link href="/static/percircle.css" rel="stylesheet">
+    <link href="/static/style.css" rel="stylesheet">
+    <link href="/static/reset.css" rel="stylesheet">
+    <link href="/static/css/headerFooter.css" rel="stylesheet">
+    <script src="/static/jquery-2.1.1.js"></script><style type="text/css" abt="234"></style>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <style>
+        .headBg {
+            height: 338px;position: absolute;top: 185px;background-image: url('/static/images/bg2.png');
+            background-repeat:no-repeat;background-position: center;width: 273px;overflow: hidden;
+        }
+        @media screen and (max-width: 1650px) {
+            .headBg {
+                width:120px;
+            }
+        }
+        @media screen and (max-width: 1410px) {
+            .headBg {
+                 display: none;
+            }
+        }
+        .mask {
+      position: absolute; top: 0px; filter: alpha(opacity=60); background-color: #777;
+      z-index: 1; left: 0px;
+      opacity:0.5; -moz-opacity:0.5;
+      display:none;
+    }
+      .msg {
+        width: 400px;
+        height: 250px;
+        color: #306bff;
+        background-color: #fdffff;
+        border-radius: 4px;
+        padding: 15px;
+        position: absolute;
+        top: 10%;
+        text-align: center;
+        margin: 0 auto;
+        z-index: 999;
+        left: 50%;
+        margin-left: -150px;
+        display:none;
+        }
+
+        .demo {display:inline-block;*display:inline;*zoom:1;width:129px;height:20px;line-height:20px;font-size:12px;overflow:hidden;-ms-text-overflow:ellipsis;text-overflow:ellipsis;white-space:nowrap;}
+        .demo:hover {height:auto;white-space:normal;}
+    </style>
+</head>
+<body>
+<div class="header">
+    <div class="headerMessage" style="display: none;">
+        <div>
+            <span style="float: left">今天是2022年04月06日  星期三，欢迎来到福建省采购网</span>
+            <span style="float: right">
+                <a onclick="AddFavorite(window.location,document.title)" style="margin-right: 20px">加入收藏</a>
+                <a onclick="SetHome(this,window.location)">设为首页</a>
+            </span>
+        </div>
+    </div>
+    <div class="headerFixed headerTabed" style="box-shadow: 0px 5px 14px 1px rgba(20, 28, 51, 0.1);">
+        <div class="headerLogo" style="height: 220px; padding-top: 0px; display: none;">
+            <div style="background-image: url('/upload/new/headBanner.png');height: 150px;background-repeat: no-repeat;background-position: center;background-color: #1949c4
+
+;">
+            <div class="logoCont" style="padding-top: 20px;">
+                <img src="/upload/logo.png">
+
+
+
+
+            </div>
+            </div>
+            <div class="logoCont" style="height: 70px;padding-top: 16px;">
+                <div class="location" style="margin-left: 0px">
+                    <button class="btn locationBtn">省本级</button>
+                    <a href="javascript:void(0)">切换</a>
+                    <div class="fjArea">
+                        <div>
+                            <ul class="diqu">
+                                <li class="shengben"><a href="http://120.35.30.176">省本级</a><ul><li><a href="http://27.151.80.23/">平潭综合实验区</a></li></ul></li><li><a href="http://zfcg.fuzhou.gov.cn">福州市</a><ul><li><a href="http://zfcg.fuzhou.gov.cn/350102">鼓楼区</a></li><li><a href="http://zfcg.fuzhou.gov.cn/350103">台江区</a></li><li><a href="http://zfcg.fuzhou.gov.cn/350104">仓山区</a></li><li><a href="http://zfcg.fuzhou.gov.cn/350105">马尾区</a></li><li><a href="http://zfcg.fuzhou.gov.cn/350111">晋安区</a></li><li><a href="http://zfcg.fuzhou.gov.cn/350121">闽侯县</a></li><li><a href="http://zfcg.fuzhou.gov.cn/350122">连江县</a></li><li><a href="http://zfcg.fuzhou.gov.cn/350123">罗源县</a></li><li><a href="http://zfcg.fuzhou.gov.cn/350124">闽清县</a></li><li><a href="http://zfcg.fuzhou.gov.cn/350125">永泰县</a></li><li><a href="http://zfcg.fuzhou.gov.cn/350181">福清市</a></li><li><a href="http://zfcg.fuzhou.gov.cn/350182">长乐区</a></li><li><a href="http://zfcg.fuzhou.gov.cn/350191">高新区</a></li></ul></li><li><a href="http://120.41.36.6/">厦门市</a><ul><li><a href="http://120.41.36.6/350203">思明区</a></li><li><a href="http://120.41.36.6/350205">海沧区</a></li><li><a href="http://120.41.36.6/350206">湖里区</a></li><li><a href="http://120.41.36.6/350211">集美区</a></li><li><a href="http://120.41.36.6/350212">同安区</a></li><li><a href="http://120.41.36.6/350213">翔安区</a></li><li><a href="http://120.41.36.6/350222">火炬管委会</a></li></ul></li><li><a href="http://www.ptzfcg.gov.cn/">莆田市</a><ul><li><a href="http://www.ptzfcg.gov.cn/350302">城厢区</a></li><li><a href="http://www.ptzfcg.gov.cn/350303">涵江区</a></li><li><a href="http://www.ptzfcg.gov.cn/350304">荔城区</a></li><li><a href="http://www.ptzfcg.gov.cn/350305">秀屿区</a></li><li><a href="http://www.ptzfcg.gov.cn/350306">湄洲岛管委会</a></li><li><a href="http://www.ptzfcg.gov.cn/350307">北岸管委会</a></li><li><a href="http://www.ptzfcg.gov.cn/350322">仙游县</a></li></ul></li><li><a href="http://zfcg.cz.sm.gov.cn/">三明市</a><ul><li><a href="http://zfcg.cz.sm.gov.cn/350402">梅列区</a></li><li><a href="http://zfcg.cz.sm.gov.cn/350403">三元区</a></li><li><a href="http://zfcg.cz.sm.gov.cn/350421">明溪县</a></li><li><a href="http://zfcg.cz.sm.gov.cn/350423">清流县</a></li><li><a href="http://zfcg.cz.sm.gov.cn/350424">宁化县</a></li><li><a href="http://zfcg.cz.sm.gov.cn/350425">大田县</a></li><li><a href="http://zfcg.cz.sm.gov.cn/350426">尤溪县</a></li><li><a href="http://zfcg.cz.sm.gov.cn/350427">沙县区</a></li><li><a href="http://zfcg.cz.sm.gov.cn/350428">将乐县</a></li><li><a href="http://zfcg.cz.sm.gov.cn/350429">泰宁县</a></li><li><a href="http://zfcg.cz.sm.gov.cn/350430">建宁县</a></li><li><a href="http://zfcg.cz.sm.gov.cn/350481">永安市</a></li></ul></li><li><a href="http://61.131.58.48/">泉州市</a><ul><li><a href="http://61.131.58.48/350502">鲤城区</a></li><li><a href="http://61.131.58.48/350503">丰泽区</a></li><li><a href="http://61.131.58.48/350504">洛江区</a></li><li><a href="http://61.131.58.48/350505">泉港区</a></li><li><a href="http://61.131.58.48/350521">惠安县</a></li><li><a href="http://61.131.58.48/350524">安溪县</a></li><li><a href="http://61.131.58.48/350525">永春县</a></li><li><a href="http://61.131.58.48/350526">德化县</a></li><li><a href="http://61.131.58.48/350581">石狮市</a></li><li><a href="http://61.131.58.48/350582">晋江市</a></li><li><a href="http://61.131.58.48/350583">南安市</a></li><li><a href="http://61.131.58.48/350590">泉州台商投资区</a></li></ul></li><li><a href="http://zfcg.czj.zhangzhou.gov.cn/">漳州市</a><ul><li><a href="http://zfcg.czj.zhangzhou.gov.cn/350602">芗城区</a></li><li><a href="http://zfcg.czj.zhangzhou.gov.cn/350603">龙文区</a></li><li><a href="http://zfcg.czj.zhangzhou.gov.cn/350604">漳州开发区</a></li><li><a href="http://zfcg.czj.zhangzhou.gov.cn/350622">云霄县</a></li><li><a href="http://zfcg.czj.zhangzhou.gov.cn/350623">漳浦县</a></li><li><a href="http://zfcg.czj.zhangzhou.gov.cn/350624">诏安县</a></li><li><a href="http://zfcg.czj.zhangzhou.gov.cn/350625">长泰区</a></li><li><a href="http://zfcg.czj.zhangzhou.gov.cn/350626">东山县</a></li><li><a href="http://zfcg.czj.zhangzhou.gov.cn/350627">南靖县</a></li><li><a href="http://zfcg.czj.zhangzhou.gov.cn/350628">平和县</a></li><li><a href="http://zfcg.czj.zhangzhou.gov.cn/350629">华安县</a></li><li><a href="http://zfcg.czj.zhangzhou.gov.cn/350630">常山开发区</a></li><li><a href="http://zfcg.czj.zhangzhou.gov.cn/350681">龙海区</a></li><li><a href="http://zfcg.czj.zhangzhou.gov.cn/350690">漳州台商投资区</a></li><li><a href="http://zfcg.czj.zhangzhou.gov.cn/350691">漳州高新技术开发区</a></li><li><a href="http://zfcg.czj.zhangzhou.gov.cn/350692">古雷港经济开发区</a></li></ul></li><li><a href="http://220.160.237.15">南平市</a><ul><li><a href="http://220.160.237.15/350702">延平区</a></li><li><a href="http://220.160.237.15/350703">建阳区</a></li><li><a href="http://220.160.237.15/350721">顺昌县</a></li><li><a href="http://220.160.237.15/350722">浦城县</a></li><li><a href="http://220.160.237.15/350723">光泽县</a></li><li><a href="http://220.160.237.15/350724">松溪县</a></li><li><a href="http://220.160.237.15/350725">政和县</a></li><li><a href="http://220.160.237.15/350781">邵武市</a></li><li><a href="http://220.160.237.15/350782">武夷山市</a></li><li><a href="http://220.160.237.15/350783">建瓯市</a></li></ul></li><li><a href="http://zfcg.longyan.gov.cn/">龙岩市</a><ul><li><a href="http://zfcg.longyan.gov.cn/350802">新罗区</a></li><li><a href="http://zfcg.longyan.gov.cn/350803">开发区</a></li><li><a href="http://zfcg.longyan.gov.cn/350821">长汀县</a></li><li><a href="http://zfcg.longyan.gov.cn/350822">永定区</a></li><li><a href="http://zfcg.longyan.gov.cn/350823">上杭县</a></li><li><a href="http://zfcg.longyan.gov.cn/350824">武平县</a></li><li><a href="http://zfcg.longyan.gov.cn/350825">连城县</a></li><li><a href="http://zfcg.longyan.gov.cn/350881">漳平市</a></li></ul></li><li><a href="http://zfcg.czj.ningde.gov.cn/">宁德市</a><ul><li><a href="http://zfcg.czj.ningde.gov.cn/350902">蕉城区</a></li><li><a href="http://zfcg.czj.ningde.gov.cn/350903">东侨区</a></li><li><a href="http://zfcg.czj.ningde.gov.cn/350921">霞浦县</a></li><li><a href="http://zfcg.czj.ningde.gov.cn/350922">古田县</a></li><li><a href="http://zfcg.czj.ningde.gov.cn/350923">屏南县</a></li><li><a href="http://zfcg.czj.ningde.gov.cn/350924">寿宁县</a></li><li><a href="http://zfcg.czj.ningde.gov.cn/350925">周宁县</a></li><li><a href="http://zfcg.czj.ningde.gov.cn/350926">柘荣县</a></li><li><a href="http://zfcg.czj.ningde.gov.cn/350981">福安市</a></li><li><a href="http://zfcg.czj.ningde.gov.cn/350982">福鼎市</a></li></ul></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="search" style="margin-top: 0px">
+                    <form id="search" method="get" action="/search/" rel="noopener noreferrer" target="_blank">
+                        <input type="hidden" name="code" value="3500">
+                        <input name="q" class="searchInput" type="text" placeholder="站内搜索：请输入内容"><button onclick="mysearch()" type="button" class="btn searchBtn"></button>
+                    </form>
+                </div>
+            </div>
+
+
+        </div>
+        <div class="headerTab" style="width: 1185px;margin: 0 auto;">
+            <ul class="mainTabs">
+                <li class="headtabActive"><a href="/">首页</a></li><li><a rel="noopener noreferrer" target="_blank" href="http://120.35.30.176/shopping/index.htm">网上超市</a></li><li><a rel="noopener noreferrer" target="_blank" href="/3500/noticelist/e8d2cd51915e4c338dc1c6ee2f02b127">项目公告</a></li><li><a rel="noopener noreferrer" target="_blank" href="/3500/openbidlist/f9ebc6637c3641ee9017db2a94bfe5f0">开标大厅</a></li><li><a rel="noopener noreferrer" target="_blank" href="/3500/articlelist/bcf632ded1e94588baed8c77e3728eaf">政策法规</a></li><li><a rel="noopener noreferrer" target="_blank" href="/3500/articlelist/62428bce3f2d49318f2d33ab2d1dad8b">监督管理</a></li><li><a rel="noopener noreferrer" target="_blank" href="/3500/tree/794d8fcd397c401592f54af757c2098a">办事指南</a></li><li><a rel="noopener noreferrer" target="_blank" href="http://120.35.30.176/yuming.html">旧网链接</a></li><li><a rel="noopener noreferrer" target="_blank" href="http://zfcg.czt.fujian.gov.cn/3500/teachAttach/60eddd89597711e8b441060400ef5322/7f1d93bac27911eb936098e743424fb1/">学习培训</a></li>
+            </ul>
+        </div>
+
+    </div>
+
+
+</div>
+
+    <link href="/static/jquery.dataTables.css" rel="stylesheet">
+    <link href="/static/jstree.min.css" rel="stylesheet">
+    <link href="/static/datepicker3.css" rel="stylesheet">
+    <link href="/static/font-awesome/css/font-awesome.css" rel="stylesheet">
+    <link href="/static/css/listPage.css" rel="stylesheet">
+    <link href="/static/css/General.css" rel="stylesheet">
+<div class="listPage">
+    <div class="wrap noticeList wraped">
+        <div class="content clearfix">
+            <div class="leads">
+                <img src="/static/images/home.png" alt="">  <span>  首页  &gt;  <a href="/3500/noticelist/d03180adb4de41acbb063875889f9af1/">政府采购信息公开</a>  &gt;  全部  </span>
+            </div>
+            <div class="navs">
+                <p class="tit"><img src="/static/images/tit.png" alt="" style="margin-bottom: 2px;margin-left: -8px;margin-right: 6px;">    政府采购信息公开</p>
+
+                <div class="slimScrollDiv" style="position: relative; width: auto; height: 1006px;"><div class="ibox float-e-margins" style="height: 1006px; width: auto;">
+                    <ul class="metismenu" id="side-menu" style="position: relative; background: #fff;">
+                        <li class="active">
+                           <a href="#" aria-disabled="true"><i class="fa fa-files-o"></i> <span class="nav-label">地区</span> <span class="fa arrow"></span></a>
+                           <ul class="nav-second-level collapse in">
+                               <li><a class="zc" href="javascript:void(0);" codes="3500">省本级</a></li><li><a href="javascript:void(0);" aria-disabled="true"><span class="nav-label">福州市</span> <span class="fa arrow"></span></a><ul class="nav nav-second-level collapse"><li><a class="zc" href="javascript:void(0);" codes="350100">福州市</a></li><li><a class="zc" href="javascript:void(0);" codes="350102">鼓楼区</a></li><li><a class="zc" href="javascript:void(0);" codes="350103">台江区</a></li><li><a class="zc" href="javascript:void(0);" codes="350104">仓山区</a></li><li><a class="zc" href="javascript:void(0);" codes="350105">马尾区</a></li><li><a class="zc" href="javascript:void(0);" codes="350111">晋安区</a></li><li><a class="zc" href="javascript:void(0);" codes="350121">闽侯县</a></li><li><a class="zc" href="javascript:void(0);" codes="350122">连江县</a></li><li><a class="zc" href="javascript:void(0);" codes="350123">罗源县</a></li><li><a class="zc" href="javascript:void(0);" codes="350124">闽清县</a></li><li><a class="zc" href="javascript:void(0);" codes="350125">永泰县</a></li><li><a class="zc" href="javascript:void(0);" codes="350181">福清市</a></li><li><a class="zc" href="javascript:void(0);" codes="350182">长乐区</a></li><li><a class="zc" href="javascript:void(0);" codes="350191">高新区</a></li></ul></li><li><a class="zc" href="javascript:void(0);" codes="350190">平潭综合实验区</a></li><li><a href="javascript:void(0);" aria-disabled="true"><span class="nav-label">厦门市</span> <span class="fa arrow"></span></a><ul class="nav nav-second-level collapse"><li><a class="zc" href="javascript:void(0);" codes="350200">厦门市</a></li><li><a class="zc" href="javascript:void(0);" codes="350203">思明区</a></li><li><a class="zc" href="javascript:void(0);" codes="350205">海沧区</a></li><li><a class="zc" href="javascript:void(0);" codes="350206">湖里区</a></li><li><a class="zc" href="javascript:void(0);" codes="350211">集美区</a></li><li><a class="zc" href="javascript:void(0);" codes="350212">同安区</a></li><li><a class="zc" href="javascript:void(0);" codes="350213">翔安区</a></li><li><a class="zc" href="javascript:void(0);" codes="350222">火炬管委会</a></li></ul></li><li><a href="javascript:void(0);" aria-disabled="true"><span class="nav-label">莆田市</span> <span class="fa arrow"></span></a><ul class="nav nav-second-level collapse"><li><a class="zc" href="javascript:void(0);" codes="350300">莆田市</a></li><li><a class="zc" href="javascript:void(0);" codes="350302">城厢区</a></li><li><a class="zc" href="javascript:void(0);" codes="350303">涵江区</a></li><li><a class="zc" href="javascript:void(0);" codes="350304">荔城区</a></li><li><a class="zc" href="javascript:void(0);" codes="350305">秀屿区</a></li><li><a class="zc" href="javascript:void(0);" codes="350306">湄洲岛管委会</a></li><li><a class="zc" href="javascript:void(0);" codes="350307">北岸管委会</a></li><li><a class="zc" href="javascript:void(0);" codes="350322">仙游县</a></li></ul></li><li><a href="javascript:void(0);" aria-disabled="true"><span class="nav-label">三明市</span> <span class="fa arrow"></span></a><ul class="nav nav-second-level collapse"><li><a class="zc" href="javascript:void(0);" codes="350400">三明市</a></li><li><a class="zc" href="javascript:void(0);" codes="350402">梅列区</a></li><li><a class="zc" href="javascript:void(0);" codes="350403">三元区</a></li><li><a class="zc" href="javascript:void(0);" codes="350421">明溪县</a></li><li><a class="zc" href="javascript:void(0);" codes="350423">清流县</a></li><li><a class="zc" href="javascript:void(0);" codes="350424">宁化县</a></li><li><a class="zc" href="javascript:void(0);" codes="350425">大田县</a></li><li><a class="zc" href="javascript:void(0);" codes="350426">尤溪县</a></li><li><a class="zc" href="javascript:void(0);" codes="350427">沙县区</a></li><li><a class="zc" href="javascript:void(0);" codes="350428">将乐县</a></li><li><a class="zc" href="javascript:void(0);" codes="350429">泰宁县</a></li><li><a class="zc" href="javascript:void(0);" codes="350430">建宁县</a></li><li><a class="zc" href="javascript:void(0);" codes="350481">永安市</a></li></ul></li><li><a href="javascript:void(0);" aria-disabled="true"><span class="nav-label">泉州市</span> <span class="fa arrow"></span></a><ul class="nav nav-second-level collapse"><li><a class="zc" href="javascript:void(0);" codes="350500">泉州市</a></li><li><a class="zc" href="javascript:void(0);" codes="350502">鲤城区</a></li><li><a class="zc" href="javascript:void(0);" codes="350503">丰泽区</a></li><li><a class="zc" href="javascript:void(0);" codes="350504">洛江区</a></li><li><a class="zc" href="javascript:void(0);" codes="350505">泉港区</a></li><li><a class="zc" href="javascript:void(0);" codes="350521">惠安县</a></li><li><a class="zc" href="javascript:void(0);" codes="350524">安溪县</a></li><li><a class="zc" href="javascript:void(0);" codes="350525">永春县</a></li><li><a class="zc" href="javascript:void(0);" codes="350526">德化县</a></li><li><a class="zc" href="javascript:void(0);" codes="350581">石狮市</a></li><li><a class="zc" href="javascript:void(0);" codes="350582">晋江市</a></li><li><a class="zc" href="javascript:void(0);" codes="350583">南安市</a></li><li><a class="zc" href="javascript:void(0);" codes="350590">泉州台商投资区</a></li></ul></li><li><a href="javascript:void(0);" aria-disabled="true"><span class="nav-label">漳州市</span> <span class="fa arrow"></span></a><ul class="nav nav-second-level collapse"><li><a class="zc" href="javascript:void(0);" codes="350600">漳州市</a></li><li><a class="zc" href="javascript:void(0);" codes="350602">芗城区</a></li><li><a class="zc" href="javascript:void(0);" codes="350603">龙文区</a></li><li><a class="zc" href="javascript:void(0);" codes="350604">漳州开发区</a></li><li><a class="zc" href="javascript:void(0);" codes="350622">云霄县</a></li><li><a class="zc" href="javascript:void(0);" codes="350623">漳浦县</a></li><li><a class="zc" href="javascript:void(0);" codes="350624">诏安县</a></li><li><a class="zc" href="javascript:void(0);" codes="350625">长泰区</a></li><li><a class="zc" href="javascript:void(0);" codes="350626">东山县</a></li><li><a class="zc" href="javascript:void(0);" codes="350627">南靖县</a></li><li><a class="zc" href="javascript:void(0);" codes="350628">平和县</a></li><li><a class="zc" href="javascript:void(0);" codes="350629">华安县</a></li><li><a class="zc" href="javascript:void(0);" codes="350630">常山开发区</a></li><li><a class="zc" href="javascript:void(0);" codes="350681">龙海区</a></li><li><a class="zc" href="javascript:void(0);" codes="350690">漳州台商投资区</a></li><li><a class="zc" href="javascript:void(0);" codes="350691">漳州高新技术开发区</a></li><li><a class="zc" href="javascript:void(0);" codes="350692">古雷港经济开发区</a></li></ul></li><li><a href="javascript:void(0);" aria-disabled="true"><span class="nav-label">南平市</span> <span class="fa arrow"></span></a><ul class="nav nav-second-level collapse"><li><a class="zc" href="javascript:void(0);" codes="350700">南平市</a></li><li><a class="zc" href="javascript:void(0);" codes="350702">延平区</a></li><li><a class="zc" href="javascript:void(0);" codes="350703">建阳区</a></li><li><a class="zc" href="javascript:void(0);" codes="350721">顺昌县</a></li><li><a class="zc" href="javascript:void(0);" codes="350722">浦城县</a></li><li><a class="zc" href="javascript:void(0);" codes="350723">光泽县</a></li><li><a class="zc" href="javascript:void(0);" codes="350724">松溪县</a></li><li><a class="zc" href="javascript:void(0);" codes="350725">政和县</a></li><li><a class="zc" href="javascript:void(0);" codes="350781">邵武市</a></li><li><a class="zc" href="javascript:void(0);" codes="350782">武夷山市</a></li><li><a class="zc" href="javascript:void(0);" codes="350783">建瓯市</a></li></ul></li><li><a href="javascript:void(0);" aria-disabled="true"><span class="nav-label">龙岩市</span> <span class="fa arrow"></span></a><ul class="nav nav-second-level collapse"><li><a class="zc" href="javascript:void(0);" codes="350800">龙岩市</a></li><li><a class="zc" href="javascript:void(0);" codes="350802">新罗区</a></li><li><a class="zc" href="javascript:void(0);" codes="350803">开发区</a></li><li><a class="zc" href="javascript:void(0);" codes="350821">长汀县</a></li><li><a class="zc" href="javascript:void(0);" codes="350822">永定区</a></li><li><a class="zc" href="javascript:void(0);" codes="350823">上杭县</a></li><li><a class="zc" href="javascript:void(0);" codes="350824">武平县</a></li><li><a class="zc" href="javascript:void(0);" codes="350825">连城县</a></li><li><a class="zc" href="javascript:void(0);" codes="350881">漳平市</a></li></ul></li><li><a href="javascript:void(0);" aria-disabled="true"><span class="nav-label">宁德市</span> <span class="fa arrow"></span></a><ul class="nav nav-second-level collapse"><li><a class="zc" href="javascript:void(0);" codes="350900">宁德市</a></li><li><a class="zc" href="javascript:void(0);" codes="350902">蕉城区</a></li><li><a class="zc" href="javascript:void(0);" codes="350903">东侨区</a></li><li><a class="zc" href="javascript:void(0);" codes="350921">霞浦县</a></li><li><a class="zc" href="javascript:void(0);" codes="350922">古田县</a></li><li><a class="zc" href="javascript:void(0);" codes="350923">屏南县</a></li><li><a class="zc" href="javascript:void(0);" codes="350924">寿宁县</a></li><li><a class="zc" href="javascript:void(0);" codes="350925">周宁县</a></li><li><a class="zc" href="javascript:void(0);" codes="350926">柘荣县</a></li><li><a class="zc" href="javascript:void(0);" codes="350981">福安市</a></li><li><a class="zc" href="javascript:void(0);" codes="350982">福鼎市</a></li></ul></li>
+                           </ul>
+                        </li>
+                    </ul>
+                </div><div class="slimScrollBar" style="background: rgb(0, 0, 0); width: 4px; position: absolute; top: 0px; opacity: 0.4; display: none; border-radius: 7px; z-index: 99; right: 1px; height: 1006px;"></div><div class="slimScrollRail" style="width: 4px; height: 100%; position: absolute; top: 0px; display: none; border-radius: 7px; background: rgb(51, 51, 51); opacity: 0.2; z-index: 90; right: 1px;"></div></div>
+
+            </div>
+            <div class="cont">
+
+                <div class="search">
+                    <form id="nform">
+                    <input type="hidden" name="csrfmiddlewaretoken" value="7CDpEQAf95BV5tdtHKoI4Wz0OjaLgHEYVjHLQcXLwtmIo3iGehBn3lD3VRJlZlvr">
+                    <div class="clearfix">
+                        <input type="hidden" name="zone_code" value="">
+                        <input type="hidden" name="zone_name" value="">
+                      <div class="col-xs-4">
+                        <span>采购人</span>
+                        <div>
+                          <input type="text" placeholder="请输入" name="croporgan_name" value="" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAfBJREFUWAntVk1OwkAUZkoDKza4Utm61iP0AqyIDXahN2BjwiHYGU+gizap4QDuegWN7lyCbMSlCQjU7yO0TOlAi6GwgJc0fT/fzPfmzet0crmD7HsFBAvQbrcrw+Gw5fu+AfOYvgylJ4TwCoVCs1ardYTruqfj8fgV5OUMSVVT93VdP9dAzpVvm5wJHZFbg2LQ2pEYOlZ/oiDvwNcsFoseY4PBwMCrhaeCJyKWZU37KOJcYdi27QdhcuuBIb073BvTNL8ln4NeeR6NRi/wxZKQcGurQs5oNhqLshzVTMBewW/LMU3TTNlO0ieTiStjYhUIyi6DAp0xbEdgTt+LE0aCKQw24U4llsCs4ZRJrYopB6RwqnpA1YQ5NGFZ1YQ41Z5S8IQQdP5laEBRJcD4Vj5DEsW2gE6s6g3d/YP/g+BDnT7GNi2qCjTwGd6riBzHaaCEd3Js01vwCPIbmWBRx1nwAN/1ov+/drgFWIlfKpVukyYihtgkXNp4mABK+1GtVr+SBhJDbBIubVw+Cd/TDgKO2DPiN3YUo6y/nDCNEIsqTKH1en2tcwA9FKEItyDi3aIh8Gl1sRrVnSDzNFDJT1bAy5xpOYGn5fP5JuL95ZjMIn1ya7j5dPGfv0A5eAnpZUY3n5jXcoec5J67D9q+VuAPM47D3XaSeL4AAAAASUVORK5CYII=&quot;); background-repeat: no-repeat; background-attachment: scroll; background-size: 16px 18px; background-position: 98% 50%;">
+                        </div>
+                      </div>
+                      <div class="col-xs-4">
+                        <span>项目编号</span>
+                        <div>
+                          <input type="text" placeholder="请输入" name="project_no" value="">
+                        </div>
+                      </div>
+                      <div class="col-xs-4">
+                        <span>时间</span>
+                        <div>
+                          <div class="input-daterange input-group" id="datepicker">
+                              <input type="text" class="input-sm form-control" name="fromtime" value="2022-04-06">
+                              <p class="input-group-addon" style="background-color: #fff;border:none">到</p>
+                              <input type="text" class="input-sm form-control" name="endtime" value="2022-04-06">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="clearfix">
+                      <div class="col-xs-4">
+                        <span>采购方式</span>
+                        <div>
+                          <select class="controls" name="gpmethod">
+                              <option value="">请选择</option>
+                            <option value="公开招标">公开招标</option>
+                            <option value="竞争性谈判">竞争性谈判</option>
+                            <option value="竞争性磋商">竞争性磋商</option>
+                            <option value="单一来源">单一来源</option>
+                            <option value="邀请招标">邀请招标</option>
+                            <option value="询价采购">询价采购</option>
+
+                          </select>
+                        </div>
+                      </div>
+                      <div class="col-xs-4">
+                        <span>代理机构</span>
+                        <div>
+                          <input type="text" placeholder="请输入" name="agency_name" value="">
+                        </div>
+                      </div>
+                      <div class="col-xs-4">
+                        <span>公告标题</span>
+                        <div>
+                          <input type="text" placeholder="请输入" name="title" value="">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="clearfix">
+                      <div class="col-xs-4">
+                        <span>公告类型</span>
+                        <div>
+                          <select class="controls" name="notice_type">
+                              <option value="">请选择</option>
+
+                                  <option value="ac97d61fa3734f16a266822e697c8763">资格预审公告</option>
+
+                                  <option value="463fa57862ea4cc79232158f5ed02d03">采购公告</option>
+
+                                  <option value="7dc00df822464bedbf9e59d02702b714">更正公告</option>
+
+                                  <option value="b716da75fe8d4e4387f5a8c72ac2a937">结果公告</option>
+
+                                  <option value="d812e46569204c7fbd24cbe9866d0651">结果更正公告</option>
+
+                                  <option value="1d5eac5cd0b14515aacaf2e9aee5f928">合同公告</option>
+
+                                  <option value="ce932df3036340559c19acc4935c04b9">网上超市合同</option>
+
+                                  <option value="255e087cf55a42139a1f1b176b244ebb">单一来源公示</option>
+
+                                  <option value="30f19b25203f11e8b43a060400ef5315">补充公告</option>
+
+                                  <option value="30f19b24203f11e8b43a060400ef5315">中标预公示</option>
+
+                                  <option value="8fd455f244cc11eb88b50cda411d946b">采购意向公开</option>
+
+                          </select>
+                        </div>
+                      </div>
+
+                      <div class="col-xs-4">
+
+
+
+
+                      </div>
+                      <div class="col-xs-4">
+                        <div>
+                          <button type="button" onclick="tj()" class="btn enquiries">查询</button>
+                          <button type="button" class="btn btn-default resetting">重置</button>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="clearfix" id="open" style="display: none">
+                      <div class="col-xs-4">
+                        <span>开标状态</span>
+                        <div>
+                          <select class="controls" name="open_type">
+                              <option value="">请选择</option>
+                              <option value="1">已开标</option>
+                              <option value="0">未开标</option>
+                          </select>
+                        </div>
+                      </div>
+                    </div>
+
+                  </form>
+                </div>
+                <div class="wrapTable">
+
+                    <table class="table table-hover dataTables-example" style="width: 100%">
+                        <thead>
+                        <tr class="header">
+                            <td style="width: 100px">区域</td>
+
+                            <td style="width: 100px">采购方式</td>
+
+                            <td style="width: 100px">采购单位</td>
+                            <td style="text-align: left">公告标题</td>
+                           <!-- -->
+                            <td style="width: 100px">发布日期</td>
+                        </tr>
+                        </thead>
+                        <tbody>
+
+                            <tr class="gradeX">
+                            <td>新罗区</td>
+
+                            <td>直购</td>
+
+                            <td>龙岩市新罗区东肖镇人民政府</td>
+                            <td style="text-align: left"><a rel="noopener noreferrer" target="_blank" href="/3500/notice/d03180adb4de41acbb063875889f9af1/ff8080817fd04b79017ffdc6bfb55386/">【ZG-350802-202204060015】龙岩市新罗区东肖镇人民政府政府采购网上超市采购合同</a></td>
+                          <!--  -->
+                            <td style="width: 100px">2022-04-06</td>
+                            </tr>
+
+                            <tr class="gradeX">
+                            <td>长泰区</td>
+
+                            <td>直购</td>
+
+                            <td>漳州市长泰区第五中学</td>
+                            <td style="text-align: left"><a rel="noopener noreferrer" target="_blank" href="/3500/notice/d03180adb4de41acbb063875889f9af1/8a1bc2ee7fd03773017ffccf678307d2/">【ZG-350625-202204066157】漳州市长泰区第五中学政府采购网上超市采购合同</a></td>
+                          <!--  -->
+                            <td style="width: 100px">2022-04-06</td>
+                            </tr>
+
+                            <tr class="gradeX">
+                            <td>福州市</td>
+
+                            <td>直购</td>
+
+                            <td>福州市直机关公务用车管理服务中心</td>
+                            <td style="text-align: left"><a rel="noopener noreferrer" target="_blank" href="/3500/notice/d03180adb4de41acbb063875889f9af1/ff8080817fd02ad4017ffcc58c9a1017/">【ZG-350100-202204068212】福州市直机关公务用车管理服务中心政府采购网上超市采购合同</a></td>
+                          <!--  -->
+                            <td style="width: 100px">2022-04-06</td>
+                            </tr>
+
+                            <tr class="gradeX">
+                            <td>南靖县</td>
+
+                            <td>直购</td>
+
+                            <td>中共南靖县委办公室</td>
+                            <td style="text-align: left"><a rel="noopener noreferrer" target="_blank" href="/3500/notice/d03180adb4de41acbb063875889f9af1/8a1bc2ee7fd03773017fda1fa354548d/">【ZG-350627-202203302096】中共南靖县委办公室政府采购网上超市采购合同</a></td>
+                          <!--  -->
+                            <td style="width: 100px">2022-04-06</td>
+                            </tr>
+
+                            <tr class="gradeX">
+                            <td>马尾区</td>
+
+                            <td>直购</td>
+
+                            <td>福州市马尾区农业综合执法大队</td>
+                            <td style="text-align: left"><a rel="noopener noreferrer" target="_blank" href="/3500/notice/d03180adb4de41acbb063875889f9af1/ff8080817fd02ad4017fe877c47044b3/">【ZG-350105-202204024113】福州市马尾区农业综合执法大队政府采购网上超市采购合同</a></td>
+                          <!--  -->
+                            <td style="width: 100px">2022-04-06</td>
+                            </tr>
+
+                            <tr class="gradeX">
+                            <td>福清市</td>
+
+                            <td>直购</td>
+
+                            <td>福清市皮肤病防治院</td>
+                            <td style="text-align: left"><a rel="noopener noreferrer" target="_blank" href="/3500/notice/d03180adb4de41acbb063875889f9af1/ff8080817fd02ad4017fd30689cf012e/">【ZG-350181-202203297169】福清市皮肤病防治院政府采购网上超市采购合同</a></td>
+                          <!--  -->
+                            <td style="width: 100px">2022-04-06</td>
+                            </tr>
+
+                            <tr class="gradeX">
+                            <td>光泽县</td>
+
+                            <td>直购</td>
+
+                            <td>光泽县财政国库集中支付中心</td>
+                            <td style="text-align: left"><a rel="noopener noreferrer" target="_blank" href="/3500/notice/d03180adb4de41acbb063875889f9af1/2c9f15d17fd04e5f017ffcaec22c4f09/">【ZG-350723-202204065827】光泽县财政国库集中支付中心政府采购网上超市采购合同</a></td>
+                          <!--  -->
+                            <td style="width: 100px">2022-04-06</td>
+                            </tr>
+
+                            <tr class="gradeX">
+                            <td>长乐区</td>
+
+                            <td>直购</td>
+
+                            <td>中国人民政治协商会议福建省福州市长乐区委员会办公室</td>
+                            <td style="text-align: left"><a rel="noopener noreferrer" target="_blank" href="/3500/notice/d03180adb4de41acbb063875889f9af1/ff8080817fd02ad4017fe42b1c861943/">【ZG-350182-202204016147】中国人民政治协商会议福建省福州市长乐区委员会办公室政府采购网上超市采购合同</a></td>
+                          <!--  -->
+                            <td style="width: 100px">2022-04-06</td>
+                            </tr>
+
+                            <tr class="gradeX">
+                            <td>邵武市</td>
+
+                            <td>直购</td>
+
+                            <td>邵武市发展改革和科技局</td>
+                            <td style="text-align: left"><a rel="noopener noreferrer" target="_blank" href="/3500/notice/d03180adb4de41acbb063875889f9af1/2c9f15d17fd04e5f017ffcc63a16523c/">【ZG-350781-202204065830】邵武市发展改革和科技局政府采购网上超市采购合同</a></td>
+                          <!--  -->
+                            <td style="width: 100px">2022-04-06</td>
+                            </tr>
+
+                            <tr class="gradeX">
+                            <td>建宁县</td>
+
+                            <td>直购</td>
+
+                            <td>建宁县农业农村局</td>
+                            <td style="text-align: left"><a rel="noopener noreferrer" target="_blank" href="/3500/notice/d03180adb4de41acbb063875889f9af1/2c9ff1f57fe3e502017fe45b668b0b5b/">【ZG-350430-202204014201】建宁县农业农村局政府采购网上超市采购合同</a></td>
+                          <!--  -->
+                            <td style="width: 100px">2022-04-06</td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+
+<div class="pageGroup" style="position: relative;">
+
+    <button type="button" onclick="javascript:location.href='?page=1&amp;endtime=2022-04-06&amp;fromtime=2022-04-06'">首页</button>
+
+        <button type="button" onclick="javascript:location.href='?page=4&amp;endtime=2022-04-06&amp;fromtime=2022-04-06'"> 上一页</button>
+
+
+        <button type="button" onclick="javascript:location.href='?page=1&amp;endtime=2022-04-06&amp;fromtime=2022-04-06'">1</button>
+
+        <button type="button" onclick="javascript:location.href='?page=2&amp;endtime=2022-04-06&amp;fromtime=2022-04-06'">2</button>
+
+        <button type="button" onclick="javascript:location.href='?page=3&amp;endtime=2022-04-06&amp;fromtime=2022-04-06'">3</button>
+
+        <button type="button" onclick="javascript:location.href='?page=4&amp;endtime=2022-04-06&amp;fromtime=2022-04-06'">4</button>
+
+        <button type="button" class="active" onclick="javascript:location.href='?page=5&amp;endtime=2022-04-06&amp;fromtime=2022-04-06'">5</button>
+
+        <button type="button" onclick="javascript:location.href='?page=6&amp;endtime=2022-04-06&amp;fromtime=2022-04-06'">6</button>
+
+        <button type="button" onclick="javascript:location.href='?page=7&amp;endtime=2022-04-06&amp;fromtime=2022-04-06'">7</button>
+
+        <button type="button" onclick="javascript:location.href='?page=8&amp;endtime=2022-04-06&amp;fromtime=2022-04-06'">8</button>
+
+        <button type="button" onclick="javascript:location.href='?page=9&amp;endtime=2022-04-06&amp;fromtime=2022-04-06'">9</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <button type="button" onclick="javascript:location.href='?page=6&amp;endtime=2022-04-06&amp;fromtime=2022-04-06'"> 下一页 </button>
+
+    <button type="button" onclick="javascript:location.href='?page=30&amp;endtime=2022-04-06&amp;fromtime=2022-04-06'"> 末页 </button>
+</div>
+                        
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="/static/jquery.metisMenu.js"></script>
+<script src="/static/jquery.dataTables.js"></script>
+<script src="/static/jquery.slimscroll.min.js"></script>
+<script src="/static/bootstrap-datepicker.js"></script>
+
+<script>
+function tj() {
+    var verifycode=$("input[name='verifycode']").val();
+    if(verifycode==""){
+        alert("请输入验证码！");
+        $("input[name='verifycode']").focus();
+    }else {
+        $("#nform").submit();
+    }
+}
+    $(document).ready(function(){
+        $('#verifycodeChange').css('cursor','pointer').click(function() {
+            $('#verifycode').attr('src',$('#verifycode').attr('src')+1)
+        });
+        if(''=='463fa57862ea4cc79232158f5ed02d03' || ''=='7dc00df822464bedbf9e59d02702b714'){
+                $('#open').css('display','block')
+            }
+        $('select[name="notice_type"]').change(function () {
+            var nt=$('select[name="notice_type"]').val()
+            if(nt=='463fa57862ea4cc79232158f5ed02d03' || nt=='7dc00df822464bedbf9e59d02702b714'){
+                $('#open').css('display','block')
+            }else{
+                $('#open').css('display','none')
+            }
+        })
+        var a=$('.zc')
+        var c=''
+        for(i=0;i <a.length;i++){
+            if($(a[i]).text()==c){
+                $(a[i]).parent().parent().addClass('collapse in')
+                $(a[i]).css('color','#278be1')
+            }
+        }
+        $('.resetting').click(function(){
+            location.href="/3500/noticelist/d03180adb4de41acbb063875889f9af1/"
+        });
+        $('.zc').click(function () {
+            var zone_name=$(this).text()
+            var zone_code=$(this).attr('codes')
+            location.href="?zone_code="+zone_code+"&zone_name="+zone_name
+        });
+        $('select[name="gpmethod"]').val('')
+        $('select[name="notice_type"]').val('')
+        $('select[name="open_type"]').val('')
+        $('#side-menu').metisMenu();
+        var height = $(".cont").height() - 38
+        $(".float-e-margins").height(height);
+        $(".float-e-margins").slimScroll({
+            height: height+'px'
+        });
+
+        $('.input-daterange').datepicker({
+            format: 'yyyy-mm-dd',
+            keyboardNavigation: false,
+            forceParse: false,
+            autoclose: true,
+            defaultDate : new Date()
+        });
+    })
+</script>
+
+<div class="Footer">
+    <div class="footerTool">
+        累计访问数：20536067 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;今日访问：127252
+    </div>
+    <div class="footerDetail">
+        <div class="detailCont">
+            <div class="contLeft">
+                <ul class="footer-header-first-ul">
+                        <li data-tap="1" class="first"><a href="javascript:;">福建政府采购网子网站</a> <i class="fa fa-angle-down"></i><i class="fa fa-angle-up"></i>
+                            <div class="webList">
+                                <ul>
+                                     <li><a rel="noopener noreferrer" href="http://120.40.102.243" target="_blank">福州政府采购</a></li>
+                                     <li><a rel="noopener noreferrer" href="http://218.5.222.40" target="_blank">宁德政府采购</a></li>
+                                     <li><a rel="noopener noreferrer" href="http://220.160.237.15" target="_blank">南平政府采购</a></li>
+                                     <li><a rel="noopener noreferrer" href="http://zfcg.cz.sm.gov.cn/" target="_blank">三明政府采购</a></li>
+                                     <li><a rel="noopener noreferrer" href="http://zfcg.longyan.gov.cn/" target="_blank">龙岩政府采购</a></li>
+                                     <li><a rel="noopener noreferrer" href="http://zfcg.czj.zhangzhou.gov.cn/" target="_blank">漳州政府采购</a></li>
+                                     <li><a rel="noopener noreferrer" href="http://120.41.36.6/" target="_blank">厦门政府采购</a></li>
+                                     <li><a rel="noopener noreferrer" href="http://61.131.58.48" target="_blank">泉州政府采购</a></li>
+                                     <li><a rel="noopener noreferrer" href="http://www.ptzfcg.gov.cn/" target="_blank">莆田政府采购</a></li>
+                                     <li><a rel="noopener noreferrer" href="http://zfcg.pingtan.gov.cn/" target="_blank">平潭政府采购</a></li>
+                                 </ul>
+                            </div>
+                        </li>
+                        <li class="first-ul-li second" data-tap="1"><a href="javascript:;"> 省级政府采购网站</a> <i class="fa fa-angle-down"></i><i class="fa fa-angle-up"></i>
+                            <div class="webList">
+                                <ul>
+                                    <li><a rel="noopener noreferrer" href="http://www.ccgp-beijing.gov.cn" target="_blank">北京政府采购</a></li>
+                                    <li><a rel="noopener noreferrer" href="http://www.ccgp-shanghai.gov.cn" target="_blank">上海政府采购</a></li>
+                                    <li><a rel="noopener noreferrer" href="http://www.ccgp-tianjin.gov.cn" target="_blank">天津政府采购</a></li>
+                                    <li><a rel="noopener noreferrer" href="http://www.ccgp-henan.gov.cn" target="_blank">河南政府采购</a></li>
+                                    <li><a rel="noopener noreferrer" href="http://www.ccgp-hebei.gov.cn/zfcg" target="_blank">河北政府采购</a></li>
+                                    <li><a rel="noopener noreferrer" href="http://www.ccgp-hubei.gov.cn" target="_blank">湖北政府采购</a></li>
+                                    <li><a rel="noopener noreferrer" href="http://www.ccgp-hunan.gov.cn" target="_blank">湖南政府采购</a></li>
+                                    <li><a rel="noopener noreferrer" href="http://www.ccgp-shanxi.gov.cn/default.html" target="_blank">山西政府采购</a></li>
+                                    <li><a rel="noopener noreferrer" href="http://www.ccgp-shandong.gov.cn/sdgp2014/site/index.jsp" target="_blank">山东政府采购</a></li>
+                                    <li><a rel="noopener noreferrer" href="http://www.ccgp-heilongj.gov.cn" target="_blank">黑龙江政府采购</a></li>
+                                    <li><a rel="noopener noreferrer" href="http://www.ccgp-jilin.gov.cn" target="_blank">吉林省政府采购</a></li>
+                                    <li><a rel="noopener noreferrer" href="http://www.ccgp-liaoning.gov.cn" target="_blank">辽宁省政府采购</a></li>
+                                    <li><a rel="noopener noreferrer" href="http://www.ccgp-guangdong.gov.cn" target="_blank">广东省政府采购</a></li>
+                                    <li><a rel="noopener noreferrer" href="http://www.ccgp-hainan.gov.cn" target="_blank">海南省政府采购</a></li>
+                                    <li><a rel="noopener noreferrer" href="http://www.ccgp-neimenggu.gov.cn" target="_blank">内蒙古政府采购</a></li>
+                                    <li><a rel="noopener noreferrer" href="http://www.ccgp-shaanxi.gov.cn" target="_blank">陕西政府采购</a></li>
+                                    <li><a rel="noopener noreferrer" href="http://www.ccgp-gansu.gov.cn" target="_blank">甘肃政府采购</a></li>
+                                    <li><a rel="noopener noreferrer" href="http://www.ccgp-qinghai.gov.cn" target="_blank">青海政府采购</a></li>
+                                    <li><a rel="noopener noreferrer" href="http://www.ccgp-ningxia.gov.cn" target="_blank">宁夏政府采购</a></li>
+                                    <li><a rel="noopener noreferrer" href="http://www.ccgp-jiangxi.gov.cn" target="_blank">江西政府采购</a></li>
+                                    <li><a rel="noopener noreferrer" href="http://www.ccgp-xinjiang.gov.cn" target="_blank">新疆政府采购</a></li>
+                                    <li><a rel="noopener noreferrer" href="http://www.ccgp-xizang.gov.cn" target="_blank">西藏政府采购</a></li>
+                                    <li><a rel="noopener noreferrer" href="http://www.ccgp-sichuan.gov.cn" target="_blank">四川政府采购</a></li>
+                                    <li><a rel="noopener noreferrer" href="http://www.ccgp-jiangsu.gov.cn" target="_blank">江苏政府采购</a></li>
+                                    <li><a rel="noopener noreferrer" href="http://www.ccgp-guangxi.gov.cn" target="_blank">广西政府采购</a></li>
+                                    <li><a rel="noopener noreferrer" href="http://www.ccgp-yunnan.gov.cn" target="_blank">云南政府采购</a></li>
+
+                                    <li><a rel="noopener noreferrer" href="http://www.ccgp-anhui.gov.cn" target="_blank">安徽政府采购</a></li>
+                                    <li><a rel="noopener noreferrer" href="http://www.ccgp-guizhou.gov.cn" target="_blank">贵州政府采购</a></li>
+                                    <li><a rel="noopener noreferrer" href="http://www.ccgp-chongqing.gov.cn" target="_blank">重庆政府采购</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="first-ul-li third" data-tap="1"><a href="javascript:;">综合网站</a> <i class="fa fa-angle-down"></i><i class="fa fa-angle-up"></i>
+                            <div class="webList">
+                                <ul>
+                                    <li><a rel="noopener noreferrer" href="http://www.ccgp.gov.cn" target="_blank">中国政府采购网</a></li>
+                                    <li><a rel="noopener noreferrer" href="http://www.ccgp.gov.cn/gpsr" target="_blank">中国政府购买服务信息平台</a></li>
+                                    <li><a rel="noopener noreferrer" href="http://www.mof.gov.cn/pub/mof" target="_blank">中华人民共和国财政部</a></li>
+                                    <li><a rel="noopener noreferrer" href="http://www.caigou2003.com" target="_blank">政府采购信息网</a></li>
+                                    <li><a rel="noopener noreferrer" href="https://www.gpticket.org/login.action" target="_blank">政府采购机票管理网站</a></li>
+                                    <li><a rel="noopener noreferrer" href="http://www.cgpnews.cn" target="_blank">中国政府采购新闻网</a></li>
+                                    <li><a rel="noopener noreferrer" href="http://www.cfen.com.cn" target="_blank">中国财经报网</a></li>
+                                    <li><a rel="noopener noreferrer" href="http://tv.cctv.com" target="_blank">央视国际网</a></li>
+                                    <li><a rel="noopener noreferrer" href="http://www.people.com.cn" target="_blank">人民网</a></li>
+                                    <li><a rel="noopener noreferrer" href="http://npc.people.com.cn" target="_blank">中国人大新闻网</a></li>
+                                    <li><a rel="noopener noreferrer" href="http://paper.ce.cn/jjrb/html/2017-07/17/node_2.htm" target="_blank">经济日报</a></li>
+                                    <li><a rel="noopener noreferrer" href="http://paper.people.com.cn/rmrb/html/2017-07/17/nbs.D110000renmrb_01.htm" target="_blank">人民日报</a></li>
+                                    <li><a rel="noopener noreferrer" href="http://jjsb.cet.com.cn" target="_blank">中国经济时报</a></li>
+                                    <li><a rel="noopener noreferrer" href="http://www.xinhuanet.com" target="_blank">新华网</a></li>
+                                    <li><a rel="noopener noreferrer" href="http://www.gmw.cn" target="_blank">光明网</a></li>
+                                    <li><a rel="noopener noreferrer" href="http://www.china.com.cn" target="_blank">中国网</a></li>
+                                    <li><a rel="noopener noreferrer" href="http://www.ce.cn" target="_blank">中国经济网</a></li>
+                                    <li><a rel="noopener noreferrer" href="http://www.china.com" target="_blank">中华网</a></li>
+                                    <li><a rel="noopener noreferrer" href="http://www.cei.gov.cn" target="_blank">中国经济信息网</a></li>
+                                    <li><a rel="noopener noreferrer" href="http://www.jfdaily.com/home" target="_blank">解放日报</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                <div style="position:  absolute;width: 600px;">
+                <p>主办：福建省财政厅政府采购监督管理办公室&nbsp;&nbsp;&nbsp;&nbsp;技术支持：福建博思软件股份有限公司</p>
+                <p>网站标识码:3500000073&nbsp;<a rel="noopener noreferrer" target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=35010202000891" style="color:#dadbdb;display:inline-block;text-decoration:none;height:20px;line-height:20px;"><img src="/static/images/batb.png" style="float:left;">&nbsp;闽公网安备35010202000891号</a>
+                    <a href="https://beian.miit.gov.cn/#/Integrated/index" style="color:#dadbdb;">闽ICP备09021177号</a></p>
+                    <p>版权所有：© 福建省财政厅&nbsp;&nbsp;版本：3.0.1.10</p>
+
+                </div>
+            </div>
+            <div class="contRight">
+
+        <span id="_span_jiucuo"><img onclick="Link('3500000073')" style="margin:0;border:0;cursor: pointer;" src="https://zfwzgl.www.gov.cn/exposure/images/jiucuo.png?v=3500000073"></span>
+
+
+
+
+<script id="_jiucuo_" sitecode="3500000073" src="http://pucha.kaipuyun.cn/exposure/jiucuo.js"></script>
+                <a href="//bszs.conac.cn/sitename?method=show&amp;id=069EC9E87AC0746CE053022819AC2719" target="_blank"><img src="/static/images/organs.png" style="margin-left: 87px" alt=""></a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- 悬浮框 增 -->
+<div class="fixedbox">
+
+
+
+
+
+
+
+
+    <div style="background: #306bff;padding: 8px 0;color: #fff;border-top-left-radius: 8px;border-top-right-radius: 8px;">
+        <a style="color: white;font-weight: 600;" href="https://bssc400.s2.udesk.cn/im_client/?web_plugin_id=25599">客服小博在这里
+            <p style="margin-top: 5px;text-align: center;">上午 9:00-12:00</p>
+            <p style="margin-top: 5px;text-align: center;">下午 14:00-18:00</p>
+            <p style="margin-top: 5px;text-align: center;">工作日</p>
+        </a>
+    </div>
+    <div>
+        <a href="https://bssc400.s2.udesk.cn/im_client/?web_plugin_id=25599" style="display:flex;">
+            <div style="margin-left: 5px">
+                <img src="/static/images/t-serve.png">
+            </div>
+            <div style="text-align: left;margin-left: 5px">点击可进行在线咨询</div>
+        </a>
+    </div>
+    <div>
+        <a style="display:flex;">
+            <div style="margin-left: 5px">
+                <img src="/static/images/f-phone.png">
+            </div>
+            <div>
+                <p style="text-align: left;margin-left: 5px">客服热线：</p>
+                <p style="text-align: left;margin-left: 5px">400-161-2666</p>
+            </div>
+        </a>
+    </div>
+    <div style="margin-top: 10px;margin-bottom: 20px">
+        
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="up" style="display: block;">
+        <img src="/static/images/f-up.png">
+    </div>
+</div>
+
+<div id="mask" class="mask"></div>
+<div align="center" class="msg">
+    <span>请完成以下验证查看搜索结果</span>
+    <div style="margin-top: 20px">
+        <i style="color: red">* </i><input type="text" name="verifycode2" placeholder="必填" value="" class="ant-input ant-input-lg" style="width:100px;vertical-align: top;">
+        <img id="verifycode2" src="/qwverifycode/?1" height="36" style="margin:0 10px;">
+        <span id="verifycodeChange2" style="float: none; cursor: pointer;">换一个</span><br>
+        <span style="float: none;color: red">请输入验证码</span>
+    </div>
+    <div style="margin-top: 20px">
+        <button type="button" onclick="tj2()" class="btn enquiries">确定</button>
+        <button type="button" style="margin-left: 20px" onclick="hideMask()" class="btn btn-default resetting">关闭</button>
+    </div>
+</div>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+
+
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="/static/bootstrap.min.js"></script>
+<script src="/static/js/headerFooter.js"></script>
+<script>
+    function tj2() {
+    var verifycode=$("input[name='verifycode2']").val();
+    if(verifycode==""){
+        alert("请输入验证码！");
+        $("input[name='verifycode2']").focus();
+    }else {
+        $.ajax({
+            url: '/qwverify/',
+            type: 'GET',
+            data: {'code': verifycode},
+            success: function (data) {
+                if (data == "1") {
+                    $('#search').submit();
+                }
+                else {
+                    $('#verifycode2').attr('src',$('#verifycode2').attr('src')+1)
+                    alert("验证码错误！")
+                }
+            },
+            error:function () {
+                alert("校验失败！")
+            }
+        })
+    }
+}
+    function mysearch() {
+         var verifycode=$("input[name='verifycode2']").val();
+         $('#verifycode2').attr('src',$('#verifycode2').attr('src')+1)
+        $.ajax({
+        url: '/qwverify/',
+        type: 'GET',
+        data:{'code':verifycode},
+        success: function (data) {
+            if(data=="1"){
+                $('#search').submit();
+            }
+            else {
+                showMask();
+            }
+        },
+        error:function () {
+                showMask();
+            }
+        })
+    }
+    //兼容火狐、IE8
+  //显示遮罩层
+  function showMask(){
+    $("#mask").css("height",$(document).height());
+    $("#mask").css("width",$(document).width());
+    $("#mask").show();
+    $(".msg").show();
+  }
+  //隐藏遮罩层
+  function hideMask(){
+    $("#mask").hide();
+    $(".msg").hide();
+  }
+  $(document).ready(function(){
+      $('#verifycodeChange2').css('cursor','pointer').click(function() {
+            $('#verifycode2').attr('src',$('#verifycode2').attr('src')+1)
+        });
+  })
+</script>
+
+
+</body></html>

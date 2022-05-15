@@ -1,0 +1,214 @@
+import requests, execjs, json, re
+from requests.packages.urllib3.exceptions import InsecureRequestWarning
+# 禁用安全请求警告
+requests.packages.urllib3.disable_warnings(InsecureRequestWarning)
+url = 'https://txzb.miit.gov.cn/DispatchAction.do?reg=denglu&pagesize=11'
+data = {
+    'page': '1',
+    'efFormEname': 'POIX14',
+    'reg': 'denglu',
+    'reg': 'denglu',
+}
+headers = {
+    'Host': 'txzb.miit.gov.cn',
+    'Origin': 'https://txzb.miit.gov.cn',
+    'Pragma': 'no-cache',
+    'Referer': 'https://txzb.miit.gov.cn/DispatchAction.do?reg=denglu&pagesize=11',
+    'Sec-Fetch-Dest': 'iframe',
+    'Sec-Fetch-Mode': 'navigate',
+    'Sec-Fetch-Site': 'same-origin',
+    'Sec-Fetch-User': '?1',
+    'Upgrade-Insecure-Requests': '1',
+    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36',
+}
+
+
+js_code= r"""
+
+var Url_Enocder = 'QueryString'
+// url cookie 直接传入
+function encodeURL(oldStr, sid) {
+    if (Url_Enocder == 'QueryString') {
+        return encodeQueryString(oldStr, sid)
+    }
+    else if (Url_Enocder == 'UrlRewrite') {
+        return encodeUrlRewrite(oldStr, sid)
+    }
+    else {
+        return oldStr
+    }
+}
+
+function Base64() {
+    // private property
+    _keyStr = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/='
+
+    // public method for encoding
+    this.encode = function (input) {
+        var output = ''
+        var chr1, chr2, chr3, enc1, enc2, enc3, enc4
+        var i = 0
+        input = _utf8_encode(input)
+        while (i < input.length) {
+            chr1 = input.charCodeAt(i++)
+            chr2 = input.charCodeAt(i++)
+            chr3 = input.charCodeAt(i++)
+            enc1 = chr1 >> 2
+            enc2 = ((chr1 & 3) << 4) | (chr2 >> 4)
+            enc3 = ((chr2 & 15) << 2) | (chr3 >> 6)
+            enc4 = chr3 & 63
+            if (isNaN(chr2)) {
+                enc3 = enc4 = 64
+            } else if (isNaN(chr3)) {
+                enc4 = 64
+            }
+            output = output +
+                _keyStr.charAt(enc1) + _keyStr.charAt(enc2) +
+                _keyStr.charAt(enc3) + _keyStr.charAt(enc4)
+        }
+        return output
+    }
+
+    // public method for decoding
+    this.decode = function (input) {
+        var output = ''
+        var chr1, chr2, chr3
+        var enc1, enc2, enc3, enc4
+        var i = 0
+        input = input.replace(/[^A-Za-z0-9\+\/\=]/g, '')
+        while (i < input.length) {
+            enc1 = _keyStr.indexOf(input.charAt(i++))
+            enc2 = _keyStr.indexOf(input.charAt(i++))
+            enc3 = _keyStr.indexOf(input.charAt(i++))
+            enc4 = _keyStr.indexOf(input.charAt(i++))
+            chr1 = (enc1 << 2) | (enc2 >> 4)
+            chr2 = ((enc2 & 15) << 4) | (enc3 >> 2)
+            chr3 = ((enc3 & 3) << 6) | enc4
+            output = output + String.fromCharCode(chr1)
+            if (enc3 != 64) {
+                output = output + String.fromCharCode(chr2)
+            }
+            if (enc4 != 64) {
+                output = output + String.fromCharCode(chr3)
+            }
+        }
+        output = _utf8_decode(output)
+        return output
+    }
+
+    // private method for UTF-8 encoding
+    _utf8_encode = function (string) {
+        string = string.replace(/\r\n/g, '\n')
+        var utftext = ''
+        for (var n = 0; n < string.length; n++) {
+            var c = string.charCodeAt(n)
+            if (c < 128) {
+                utftext += String.fromCharCode(c)
+            } else if ((c > 127) && (c < 2048)) {
+                utftext += String.fromCharCode((c >> 6) | 192)
+                utftext += String.fromCharCode((c & 63) | 128)
+            } else {
+                utftext += String.fromCharCode((c >> 12) | 224)
+                utftext += String.fromCharCode(((c >> 6) & 63) | 128)
+                utftext += String.fromCharCode((c & 63) | 128)
+            }
+
+        }
+        return utftext
+    }
+
+    // private method for UTF-8 decoding
+    _utf8_decode = function (utftext) {
+        var string = ''
+        var i = 0
+        var c = c1 = c2 = 0
+        while (i < utftext.length) {
+            c = utftext.charCodeAt(i)
+            if (c < 128) {
+                string += String.fromCharCode(c)
+                i++
+            } else if ((c > 191) && (c < 224)) {
+                c2 = utftext.charCodeAt(i + 1)
+                string += String.fromCharCode(((c & 31) << 6) | (c2 & 63))
+                i += 2
+            } else {
+                c2 = utftext.charCodeAt(i + 1)
+                c3 = utftext.charCodeAt(i + 2)
+                string += String.fromCharCode(((c & 15) << 12) | ((c2 & 63) << 6) | (c3 & 63))
+                i += 3
+            }
+        }
+        return string
+    }
+}
+
+function encodeQueryString(oldStr, sid) {
+    // var sid = getCookie("JSESSIONID");  // 获取cookies
+    if (sid != null && sid.length > 0) {
+        sid = '&JSESSIONID=' + sid
+    }
+    else {
+        sid = ''
+    }
+
+    var pre_url = ''
+    var index1 = oldStr.lastIndexOf('?')
+    if (index1 >= 0) {
+        pre_url = oldStr.substring(0, index1)
+        var queryString = oldStr.substring(index1 + 1)
+        if (queryString != null && queryString.length > 0) {
+            var b = new Base64()
+            var str = b.encode(queryString + sid)
+            //alert("base64 encode:" + str);
+            var newUrl = pre_url + '?_QUERY_STRING=' + str
+            //str = b.decode(str);
+            //alert("base64 decode:" + str);
+            return newUrl
+        }
+    }
+    return oldStr
+
+}
+
+function encodeUrlRewrite(oldStr, sid) {
+    // var sid = getCookie('JSESSIONID')
+    //alert("JSESSIONID=" + sid);
+    if (sid != null && sid.length > 0) {
+        sid = '&JSESSIONID=' + sid
+    }
+    else {
+        sid = ''
+    }
+
+    var PRE_URL = '/'
+    var pre_url = ''
+    var index1 = oldStr.lastIndexOf(PRE_URL)
+    if (index1 >= 0) {
+        pre_url = oldStr.substring(0, index1 + PRE_URL.length)
+        oldStr = oldStr.substring(index1 + PRE_URL.length)
+    }
+    var b = new Base64()
+    var str = b.encode(oldStr + sid)
+    //alert("base64 encode:" + str);
+    var newUrl = pre_url + 'url.do?' + str
+    //str = b.decode(str);
+    //alert("base64 decode:" + str);
+    return newUrl
+}
+
+"""# 爬取文档乱码问题
+session = requests.session()
+rep = session.post(url=url, data=data, headers=headers, verify=False)
+print(rep,type(rep))
+cookies = requests.utils.dict_from_cookiejar(rep.cookies)['JSESSIONID']
+print(cookies)
+
+for i in re.findall("locationForwardClick\('(.*?)'", rep.text, re.S):
+    ctx = execjs.compile(js_code)
+    temp_url = ctx.call('encodeURL', i, cookies)
+    url = 'https://txzb.miit.gov.cn'+temp_url
+    print(url)
+    print(session.get(url).text)
+    break
+
+

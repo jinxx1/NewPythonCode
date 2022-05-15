@@ -1,0 +1,57 @@
+INFO:scrapy.utils.log:Scrapy 2.4.1 started (bot: shangQing)
+INFO:scrapy.utils.log:Versions: lxml 4.6.4.0, libxml2 2.9.12, cssselect 1.1.0, parsel 1.6.0, w3lib 1.22.0, Twisted 20.3.0, Python 3.8.12 | packaged by conda-forge | (default, Oct 12 2021, 21:22:46) [MSC v.1916 64 bit (AMD64)], pyOpenSSL 21.0.0 (OpenSSL 1.1.1n  15 Mar 2022), cryptography 35.0.0, Platform Windows-10-10.0.19043-SP0
+DEBUG:scrapy.utils.log:Using reactor: twisted.internet.selectreactor.SelectReactor
+INFO:scrapy.crawler:Overridden settings:
+{'BOT_NAME': 'shangQing',
+ 'CLOSESPIDER_ERRORCOUNT': 10,
+ 'CONCURRENT_REQUESTS': 32,
+ 'CONCURRENT_REQUESTS_PER_IP': 16,
+ 'COOKIES_DEBUG': True,
+ 'DOWNLOAD_DELAY': 3,
+ 'DOWNLOAD_TIMEOUT': 120,
+ 'NEWSPIDER_MODULE': 'shangQing.spiders',
+ 'SPIDER_MODULES': ['shangQing.spiders']}
+INFO:scrapy.extensions.telnet:Telnet Password: 48bed3f9cf065a5c
+INFO:scrapy.middleware:Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.closespider.CloseSpider',
+ 'scrapy.extensions.logstats.LogStats']
+INFO:scrapy.middleware:Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+INFO:scrapy.middleware:Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+INFO:scrapy.middleware:Enabled item pipelines:
+['shangQing.pipelines.ShangqingPipeline']
+INFO:scrapy.core.engine:Spider opened
+INFO:scrapy.extensions.logstats:Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+INFO:scrapy.extensions.telnet:Telnet console listening on 127.0.0.1:6023
+DEBUG:scrapy.downloadermiddlewares.cookies:Received cookies from: <200 http://www.ccgp-jilin.gov.cn/ext/search/keyPair.action>
+Set-Cookie: JSESSIONID=7CA3F79FCB76BDF38E0C0996181DF489; Path=/; Secure; HttpOnly
+
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.ccgp-jilin.gov.cn/ext/search/keyPair.action> (referer: None)
+DEBUG:scrapy.downloadermiddlewares.cookies:Received cookies from: <200 http://www.ccgp-jilin.gov.cn/ext/search/gotoHelpFrontList.action?articleId=255577>
+Set-Cookie: JSESSIONID=0A3C91E3DDCA72B0144D53AEB24747AB; Path=/; Secure; HttpOnly
+
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.ccgp-jilin.gov.cn/ext/search/gotoHelpFrontList.action?articleId=255577> (referer: http://www.ccgp-jilin.gov.cn/ext/search/keyPair.action)
+DEBUG:scrapy.downloadermiddlewares.cookies:Received cookies from: <200 http://www.ccgp-jilin.gov.cn/ext/search/gotoHelpFrontList.action?articleId=255579>
+Set-Cookie: JSESSIONID=60B2DB9ADCF6E936943B58B06EE1D0A9; Path=/; Secure; HttpOnly
+
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.ccgp-jilin.gov.cn/ext/search/gotoHelpFrontList.action?articleId=255579> (referer: http://www.ccgp-jilin.gov.cn/ext/search/keyPair.action)
+INFO:scrapy.crawler:Received SIGINT, shutting down gracefully. Send again to force 
+INFO:scrapy.core.engine:Closing spider (shutdown)
+INFO:scrapy.crawler:Received SIGINT twice, forcing unclean shutdown

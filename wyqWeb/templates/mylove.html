@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>智慧乡镇产品摘选—（“智慧小镇”专供）----琦琦小屋</title>
+
+</head>
+
+<body>
+<html>
+    <head>
+
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename = 'style.css') }}" />
+
+        <style>
+            .filter {float:left}
+        </style>
+    </head>
+    <body>
+    <h1>琦琦的追查</h1>
+
+    <div id="form-example" class="example">
+        <div class="filter"></div>
+        <div class="clear"></div>
+        <div>
+
+            <table class="order-table">
+               <thead>
+               <tr><th>客户姓名</th>
+                   <th>客户电话</th>
+                   <th>客户选择项目</th>
+                   <th>提交时间</th>
+
+               </thead>
+               <tbody>
+
+               {% for item in info %}
+
+               <tr>
+                   <td>{{ item.preson_name }}</td>
+                   <td>{{ item.preson_tel }}</td>
+                   <td>{{ item.artInfo }}</td>
+                   <td>{{ item.times }}</td>
+                  </tr>
+               {% endfor %}
+
+
+               </tbody>
+           </table>
+
+
+
+        </div>
+    </div>
+
+
+
+    </body>
+</html>
+</body>
+
+</html>

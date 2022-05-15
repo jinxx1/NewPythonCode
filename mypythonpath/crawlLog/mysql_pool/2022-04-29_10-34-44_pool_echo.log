@@ -1,0 +1,823 @@
+INFO:scrapy.utils.log:Scrapy 2.4.1 started (bot: shangQing)
+INFO:scrapy.utils.log:Versions: lxml 4.6.4.0, libxml2 2.9.12, cssselect 1.1.0, parsel 1.6.0, w3lib 1.22.0, Twisted 20.3.0, Python 3.8.12 | packaged by conda-forge | (default, Oct 12 2021, 21:22:46) [MSC v.1916 64 bit (AMD64)], pyOpenSSL 21.0.0 (OpenSSL 1.1.1n  15 Mar 2022), cryptography 35.0.0, Platform Windows-10-10.0.19043-SP0
+DEBUG:scrapy.utils.log:Using reactor: twisted.internet.selectreactor.SelectReactor
+INFO:scrapy.crawler:Overridden settings:
+{'BOT_NAME': 'shangQing',
+ 'CLOSESPIDER_ERRORCOUNT': 10,
+ 'CONCURRENT_REQUESTS': 32,
+ 'CONCURRENT_REQUESTS_PER_IP': 16,
+ 'COOKIES_DEBUG': True,
+ 'DOWNLOAD_DELAY': 3,
+ 'DOWNLOAD_TIMEOUT': 120,
+ 'NEWSPIDER_MODULE': 'shangQing.spiders',
+ 'SPIDER_MODULES': ['shangQing.spiders']}
+INFO:scrapy.extensions.telnet:Telnet Password: 1b947f8d864f0c6a
+INFO:scrapy.middleware:Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.closespider.CloseSpider',
+ 'scrapy.extensions.logstats.LogStats']
+INFO:scrapy.middleware:Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+INFO:scrapy.middleware:Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+INFO:scrapy.middleware:Enabled item pipelines:
+['shangQing.pipelines.ShangqingPipeline']
+INFO:scrapy.core.engine:Spider opened
+INFO:scrapy.extensions.logstats:Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+INFO:scrapy.extensions.telnet:Telnet console listening on 127.0.0.1:6023
+DEBUG:scrapy.downloadermiddlewares.cookies:Received cookies from: <200 http://www.ccgp-jilin.gov.cn/ext/search/keyPair.action>
+Set-Cookie: JSESSIONID=16FF2BBC912D10E78E999B03A97B71EF; Path=/; Secure; HttpOnly
+
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.ccgp-jilin.gov.cn/ext/search/keyPair.action> (referer: None)
+DEBUG:scrapy.downloadermiddlewares.cookies:Received cookies from: <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+Set-Cookie: JSESSIONID=DC197994836CE0BAB88A1F31E2894C84; Path=/; Secure; HttpOnly
+
+DEBUG:scrapy.core.engine:Crawled (200) <POST http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action> (referer: http://www.ccgp-jilin.gov.cn/ext/search/keyPair.action)
+DEBUG:scrapy.downloadermiddlewares.cookies:Received cookies from: <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+Set-Cookie: JSESSIONID=08A0F33A14A59D070E0DEC7FBAEC6971; Path=/; Secure; HttpOnly
+
+DEBUG:scrapy.core.engine:Crawled (200) <POST http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action> (referer: http://www.ccgp-jilin.gov.cn/ext/search/keyPair.action)
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+{'city_name': '辽源市',
+ 'issue_time': '2022-04-29 00:00:00',
+ 'page_url': 'http://www.ccgp-jilin.gov.cn/ext/search/gotoHelpFrontList.action?articleId=255596',
+ 'province_name': '吉林省',
+ 'purchase_type': '合同、验收公告',
+ 'site': 'www.ccgp-jilin.gov.cn',
+ 'subclass': '市县级采购公告',
+ 'title': '关于交换机的网上超市合同公告'}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+{'city_name': '延边朝鲜族自治州',
+ 'issue_time': '2022-04-29 00:00:00',
+ 'page_url': 'http://www.ccgp-jilin.gov.cn/ext/search/gotoHelpFrontList.action?articleId=255594',
+ 'province_name': '吉林省',
+ 'purchase_type': '合同、验收公告',
+ 'site': 'www.ccgp-jilin.gov.cn',
+ 'subclass': '市县级采购公告',
+ 'title': '延吉市河南社区卫生服务中心的合同公告'}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+{'city_name': '长春市',
+ 'issue_time': '2022-04-29 00:00:00',
+ 'page_url': 'http://www.ccgp-jilin.gov.cn/ext/search/gotoHelpFrontList.action?articleId=255592',
+ 'province_name': '吉林省',
+ 'purchase_type': '合同、验收公告',
+ 'site': 'www.ccgp-jilin.gov.cn',
+ 'subclass': '市县级采购公告',
+ 'title': '关于墨盒的网上超市合同公告'}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+{'city_name': '',
+ 'issue_time': '2022-04-29 00:00:00',
+ 'page_url': 'http://www.ccgp-jilin.gov.cn/ext/search/gotoHelpFrontList.action?articleId=255591',
+ 'province_name': '吉林省',
+ 'purchase_type': '合同、验收公告',
+ 'site': 'www.ccgp-jilin.gov.cn',
+ 'subclass': '市县级采购公告',
+ 'title': '关于复印机的网上超市合同公告'}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+{'city_name': '',
+ 'issue_time': '2022-04-29 00:00:00',
+ 'page_url': 'http://www.ccgp-jilin.gov.cn/ext/search/gotoHelpFrontList.action?articleId=255590',
+ 'province_name': '吉林省',
+ 'purchase_type': '合同、验收公告',
+ 'site': 'www.ccgp-jilin.gov.cn',
+ 'subclass': '市县级采购公告',
+ 'title': '关于笔记本电脑的网上超市合同公告'}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+{'city_name': '辽源市',
+ 'issue_time': '2022-04-29 00:00:00',
+ 'page_url': 'http://www.ccgp-jilin.gov.cn/ext/search/gotoHelpFrontList.action?articleId=255588',
+ 'province_name': '吉林省',
+ 'purchase_type': '合同、验收公告',
+ 'site': 'www.ccgp-jilin.gov.cn',
+ 'subclass': '市县级采购公告',
+ 'title': '关于移动硬盘的网上超市合同公告'}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+{'city_name': '通化市',
+ 'issue_time': '2022-04-29 00:00:00',
+ 'page_url': 'http://www.ccgp-jilin.gov.cn/ext/search/gotoHelpFrontList.action?articleId=255587',
+ 'province_name': '吉林省',
+ 'purchase_type': '合同、验收公告',
+ 'site': 'www.ccgp-jilin.gov.cn',
+ 'subclass': '市县级采购公告',
+ 'title': '关于烟雾机的网上超市合同公告'}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+{'city_name': '',
+ 'issue_time': '2022-04-29 00:00:00',
+ 'page_url': 'http://www.ccgp-jilin.gov.cn/ext/search/gotoHelpFrontList.action?articleId=255584',
+ 'province_name': '吉林省',
+ 'purchase_type': '合同、验收公告',
+ 'site': 'www.ccgp-jilin.gov.cn',
+ 'subclass': '市县级采购公告',
+ 'title': '中共延边朝鲜族州纪律检查委员会的合同公告'}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+{'city_name': '',
+ 'issue_time': '2022-04-29 00:00:00',
+ 'page_url': 'http://www.ccgp-jilin.gov.cn/ext/search/gotoHelpFrontList.action?articleId=255582',
+ 'province_name': '吉林省',
+ 'purchase_type': '合同、验收公告',
+ 'site': 'www.ccgp-jilin.gov.cn',
+ 'subclass': '市县级采购公告',
+ 'title': '关于安全软件的网上超市合同公告'}
+DEBUG:scrapy.downloadermiddlewares.cookies:Received cookies from: <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+Set-Cookie: JSESSIONID=16D915CB12A08D00B5691B80BF2307CE; Path=/; Secure; HttpOnly
+
+DEBUG:scrapy.core.engine:Crawled (200) <POST http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action> (referer: http://www.ccgp-jilin.gov.cn/ext/search/keyPair.action)
+DEBUG:scrapy.downloadermiddlewares.cookies:Received cookies from: <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+Set-Cookie: JSESSIONID=DC02945BDBFB92F3EABAB7CF2B623CD3; Path=/; Secure; HttpOnly
+
+DEBUG:scrapy.core.engine:Crawled (200) <POST http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action> (referer: http://www.ccgp-jilin.gov.cn/ext/search/keyPair.action)
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+{'city_name': '白山市',
+ 'issue_time': '2022-04-29 00:00:00',
+ 'page_url': 'http://www.ccgp-jilin.gov.cn/ext/search/gotoHelpFrontList.action?articleId=255597',
+ 'province_name': '吉林省',
+ 'purchase_type': '成交公告',
+ 'site': 'www.ccgp-jilin.gov.cn',
+ 'subclass': '市县级采购公告',
+ 'title': '农技推广总站第一季度油款'}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+{'city_name': '白山市',
+ 'issue_time': '2022-04-29 00:00:00',
+ 'page_url': 'http://www.ccgp-jilin.gov.cn/ext/search/gotoHelpFrontList.action?articleId=255595',
+ 'province_name': '吉林省',
+ 'purchase_type': '成交公告',
+ 'site': 'www.ccgp-jilin.gov.cn',
+ 'subclass': '市县级采购公告',
+ 'title': '白山市浑江区法律援助中心定点服务采购结果公告'}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+{'city_name': '白山市',
+ 'issue_time': '2022-04-29 00:00:00',
+ 'page_url': 'http://www.ccgp-jilin.gov.cn/ext/search/gotoHelpFrontList.action?articleId=255593',
+ 'province_name': '吉林省',
+ 'purchase_type': '成交公告',
+ 'site': 'www.ccgp-jilin.gov.cn',
+ 'subclass': '市县级采购公告',
+ 'title': '白山市浑江区司法局定点服务采购结果公告'}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+{'city_name': '白山市',
+ 'issue_time': '2022-04-29 00:00:00',
+ 'page_url': 'http://www.ccgp-jilin.gov.cn/ext/search/gotoHelpFrontList.action?articleId=255585',
+ 'province_name': '吉林省',
+ 'purchase_type': '成交公告',
+ 'site': 'www.ccgp-jilin.gov.cn',
+ 'subclass': '市县级采购公告',
+ 'title': '白山市浑江区法律援助中心定点服务采购结果公告'}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+{'city_name': '延边朝鲜族自治州',
+ 'issue_time': '2022-04-29 00:00:00',
+ 'page_url': 'http://www.ccgp-jilin.gov.cn/ext/search/gotoHelpFrontList.action?articleId=255583',
+ 'province_name': '吉林省',
+ 'purchase_type': '成交公告',
+ 'site': 'www.ccgp-jilin.gov.cn',
+ 'subclass': '市县级采购公告',
+ 'title': '珲春市农业农村局执法执勤车辆加油'}
+DEBUG:scrapy.downloadermiddlewares.cookies:Received cookies from: <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+Set-Cookie: JSESSIONID=C370F0D32561F1E76586E1DF4B3C7932; Path=/; Secure; HttpOnly
+
+DEBUG:scrapy.core.engine:Crawled (200) <POST http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action> (referer: http://www.ccgp-jilin.gov.cn/ext/search/keyPair.action)
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+{'city_name': '通化市',
+ 'issue_time': '2022-04-28 00:00:00',
+ 'page_url': 'http://www.ccgp-jilin.gov.cn/ext/search/gotoHelpFrontList.action?articleId=255442',
+ 'province_name': '吉林省',
+ 'purchase_type': '中标公告',
+ 'site': 'www.ccgp-jilin.gov.cn',
+ 'subclass': '市县级采购公告',
+ 'title': '柳南乡西腰沟村千村示范创建项目（路桥工程）中标公示'}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+{'city_name': '松原市',
+ 'issue_time': '2022-04-28 00:00:00',
+ 'page_url': 'http://www.ccgp-jilin.gov.cn/ext/search/gotoHelpFrontList.action?articleId=255443',
+ 'province_name': '吉林省',
+ 'purchase_type': '中标公告',
+ 'site': 'www.ccgp-jilin.gov.cn',
+ 'subclass': '市县级采购公告',
+ 'title': '松原市宁江区机关事务管理局采购宁江区应急救援中心体育器材项目成交公告'}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+{'city_name': '通化市',
+ 'issue_time': '2022-04-28 00:00:00',
+ 'page_url': 'http://www.ccgp-jilin.gov.cn/ext/search/gotoHelpFrontList.action?articleId=255444',
+ 'province_name': '吉林省',
+ 'purchase_type': '中标公告',
+ 'site': 'www.ccgp-jilin.gov.cn',
+ 'subclass': '市县级采购公告',
+ 'title': '通化县中医院医疗服务能力提升项目中标公示'}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+{'city_name': '通化市',
+ 'issue_time': '2022-04-28 00:00:00',
+ 'page_url': 'http://www.ccgp-jilin.gov.cn/ext/search/gotoHelpFrontList.action?articleId=255445',
+ 'province_name': '吉林省',
+ 'purchase_type': '中标公告',
+ 'site': 'www.ccgp-jilin.gov.cn',
+ 'subclass': '市县级采购公告',
+ 'title': '辉南县2022年小修保养工程中标公示'}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+{'city_name': '延边朝鲜族自治州',
+ 'issue_time': '2022-04-28 00:00:00',
+ 'page_url': 'http://www.ccgp-jilin.gov.cn/ext/search/gotoHelpFrontList.action?articleId=255446',
+ 'province_name': '吉林省',
+ 'purchase_type': '中标公告',
+ 'site': 'www.ccgp-jilin.gov.cn',
+ 'subclass': '市县级采购公告',
+ 'title': '安图县控制性详细规划（2020-2035年）编制工作中标公示'}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+{'city_name': '松原市',
+ 'issue_time': '2022-04-28 00:00:00',
+ 'page_url': 'http://www.ccgp-jilin.gov.cn/ext/search/gotoHelpFrontList.action?articleId=255505',
+ 'province_name': '吉林省',
+ 'purchase_type': '中标公告',
+ 'site': 'www.ccgp-jilin.gov.cn',
+ 'subclass': '市县级采购公告',
+ 'title': '乌兰图嘎镇集中供热项目二标段成交公告'}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+{'city_name': '松原市',
+ 'issue_time': '2022-04-28 00:00:00',
+ 'page_url': 'http://www.ccgp-jilin.gov.cn/ext/search/gotoHelpFrontList.action?articleId=255506',
+ 'province_name': '吉林省',
+ 'purchase_type': '中标公告',
+ 'site': 'www.ccgp-jilin.gov.cn',
+ 'subclass': '市县级采购公告',
+ 'title': '乌兰图嘎镇集中供热项目一标段成交公告'}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+{'city_name': '松原市',
+ 'issue_time': '2022-04-28 00:00:00',
+ 'page_url': 'http://www.ccgp-jilin.gov.cn/ext/search/gotoHelpFrontList.action?articleId=255504',
+ 'province_name': '吉林省',
+ 'purchase_type': '中标公告',
+ 'site': 'www.ccgp-jilin.gov.cn',
+ 'subclass': '市县级采购公告',
+ 'title': '前郭县长山化工产业园区测绘服务成交公告'}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+{'city_name': '延边朝鲜族自治州',
+ 'issue_time': '2022-04-28 00:00:00',
+ 'page_url': 'http://www.ccgp-jilin.gov.cn/ext/search/gotoHelpFrontList.action?articleId=255513',
+ 'province_name': '吉林省',
+ 'purchase_type': '中标公告',
+ 'site': 'www.ccgp-jilin.gov.cn',
+ 'subclass': '市县级采购公告',
+ 'title': '敦化市人民法院移动终端平台采购项目竞争性谈判成交结果公告'}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+{'city_name': '吉林市',
+ 'issue_time': '2022-04-28 00:00:00',
+ 'page_url': 'http://www.ccgp-jilin.gov.cn/ext/search/gotoHelpFrontList.action?articleId=255449',
+ 'province_name': '吉林省',
+ 'purchase_type': '中标公告',
+ 'site': 'www.ccgp-jilin.gov.cn',
+ 'subclass': '市县级采购公告',
+ 'title': '蛟河市城市项目建设服务中心天岗镇天岗石材产业园区道路续建项目设计服务采购项目中标公示'}
+DEBUG:scrapy.downloadermiddlewares.cookies:Received cookies from: <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+Set-Cookie: JSESSIONID=B93A98CEC8F9B03773D1722E9C4E0742; Path=/; Secure; HttpOnly
+
+DEBUG:scrapy.core.engine:Crawled (200) <POST http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action> (referer: http://www.ccgp-jilin.gov.cn/ext/search/keyPair.action)
+DEBUG:scrapy.downloadermiddlewares.cookies:Received cookies from: <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+Set-Cookie: JSESSIONID=08DBFDA19B7F21CD91334CAB005AB556; Path=/; Secure; HttpOnly
+
+DEBUG:scrapy.core.engine:Crawled (200) <POST http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action> (referer: http://www.ccgp-jilin.gov.cn/ext/search/keyPair.action)
+DEBUG:scrapy.downloadermiddlewares.cookies:Received cookies from: <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+Set-Cookie: JSESSIONID=5E3E3B20F9EAC99F426928FA4B7F8757; Path=/; Secure; HttpOnly
+
+DEBUG:scrapy.core.engine:Crawled (200) <POST http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action> (referer: http://www.ccgp-jilin.gov.cn/ext/search/keyPair.action)
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+{'city_name': '长春市',
+ 'issue_time': '2022-04-28 00:00:00',
+ 'page_url': 'http://www.ccgp-jilin.gov.cn/ext/search/gotoHelpFrontList.action?articleId=255533',
+ 'province_name': '吉林省',
+ 'purchase_type': '竞争性磋商',
+ 'site': 'www.ccgp-jilin.gov.cn',
+ 'subclass': '市县级采购公告',
+ 'title': '2022年长春市绿化管理中心苗木花卉种苗采购—乔木'}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+{'city_name': '长春市',
+ 'issue_time': '2022-04-28 00:00:00',
+ 'page_url': 'http://www.ccgp-jilin.gov.cn/ext/search/gotoHelpFrontList.action?articleId=255532',
+ 'province_name': '吉林省',
+ 'purchase_type': '竞争性磋商',
+ 'site': 'www.ccgp-jilin.gov.cn',
+ 'subclass': '市县级采购公告',
+ 'title': '2022年长春市绿化管理中心苗木花卉种苗采购—灌木'}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+{'city_name': '长春市',
+ 'issue_time': '2022-04-28 00:00:00',
+ 'page_url': 'http://www.ccgp-jilin.gov.cn/ext/search/gotoHelpFrontList.action?articleId=255531',
+ 'province_name': '吉林省',
+ 'purchase_type': '竞争性磋商',
+ 'site': 'www.ccgp-jilin.gov.cn',
+ 'subclass': '市县级采购公告',
+ 'title': '2022年长春市绿化管理中心苗木花卉种苗采购—花卉'}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+{'city_name': '长春市',
+ 'issue_time': '2022-04-28 00:00:00',
+ 'page_url': 'http://www.ccgp-jilin.gov.cn/ext/search/gotoHelpFrontList.action?articleId=255530',
+ 'province_name': '吉林省',
+ 'purchase_type': '竞争性磋商',
+ 'site': 'www.ccgp-jilin.gov.cn',
+ 'subclass': '市县级采购公告',
+ 'title': '2022年大块绿地绿化提升工程-苇子沟大块绿地及前进大街与兴运路交汇东南绿地建设工程'}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+{'city_name': '白城市',
+ 'issue_time': '2022-04-28 00:00:00',
+ 'page_url': 'http://www.ccgp-jilin.gov.cn/ext/search/gotoHelpFrontList.action?articleId=255529',
+ 'province_name': '吉林省',
+ 'purchase_type': '竞争性磋商',
+ 'site': 'www.ccgp-jilin.gov.cn',
+ 'subclass': '市县级采购公告',
+ 'title': '吉林西部森林旅游康养示范建设（白城市国有林总场康养旅游项目）竞争性磋商公告'}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+{'city_name': '白城市',
+ 'issue_time': '2022-04-28 00:00:00',
+ 'page_url': 'http://www.ccgp-jilin.gov.cn/ext/search/gotoHelpFrontList.action?articleId=255521',
+ 'province_name': '吉林省',
+ 'purchase_type': '竞争性磋商',
+ 'site': 'www.ccgp-jilin.gov.cn',
+ 'subclass': '市县级采购公告',
+ 'title': '洮南市公园管理中心2022年高速引路绿化养护工程'}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+{'city_name': '延边朝鲜族自治州',
+ 'issue_time': '2022-04-28 00:00:00',
+ 'page_url': 'http://www.ccgp-jilin.gov.cn/ext/search/gotoHelpFrontList.action?articleId=255525',
+ 'province_name': '吉林省',
+ 'purchase_type': '竞争性磋商',
+ 'site': 'www.ccgp-jilin.gov.cn',
+ 'subclass': '市县级采购公告',
+ 'title': '2022年安图县明月镇红星村沥青路建设项目竞争性磋商采购公告'}
+DEBUG:scrapy.downloadermiddlewares.cookies:Received cookies from: <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+Set-Cookie: JSESSIONID=2402471F9DCE742A9B2F12B33B2D5DED; Path=/; Secure; HttpOnly
+
+DEBUG:scrapy.core.engine:Crawled (200) <POST http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action> (referer: http://www.ccgp-jilin.gov.cn/ext/search/keyPair.action)
+DEBUG:scrapy.downloadermiddlewares.cookies:Received cookies from: <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+Set-Cookie: JSESSIONID=AD9AF59579F4C1556A4C55EC43FF964E; Path=/; Secure; HttpOnly
+
+DEBUG:scrapy.core.engine:Crawled (200) <POST http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action> (referer: http://www.ccgp-jilin.gov.cn/ext/search/keyPair.action)
+DEBUG:scrapy.downloadermiddlewares.cookies:Received cookies from: <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+Set-Cookie: JSESSIONID=5FF30BE4FDABD63A3B627A0060A17E41; Path=/; Secure; HttpOnly
+
+DEBUG:scrapy.core.engine:Crawled (200) <POST http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action> (referer: http://www.ccgp-jilin.gov.cn/ext/search/keyPair.action)
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+{'city_name': '白城市',
+ 'issue_time': '2022-04-28 00:00:00',
+ 'page_url': 'http://www.ccgp-jilin.gov.cn/ext/search/gotoHelpFrontList.action?articleId=255536',
+ 'province_name': '吉林省',
+ 'purchase_type': '公开招标',
+ 'site': 'www.ccgp-jilin.gov.cn',
+ 'subclass': '市县级采购公告',
+ 'title': '英雄烈士纪念设施整修'}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+{'city_name': '白城市',
+ 'issue_time': '2022-04-28 00:00:00',
+ 'page_url': 'http://www.ccgp-jilin.gov.cn/ext/search/gotoHelpFrontList.action?articleId=255534',
+ 'province_name': '吉林省',
+ 'purchase_type': '公开招标',
+ 'site': 'www.ccgp-jilin.gov.cn',
+ 'subclass': '市县级采购公告',
+ 'title': '洮南市那金镇排水沟项目'}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+{'city_name': '吉林市',
+ 'issue_time': '2022-04-28 00:00:00',
+ 'page_url': 'http://www.ccgp-jilin.gov.cn/ext/search/gotoHelpFrontList.action?articleId=255523',
+ 'province_name': '吉林省',
+ 'purchase_type': '公开招标',
+ 'site': 'www.ccgp-jilin.gov.cn',
+ 'subclass': '市县级采购公告',
+ 'title': '2022年蛟河市电清洁取暖教育系统示范项目基建工程招标公告'}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+{'city_name': '松原市',
+ 'issue_time': '2022-04-28 00:00:00',
+ 'page_url': 'http://www.ccgp-jilin.gov.cn/ext/search/gotoHelpFrontList.action?articleId=255480',
+ 'province_name': '吉林省',
+ 'purchase_type': '公开招标',
+ 'site': 'www.ccgp-jilin.gov.cn',
+ 'subclass': '市县级采购公告',
+ 'title': '松原广播电视台演播大厅改造项目（设备采购）'}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+{'city_name': '松原市',
+ 'issue_time': '2022-04-28 00:00:00',
+ 'page_url': 'http://www.ccgp-jilin.gov.cn/ext/search/gotoHelpFrontList.action?articleId=255478',
+ 'province_name': '吉林省',
+ 'purchase_type': '公开招标',
+ 'site': 'www.ccgp-jilin.gov.cn',
+ 'subclass': '市县级采购公告',
+ 'title': '乾安县泥林景区道路大修工程及泥林景区桥梁建设工程施工招标公告'}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+{'city_name': '白山市',
+ 'issue_time': '2022-04-28 00:00:00',
+ 'page_url': 'http://www.ccgp-jilin.gov.cn/ext/search/gotoHelpFrontList.action?articleId=255524',
+ 'province_name': '吉林省',
+ 'purchase_type': '公开招标',
+ 'site': 'www.ccgp-jilin.gov.cn',
+ 'subclass': '市县级采购公告',
+ 'title': '白山市康宁医院中药配方颗粒采购项目'}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+{'city_name': '松原市',
+ 'issue_time': '2022-04-28 00:00:00',
+ 'page_url': 'http://www.ccgp-jilin.gov.cn/ext/search/gotoHelpFrontList.action?articleId=255474',
+ 'province_name': '吉林省',
+ 'purchase_type': '公开招标',
+ 'site': 'www.ccgp-jilin.gov.cn',
+ 'subclass': '市县级采购公告',
+ 'title': '乾安县2022年农村公路建设项目施工招标公告'}
+DEBUG:scrapy.downloadermiddlewares.cookies:Received cookies from: <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+Set-Cookie: JSESSIONID=AF0CA1FC969F2C46A07CD232D8D1AE5C; Path=/; Secure; HttpOnly
+
+DEBUG:scrapy.core.engine:Crawled (200) <POST http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action> (referer: http://www.ccgp-jilin.gov.cn/ext/search/keyPair.action)
+DEBUG:scrapy.downloadermiddlewares.cookies:Received cookies from: <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+Set-Cookie: JSESSIONID=C9CB63A34B108F311CA28E509BF89820; Path=/; Secure; HttpOnly
+
+DEBUG:scrapy.core.engine:Crawled (200) <POST http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action> (referer: http://www.ccgp-jilin.gov.cn/ext/search/keyPair.action)
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+{'city_name': '',
+ 'issue_time': '2022-04-29 00:00:00',
+ 'page_url': 'http://www.ccgp-jilin.gov.cn/ext/search/gotoHelpFrontList.action?articleId=255571',
+ 'province_name': '吉林省',
+ 'purchase_type': '合同、验收公告',
+ 'site': 'www.ccgp-jilin.gov.cn',
+ 'subclass': '省级采购公告',
+ 'title': '关于平板卫生纸的网上超市合同公告'}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+{'city_name': '',
+ 'issue_time': '2022-04-28 00:00:00',
+ 'page_url': 'http://www.ccgp-jilin.gov.cn/ext/search/gotoHelpFrontList.action?articleId=255569',
+ 'province_name': '吉林省',
+ 'purchase_type': '合同、验收公告',
+ 'site': 'www.ccgp-jilin.gov.cn',
+ 'subclass': '省级采购公告',
+ 'title': '关于编织布/袋的网上超市合同公告'}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+{'city_name': '',
+ 'issue_time': '2022-04-28 00:00:00',
+ 'page_url': 'http://www.ccgp-jilin.gov.cn/ext/search/gotoHelpFrontList.action?articleId=255458',
+ 'province_name': '吉林省',
+ 'purchase_type': '合同、验收公告',
+ 'site': 'www.ccgp-jilin.gov.cn',
+ 'subclass': '省级采购公告',
+ 'title': '视频连接技术服务合同备案'}
+DEBUG:scrapy.downloadermiddlewares.cookies:Received cookies from: <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+Set-Cookie: JSESSIONID=7A3DCB7FE05AE1A3372BDA4104E63759; Path=/; Secure; HttpOnly
+
+DEBUG:scrapy.core.engine:Crawled (200) <POST http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action> (referer: http://www.ccgp-jilin.gov.cn/ext/search/keyPair.action)
+INFO:scrapy.extensions.logstats:Crawled 15 pages (at 15 pages/min), scraped 41 items (at 41 items/min)
+DEBUG:scrapy.downloadermiddlewares.cookies:Received cookies from: <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+Set-Cookie: JSESSIONID=AF3DF3BC3FD95D07CFBA1F82905E9DE2; Path=/; Secure; HttpOnly
+
+DEBUG:scrapy.core.engine:Crawled (200) <POST http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action> (referer: http://www.ccgp-jilin.gov.cn/ext/search/keyPair.action)
+DEBUG:scrapy.downloadermiddlewares.cookies:Received cookies from: <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+Set-Cookie: JSESSIONID=EC2C7527A4B4004C168D867CA494054D; Path=/; Secure; HttpOnly
+
+DEBUG:scrapy.core.engine:Crawled (200) <POST http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action> (referer: http://www.ccgp-jilin.gov.cn/ext/search/keyPair.action)
+DEBUG:scrapy.downloadermiddlewares.cookies:Received cookies from: <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+Set-Cookie: JSESSIONID=22E3FBF340774847213DDF97A2493B46; Path=/; Secure; HttpOnly
+
+DEBUG:scrapy.core.engine:Crawled (200) <POST http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action> (referer: http://www.ccgp-jilin.gov.cn/ext/search/keyPair.action)
+DEBUG:scrapy.downloadermiddlewares.cookies:Received cookies from: <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+Set-Cookie: JSESSIONID=5749D8146113C55B59146548BB1A3563; Path=/; Secure; HttpOnly
+
+DEBUG:scrapy.core.engine:Crawled (200) <POST http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action> (referer: http://www.ccgp-jilin.gov.cn/ext/search/keyPair.action)
+DEBUG:scrapy.downloadermiddlewares.cookies:Received cookies from: <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+Set-Cookie: JSESSIONID=4FC89FF631EDE3162A48DD4A6B41D1E4; Path=/; Secure; HttpOnly
+
+DEBUG:scrapy.core.engine:Crawled (200) <POST http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action> (referer: http://www.ccgp-jilin.gov.cn/ext/search/keyPair.action)
+DEBUG:scrapy.downloadermiddlewares.cookies:Received cookies from: <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+Set-Cookie: JSESSIONID=5874E654FB3E443EB53F227197F70B3D; Path=/; Secure; HttpOnly
+
+DEBUG:scrapy.core.engine:Crawled (200) <POST http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action> (referer: http://www.ccgp-jilin.gov.cn/ext/search/keyPair.action)
+DEBUG:scrapy.downloadermiddlewares.cookies:Received cookies from: <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+Set-Cookie: JSESSIONID=61895DE03A8471F9E725C9C289532015; Path=/; Secure; HttpOnly
+
+DEBUG:scrapy.core.engine:Crawled (200) <POST http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action> (referer: http://www.ccgp-jilin.gov.cn/ext/search/keyPair.action)
+DEBUG:scrapy.downloadermiddlewares.cookies:Received cookies from: <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+Set-Cookie: JSESSIONID=8F19161CB76427AF534BA79841A0263B; Path=/; Secure; HttpOnly
+
+DEBUG:scrapy.core.engine:Crawled (200) <POST http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action> (referer: http://www.ccgp-jilin.gov.cn/ext/search/keyPair.action)
+DEBUG:scrapy.downloadermiddlewares.cookies:Received cookies from: <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+Set-Cookie: JSESSIONID=4A4D1A60A22C50FA8AFC29C786512CF4; Path=/; Secure; HttpOnly
+
+DEBUG:scrapy.core.engine:Crawled (200) <POST http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action> (referer: http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action)
+DEBUG:scrapy.downloadermiddlewares.cookies:Received cookies from: <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+Set-Cookie: JSESSIONID=FB8DDD841B9D644791EA844404CFAC0A; Path=/; Secure; HttpOnly
+
+DEBUG:scrapy.core.engine:Crawled (200) <POST http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action> (referer: http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action)
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+{'city_name': '长春市',
+ 'issue_time': '2022-04-29 00:00:00',
+ 'page_url': 'http://www.ccgp-jilin.gov.cn/ext/search/gotoHelpFrontList.action?articleId=255581',
+ 'province_name': '吉林省',
+ 'purchase_type': '合同、验收公告',
+ 'site': 'www.ccgp-jilin.gov.cn',
+ 'subclass': '市县级采购公告',
+ 'title': '关于墨盒的网上超市合同公告'}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+{'city_name': '延边朝鲜族自治州',
+ 'issue_time': '2022-04-29 00:00:00',
+ 'page_url': 'http://www.ccgp-jilin.gov.cn/ext/search/gotoHelpFrontList.action?articleId=255580',
+ 'province_name': '吉林省',
+ 'purchase_type': '合同、验收公告',
+ 'site': 'www.ccgp-jilin.gov.cn',
+ 'subclass': '市县级采购公告',
+ 'title': '延吉市河南社区卫生服务中心的合同公告'}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+{'city_name': '吉林市',
+ 'issue_time': '2022-04-29 00:00:00',
+ 'page_url': 'http://www.ccgp-jilin.gov.cn/ext/search/gotoHelpFrontList.action?articleId=255575',
+ 'province_name': '吉林省',
+ 'purchase_type': '合同、验收公告',
+ 'site': 'www.ccgp-jilin.gov.cn',
+ 'subclass': '市县级采购公告',
+ 'title': '关于其它的网上超市合同公告'}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+{'city_name': '白山市',
+ 'issue_time': '2022-04-29 00:00:00',
+ 'page_url': 'http://www.ccgp-jilin.gov.cn/ext/search/gotoHelpFrontList.action?articleId=255574',
+ 'province_name': '吉林省',
+ 'purchase_type': '合同、验收公告',
+ 'site': 'www.ccgp-jilin.gov.cn',
+ 'subclass': '市县级采购公告',
+ 'title': '临江市苇沙河国营林场的合同公告'}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+{'city_name': '',
+ 'issue_time': '2022-04-29 00:00:00',
+ 'page_url': 'http://www.ccgp-jilin.gov.cn/ext/search/gotoHelpFrontList.action?articleId=255573',
+ 'province_name': '吉林省',
+ 'purchase_type': '合同、验收公告',
+ 'site': 'www.ccgp-jilin.gov.cn',
+ 'subclass': '市县级采购公告',
+ 'title': '关于硒鼓的网上超市合同公告'}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+{'city_name': '',
+ 'issue_time': '2022-04-29 00:00:00',
+ 'page_url': 'http://www.ccgp-jilin.gov.cn/ext/search/gotoHelpFrontList.action?articleId=255572',
+ 'province_name': '吉林省',
+ 'purchase_type': '合同、验收公告',
+ 'site': 'www.ccgp-jilin.gov.cn',
+ 'subclass': '市县级采购公告',
+ 'title': '关于打印/复印纸的网上超市合同公告'}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+{'city_name': '长春市',
+ 'issue_time': '2022-04-28 00:00:00',
+ 'page_url': 'http://www.ccgp-jilin.gov.cn/ext/search/gotoHelpFrontList.action?articleId=255570',
+ 'province_name': '吉林省',
+ 'purchase_type': '合同、验收公告',
+ 'site': 'www.ccgp-jilin.gov.cn',
+ 'subclass': '市县级采购公告',
+ 'title': '关于口罩/眼罩的网上超市合同公告'}
+DEBUG:scrapy.downloadermiddlewares.cookies:Received cookies from: <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+Set-Cookie: JSESSIONID=0DFC60F617547488AE634AE54573B6A0; Path=/; Secure; HttpOnly
+
+DEBUG:scrapy.core.engine:Crawled (200) <POST http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action> (referer: http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action)
+DEBUG:scrapy.downloadermiddlewares.cookies:Received cookies from: <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+Set-Cookie: JSESSIONID=76005DEC41EE20E48D0AE6A91F4DC149; Path=/; Secure; HttpOnly
+
+DEBUG:scrapy.core.engine:Crawled (200) <POST http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action> (referer: http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action)
+DEBUG:scrapy.downloadermiddlewares.cookies:Received cookies from: <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+Set-Cookie: JSESSIONID=5B3AD2A0DEFB87F8E5D6DD49BC0259E0; Path=/; Secure; HttpOnly
+
+DEBUG:scrapy.core.engine:Crawled (200) <POST http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action> (referer: http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action)
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+{'city_name': '通化市',
+ 'issue_time': '2022-04-27 00:00:00',
+ 'page_url': 'http://www.ccgp-jilin.gov.cn/ext/search/gotoHelpFrontList.action?articleId=255441',
+ 'province_name': '吉林省',
+ 'purchase_type': '中标公告',
+ 'site': 'www.ccgp-jilin.gov.cn',
+ 'subclass': '市县级采购公告',
+ 'title': '凉水河子镇腰站村千村示范创建项目[路桥工程]（二次）中标公示'}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+{'city_name': '通化市',
+ 'issue_time': '2022-04-27 00:00:00',
+ 'page_url': 'http://www.ccgp-jilin.gov.cn/ext/search/gotoHelpFrontList.action?articleId=255440',
+ 'province_name': '吉林省',
+ 'purchase_type': '中标公告',
+ 'site': 'www.ccgp-jilin.gov.cn',
+ 'subclass': '市县级采购公告',
+ 'title': '凉水河子镇五里堡（双兴）村千村示范创建项目[路桥工程]（二次）中标公示'}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+{'city_name': '松原市',
+ 'issue_time': '2022-04-27 00:00:00',
+ 'page_url': 'http://www.ccgp-jilin.gov.cn/ext/search/gotoHelpFrontList.action?articleId=255447',
+ 'province_name': '吉林省',
+ 'purchase_type': '中标公告',
+ 'site': 'www.ccgp-jilin.gov.cn',
+ 'subclass': '市县级采购公告',
+ 'title': '扶余市农村人居环境整治提升建设（一期）施工图设计采购项目中标公示'}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+{'city_name': '松原市',
+ 'issue_time': '2022-04-27 00:00:00',
+ 'page_url': 'http://www.ccgp-jilin.gov.cn/ext/search/gotoHelpFrontList.action?articleId=255503',
+ 'province_name': '吉林省',
+ 'purchase_type': '中标公告',
+ 'site': 'www.ccgp-jilin.gov.cn',
+ 'subclass': '市县级采购公告',
+ 'title': '长岭县大兴镇八付村抗旱水源井配电工程（三标段）成交结果公告'}
+DEBUG:scrapy.downloadermiddlewares.cookies:Received cookies from: <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+Set-Cookie: JSESSIONID=01C366815108052D7EE0CB32ABD38C69; Path=/; Secure; HttpOnly
+
+DEBUG:scrapy.core.engine:Crawled (200) <POST http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action> (referer: http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action)
+DEBUG:scrapy.downloadermiddlewares.cookies:Received cookies from: <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+Set-Cookie: JSESSIONID=AF66DCD215FEDB76F01872768C1119FD; Path=/; Secure; HttpOnly
+
+DEBUG:scrapy.core.engine:Crawled (200) <POST http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action> (referer: http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action)
+DEBUG:scrapy.downloadermiddlewares.cookies:Received cookies from: <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+Set-Cookie: JSESSIONID=9E6D781A50A81F99027627424C15FB45; Path=/; Secure; HttpOnly
+
+DEBUG:scrapy.core.engine:Crawled (200) <POST http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action> (referer: http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action)
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+{'city_name': '延边朝鲜族自治州',
+ 'issue_time': '2022-04-27 00:00:00',
+ 'page_url': 'http://www.ccgp-jilin.gov.cn/ext/search/gotoHelpFrontList.action?articleId=255522',
+ 'province_name': '吉林省',
+ 'purchase_type': '竞争性磋商',
+ 'site': 'www.ccgp-jilin.gov.cn',
+ 'subclass': '市县级采购公告',
+ 'title': '2022年安图县永庆乡东清村道路建设项目竞争性磋商采购公告'}
+INFO:scrapy.extensions.logstats:Crawled 31 pages (at 16 pages/min), scraped 53 items (at 12 items/min)
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+{'city_name': '延边朝鲜族自治州',
+ 'issue_time': '2022-04-27 00:00:00',
+ 'page_url': 'http://www.ccgp-jilin.gov.cn/ext/search/gotoHelpFrontList.action?articleId=255471',
+ 'province_name': '吉林省',
+ 'purchase_type': '竞争性磋商',
+ 'site': 'www.ccgp-jilin.gov.cn',
+ 'subclass': '市县级采购公告',
+ 'title': '2022年安图县永庆乡柳树村道路建设项目竞争性磋商采购公告'}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+{'city_name': '延边朝鲜族自治州',
+ 'issue_time': '2022-04-27 00:00:00',
+ 'page_url': 'http://www.ccgp-jilin.gov.cn/ext/search/gotoHelpFrontList.action?articleId=255538',
+ 'province_name': '吉林省',
+ 'purchase_type': '竞争性磋商',
+ 'site': 'www.ccgp-jilin.gov.cn',
+ 'subclass': '市县级采购公告',
+ 'title': '2022年安图县明月镇新安村沥青路建设项目竞争性磋商采购公告'}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+{'city_name': '延边朝鲜族自治州',
+ 'issue_time': '2022-04-27 00:00:00',
+ 'page_url': 'http://www.ccgp-jilin.gov.cn/ext/search/gotoHelpFrontList.action?articleId=255537',
+ 'province_name': '吉林省',
+ 'purchase_type': '竞争性磋商',
+ 'site': 'www.ccgp-jilin.gov.cn',
+ 'subclass': '市县级采购公告',
+ 'title': '延边朝鲜族自治州生态环境局执法服装采购项目竞争性磋商采购公告'}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+{'city_name': '长春市',
+ 'issue_time': '2022-04-26 00:00:00',
+ 'page_url': 'http://www.ccgp-jilin.gov.cn/ext/search/gotoHelpFrontList.action?articleId=255464',
+ 'province_name': '吉林省',
+ 'purchase_type': '竞争性磋商',
+ 'site': 'www.ccgp-jilin.gov.cn',
+ 'subclass': '市县级采购公告',
+ 'title': '榆树市八号镇北沟村民房、暖棚维修翻建工程项目'}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+{'city_name': '白城市',
+ 'issue_time': '2022-04-25 00:00:00',
+ 'page_url': 'http://www.ccgp-jilin.gov.cn/ext/search/gotoHelpFrontList.action?articleId=255563',
+ 'province_name': '吉林省',
+ 'purchase_type': '竞争性磋商',
+ 'site': 'www.ccgp-jilin.gov.cn',
+ 'subclass': '市县级采购公告',
+ 'title': '洮南市热电有限责任公司扩能改造工程防风抑尘墙项目洮南市热电有限责任公司扩能改造工程'}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+{'city_name': '白城市',
+ 'issue_time': '2022-04-25 00:00:00',
+ 'page_url': 'http://www.ccgp-jilin.gov.cn/ext/search/gotoHelpFrontList.action?articleId=255561',
+ 'province_name': '吉林省',
+ 'purchase_type': '竞争性磋商',
+ 'site': 'www.ccgp-jilin.gov.cn',
+ 'subclass': '市县级采购公告',
+ 'title': '洮南市政府产权公共租赁住房维修项目'}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+{'city_name': '白山市',
+ 'issue_time': '2022-04-25 00:00:00',
+ 'page_url': 'http://www.ccgp-jilin.gov.cn/ext/search/gotoHelpFrontList.action?articleId=255556',
+ 'province_name': '吉林省',
+ 'purchase_type': '竞争性磋商',
+ 'site': 'www.ccgp-jilin.gov.cn',
+ 'subclass': '市县级采购公告',
+ 'title': '新房子镇景秀村整村品质提升项目'}
+DEBUG:scrapy.downloadermiddlewares.cookies:Received cookies from: <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+Set-Cookie: JSESSIONID=206C4387657800379F7B3CB90BD47B7C; Path=/; Secure; HttpOnly
+
+DEBUG:scrapy.core.engine:Crawled (200) <POST http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action> (referer: http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action)
+DEBUG:scrapy.downloadermiddlewares.cookies:Received cookies from: <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+Set-Cookie: JSESSIONID=B21397754F2437E9D7DEEA605B3F999F; Path=/; Secure; HttpOnly
+
+DEBUG:scrapy.core.engine:Crawled (200) <POST http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action> (referer: http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action)
+DEBUG:scrapy.downloadermiddlewares.cookies:Received cookies from: <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+Set-Cookie: JSESSIONID=76577BEB50B48A0AF4E165E066133022; Path=/; Secure; HttpOnly
+
+DEBUG:scrapy.core.engine:Crawled (200) <POST http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action> (referer: http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action)
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+{'city_name': '松原市',
+ 'issue_time': '2022-04-28 00:00:00',
+ 'page_url': 'http://www.ccgp-jilin.gov.cn/ext/search/gotoHelpFrontList.action?articleId=255475',
+ 'province_name': '吉林省',
+ 'purchase_type': '公开招标',
+ 'site': 'www.ccgp-jilin.gov.cn',
+ 'subclass': '市县级采购公告',
+ 'title': '乾安县2022年农村公路建设项目施工监理招标公告'}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+{'city_name': '松原市',
+ 'issue_time': '2022-04-28 00:00:00',
+ 'page_url': 'http://www.ccgp-jilin.gov.cn/ext/search/gotoHelpFrontList.action?articleId=255552',
+ 'province_name': '吉林省',
+ 'purchase_type': '公开招标',
+ 'site': 'www.ccgp-jilin.gov.cn',
+ 'subclass': '市县级采购公告',
+ 'title': '松原市系统化全域推进海绵城市建设示范城市申报和前期咨询服务项目'}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+{'city_name': '吉林市',
+ 'issue_time': '2022-04-28 00:00:00',
+ 'page_url': 'http://www.ccgp-jilin.gov.cn/ext/search/gotoHelpFrontList.action?articleId=255551',
+ 'province_name': '吉林省',
+ 'purchase_type': '公开招标',
+ 'site': 'www.ccgp-jilin.gov.cn',
+ 'subclass': '市县级采购公告',
+ 'title': '蛟河市白石山镇人民政府白石山镇农业产业强镇晒烟晾晒棚采购项目招标公告'}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+{'city_name': '长春市',
+ 'issue_time': '2022-04-28 00:00:00',
+ 'page_url': 'http://www.ccgp-jilin.gov.cn/ext/search/gotoHelpFrontList.action?articleId=255539',
+ 'province_name': '吉林省',
+ 'purchase_type': '公开招标',
+ 'site': 'www.ccgp-jilin.gov.cn',
+ 'subclass': '市县级采购公告',
+ 'title': '农安县2021年哈拉海镇金大房子村、顺利村2个村全域土地综合整治（补改结合）二次招标招标公告'}
+DEBUG:scrapy.downloadermiddlewares.cookies:Received cookies from: <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+Set-Cookie: JSESSIONID=B84CF6960E401D97668FDA1C73824E9E; Path=/; Secure; HttpOnly
+
+DEBUG:scrapy.core.engine:Crawled (200) <POST http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action> (referer: http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action)
+DEBUG:scrapy.downloadermiddlewares.cookies:Received cookies from: <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+Set-Cookie: JSESSIONID=A426DE2F5DEBD47F812503BAEAE6EBB2; Path=/; Secure; HttpOnly
+
+DEBUG:scrapy.core.engine:Crawled (200) <POST http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action> (referer: http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action)
+DEBUG:scrapy.downloadermiddlewares.cookies:Received cookies from: <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+Set-Cookie: JSESSIONID=F14DCEB19E0A3693BBB6587DB2291574; Path=/; Secure; HttpOnly
+
+DEBUG:scrapy.core.engine:Crawled (200) <POST http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action> (referer: http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action)
+DEBUG:scrapy.downloadermiddlewares.cookies:Received cookies from: <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+Set-Cookie: JSESSIONID=FB88C836EB3FDFF587394AC716111743; Path=/; Secure; HttpOnly
+
+DEBUG:scrapy.core.engine:Crawled (200) <POST http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action> (referer: http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action)
+DEBUG:scrapy.downloadermiddlewares.cookies:Received cookies from: <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+Set-Cookie: JSESSIONID=A20B72CCD770E08C9F37749D40242FA3; Path=/; Secure; HttpOnly
+
+DEBUG:scrapy.core.engine:Crawled (200) <POST http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action> (referer: http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action)
+DEBUG:scrapy.downloadermiddlewares.cookies:Received cookies from: <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+Set-Cookie: JSESSIONID=85F90AC37A990B26995726B0DA2569AC; Path=/; Secure; HttpOnly
+
+DEBUG:scrapy.core.engine:Crawled (200) <POST http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action> (referer: http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action)
+DEBUG:scrapy.downloadermiddlewares.cookies:Received cookies from: <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+Set-Cookie: JSESSIONID=AF02BD6B615728A3141A90EEED905FB9; Path=/; Secure; HttpOnly
+
+DEBUG:scrapy.core.engine:Crawled (200) <POST http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action> (referer: http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action)
+DEBUG:scrapy.downloadermiddlewares.cookies:Received cookies from: <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+Set-Cookie: JSESSIONID=DDAC60EB3F497AA6D65215378494F17F; Path=/; Secure; HttpOnly
+
+DEBUG:scrapy.core.engine:Crawled (200) <POST http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action> (referer: http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action)
+DEBUG:scrapy.downloadermiddlewares.cookies:Received cookies from: <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+Set-Cookie: JSESSIONID=9C2AB3ABE410083D8DA15A9042B566AB; Path=/; Secure; HttpOnly
+
+DEBUG:scrapy.core.engine:Crawled (200) <POST http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action> (referer: http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action)
+DEBUG:scrapy.downloadermiddlewares.cookies:Received cookies from: <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+Set-Cookie: JSESSIONID=25F7A2D8910B0ABA283BDB836F637A38; Path=/; Secure; HttpOnly
+
+DEBUG:scrapy.core.engine:Crawled (200) <POST http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action> (referer: http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action)
+DEBUG:scrapy.downloadermiddlewares.cookies:Received cookies from: <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+Set-Cookie: JSESSIONID=A4F7B81B29999E39026AD3990B98B010; Path=/; Secure; HttpOnly
+
+DEBUG:scrapy.core.engine:Crawled (200) <POST http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action> (referer: http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action)
+INFO:scrapy.core.engine:Closing spider (finished)
+INFO:scrapy.statscollectors:Dumping Scrapy stats:
+{'downloader/request_bytes': 38760,
+ 'downloader/request_count': 45,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/request_method_count/POST': 44,
+ 'downloader/response_bytes': 1549787,
+ 'downloader/response_count': 45,
+ 'downloader/response_status_count/200': 45,
+ 'elapsed_time_seconds': 172.765485,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2022, 4, 29, 2, 37, 38, 273328),
+ 'item_scraped_count': 64,
+ 'log_count/DEBUG': 154,
+ 'log_count/INFO': 12,
+ 'request_depth_max': 2,
+ 'response_received_count': 45,
+ 'scheduler/dequeued': 45,
+ 'scheduler/dequeued/memory': 45,
+ 'scheduler/enqueued': 45,
+ 'scheduler/enqueued/memory': 45,
+ 'start_time': datetime.datetime(2022, 4, 29, 2, 34, 45, 507843)}
+INFO:scrapy.core.engine:Spider closed (finished)

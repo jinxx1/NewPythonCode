@@ -1,0 +1,287 @@
+import datetime
+import os.path
+import pprint
+import time
+from selenium.webdriver import Chrome
+from selenium.webdriver.chrome.options import Options
+from bs4 import BeautifulSoup
+import lxml.html
+import sys, json, re
+import sqlalchemy
+import requests
+import pandas as pd
+
+from getmysqlInfo import jsonInfo
+from mkdir import mkdir
+from redisBloomHash import bl
+
+from crawltools import *
+from requests_obj import *
+from uxue_orm import *
+
+MYSQLINFO = jsonInfo['uxuepai_sql']
+
+conStr = 'mysql+pymysql://{USER}:{PASSWORD}@{HOST}:{PORT}/{DBNAME}?charset=utf8mb4'.format(USER=MYSQLINFO['USER'],
+                                                                                           PASSWORD=MYSQLINFO[
+	                                                                                           'PASSWORD'],
+                                                                                           HOST=MYSQLINFO['HOST'],
+                                                                                           PORT=MYSQLINFO['PORT'],
+                                                                                           DBNAME='jxtest')
+
+mysqlcon = sqlalchemy.create_engine(conStr)
+
+
+def get_content(html):
+	soup = BeautifulSoup(html, 'lxml')
+	ddict = {}
+	try:
+		ddict['title'] = soup.h1.get_text()
+	except:
+		return None
+	try:
+		ddict['content'] = str(soup.find(attrs={'class': 'zb_table'}))
+	except:
+		return None
+	hrefall = soup.find_all(href=re.compile("commonDownload\.html\?attId"))
+	attachmentListJsonList = []
+	for nn in hrefall:
+		dic = {}
+		download_url = nn.get('href')
+		dic['download_url'] = "https://b2b.10086.cn" + download_url
+		dic['download_filename'] = nn.get_text()
+		attachmentListJsonList.append(dic)
+	if attachmentListJsonList:
+		ddict['attachmentListJson'] = attachmentListJsonList
+	# ddict['attachmentListJson'] = json.dumps(attachmentListJsonList, ensure_ascii=False)
+	return ddict
+
+
+def get_urlList():
+	excWord = "SELECT id,page_url,issue_time,subclass FROM listform10086 WHERE process_status = 0 ORDER BY issue_time DESC;"
+	alltoup = mysqlcon.execute(excWord)
+	llist = []
+	for n in alltoup:
+		ddict = {}
+		ddict['id'] = n[0]
+		ddict['page_url'] = n[1]
+		ddict['issue_time'] = str(n[2])
+		ddict['subclass'] = n[3]
+		llist.append(ddict)
+	return llist
+
+
+def update_stats(artID):
+	excWord = '''UPDATE listform10086 SET process_status=1 WHERE id={};'''.format(artID)
+	mysqlcon.execute(excWord)
+
+
+def urlListUrl():
+	wword = '''采购公告	https://b2b.10086.cn/b2b/main/listVendorNotice.html?noticeType=2
+资格预审公告	https://b2b.10086.cn/b2b/main/listVendorNotice.html?noticeType=3
+候选人公示	https://b2b.10086.cn/b2b/main/listVendorNotice.html?noticeType=7
+中选结果公示	https://b2b.10086.cn/b2b/main/listVendorNotice.html?noticeType=16
+单一来源采购信息公告	https://b2b.10086.cn/b2b/main/listVendorNotice.html?noticeType=1'''.split('\n')
+	# wword = '''采购公告	https://b2b.10086.cn/b2b/main/listVendorNotice.html?noticeType=2'''.split('\n')
+	llist = []
+	for i in wword:
+		n = i.split('\t')
+		ddict = {}
+		ddict['subclass'] = n[0]
+		ddict['listUrl'] = n[1]
+		llist.append(ddict)
+	return llist
+
+
+def get_IDandTIME(html, subclass):
+	# 获取hub列表
+	artcle_urls = 'https://b2b.10086.cn/b2b/main/viewNoticeContent.html?noticeBean.id={}'
+	resID = re.findall("selectResult\(\'(.*?)\'\)", html)
+	soup = BeautifulSoup(html, 'lxml')
+	article_info = []
+	for id in resID:
+		page_url = artcle_urls.format(id)
+		all_tr = soup.find_all(attrs={'onclick': "selectResult('{id}')".format(id=id)})
+		for i in all_tr:
+			try:
+				timeWord = re.findall("(\d{4}-\d{1,2}-\d{1,2})", str(i))[0]
+				timeWord = get_timestr(timeWord)
+				break
+			except:
+				continue
+		ddict = {}
+		ddict['id'] = id
+		ddict['url'] = page_url + "&ux_" + timeWord.split(' ')[0]
+		ddict['time'] = timeWord
+
+		ddict['subclass'] = subclass
+		article_info.append(ddict)
+
+	dupurl_original = [x['url'] for x in article_info]
+	dupurl_List = urlIsExist(dupurl_original)
+
+	info = []
+	if dupurl_List:
+		for i in dupurl_List:
+			for arti in article_info:
+				if i == arti['url']:
+					info.append(arti)
+	return info
+
+
+def main_hub():
+	from mysql_processing import pandas_insermysql
+	brow = requests.get('http://120.79.3.69:8050/')
+	if brow.status_code != 200:
+		print('Please contact the jinxiao')
+		return None
+	else:
+		pass
+	root = os.getcwd()
+	stealthPath = os.path.join(root, "wd/stealth.min.js")
+	chrodriverPath = os.path.join(root, "wd/chromedriver")
+	# proxIP = "118.24.219.151:16818"
+
+	chrome_options = Options()
+	chrome_options.add_argument("--headless")
+	chrome_options.add_argument(
+		'user-agent=Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko')
+	chrome_options.add_argument("--disable-blink-features=AutomationControlled")
+	chrome_options.add_argument('--no-sandbox')
+	chrome_options.add_argument('blink-settings=imagesEnabled=false')
+	chrome_options.add_argument('--disable-gpu')
+	chrome_options.add_experimental_option('excludeSwitches', ['enable-automation'])
+	driver = Chrome(chrodriverPath, options=chrome_options)
+	driver.set_page_load_timeout(60)
+	driver.set_script_timeout(60)
+	with open(stealthPath, 'r') as f:
+		js = f.read()
+	driver.execute_cdp_cmd("Page.addScriptToEvaluateOnNewDocument", {"source": js})
+	for num, i in enumerate(urlListUrl()):
+		try:
+			driver.get(i['listUrl'])
+		except Exception as ff:
+			print(ff)
+			driver.execute_script('window.stop')
+			driver.quit()
+			exit()
+
+		time.sleep(3)
+		mark = 0
+		while True:
+			if "zb_table_tr" not in driver.page_source:
+				mark += 1
+				if mark == 10:
+					driver.execute_script('window.stop')
+					driver.quit()
+					raise ListPageError("zb_table_tr isn't refreshed")
+
+				driver.refresh()
+				time.sleep(3)
+			else:
+				source = driver.page_source
+				break
+		browList = get_IDandTIME(source, i['subclass'])
+
+		pandas_insermysql(itmeList=browList, subclass=i['subclass'].strip())
+		print(i['subclass'], len(browList), datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S'))
+	driver.execute_script('window.stop')
+	driver.quit()
+	print('===================本次抓取全部完成===================', datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S'))
+
+
+def main_artcle():
+	# llist = get_urlList()
+	llist = [{"id":101115,
+	          "rawid":42235961,
+	          "page_url":"https://b2b.10086.cn/b2b/main/viewNoticeContent.html?noticeBean.id=835545&ux_2022-03-02",
+	          "issue_time":"2022-02-17 00:00:00",
+	          "subclass":"中选结果公示"}]
+	if not llist:
+		print('not llist')
+		return None
+	# print(len(llist))
+
+	mysql_db_orm = mysql_orm()
+
+	brow = requests.get('http://120.79.3.69:8050/')
+	if brow.status_code != 200:
+		print('Please contact jinxiao')
+		return None
+	else:
+		pass
+	root = os.getcwd()
+	stealthPath = os.path.join(root, "wd/stealth.min.js")
+	chrodriverPath = os.path.join(root, "wd/chromedriver")
+	# proxIP = "118.24.219.151:16818"
+
+	chrome_options = Options()
+	chrome_options.add_argument("--headless")
+	chrome_options.add_argument(
+		'user-agent=Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko')
+	chrome_options.add_argument("--disable-blink-features=AutomationControlled")
+	chrome_options.add_argument('--no-sandbox')
+	chrome_options.add_argument('blink-settings=imagesEnabled=false')
+	chrome_options.add_argument('--disable-gpu')
+	chrome_options.add_experimental_option('excludeSwitches', ['enable-automation'])
+	driver = Chrome(chrodriverPath, options=chrome_options)
+	driver.set_page_load_timeout(60)
+	driver.set_script_timeout(60)
+	with open(stealthPath, 'r') as f:
+		js = f.read()
+	driver.execute_cdp_cmd("Page.addScriptToEvaluateOnNewDocument", {"source": js})
+
+	for num, i in enumerate(llist):
+		page_url = i['page_url'].replace("?ux_", "&ux_")
+		try:
+			driver.get(i['page_url'])
+		except Exception as ff:
+			print(ff)
+			driver.execute_script('window.stop')
+			driver.quit()
+			exit()
+		time.sleep(3)
+		content_info = get_content(driver.page_source)
+		item = {}
+		item['title'] = content_info['title']
+		item['content'] = content_info['content']
+		item['subclass'] = i['subclass']
+		item['issue_time'] = i['issue_time']
+		item['page_url'] = page_url
+		item['site'] = "b2b.10086.cn"
+
+		ztbHubInfo_obj = ZtbHubInfo()
+		ztbHubInfo_obj.subclass = i['subclass']
+		ztbHubInfo_obj.issue_time = i['issue_time']
+		ztbHubInfo_obj.site = "b2b.10086.cn"
+
+		print(ztbHubInfo_obj)
+		print(content_info['content'])
+		# ztbRawInfo_insert_id = mysql_db_orm.ztbRawInfo_add_single(hubInfo=ztbHubInfo_obj, articleInfo=item)
+		ztbRawInfo_insert_id=i['rawid']
+		if not ztbRawInfo_insert_id:
+			continue
+		insert_content = mysql_db_orm.ztbRawInfoContent_add_single(content=item['content'], rawid=ztbRawInfo_insert_id)
+		if not insert_content:
+			mysql_db_orm.session.query(ZtbRawInfo).filter(ZtbRawInfo.id == ztbRawInfo_insert_id).update({"craw_status":2})
+
+		if 'attachmentListJson' in content_info.keys():
+			item['attachmentListJson'] = content_info['attachmentListJson']
+			attchement_insert = mysql_db_orm.ztbInfoAttaChment_add_single(info=item['attachmentListJson'], rawid=ztbRawInfo_insert_id)
+
+		item['content'] = len(item['content'])
+		# pprint.pprint(item)
+		print('-----' * 8, datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S'), ztbRawInfo_insert_id)
+		update_stats(i['id'])
+
+
+if __name__ == '__main__':
+	main_artcle()
+	exit()
+
+	input = sys.argv[1]
+	if input == 'hub':
+		main_hub()
+	elif input == 'article':
+		main_artcle()
+	else:
+		exit()

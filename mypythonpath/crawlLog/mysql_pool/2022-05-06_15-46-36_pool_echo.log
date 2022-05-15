@@ -1,0 +1,1 @@
+INFO:sqlalchemy.pool.impl.QueuePool:Invalidate connection <pymysql.connections.Connection object at 0x000001F4BFC763D0> (reason: KeyboardInterrupt:)

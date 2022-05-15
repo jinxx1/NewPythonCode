@@ -1,0 +1,33 @@
+INFO:scrapy.utils.log:Scrapy 2.4.1 started (bot: shangQing)
+INFO:scrapy.utils.log:Versions: lxml 4.6.4.0, libxml2 2.9.12, cssselect 1.1.0, parsel 1.6.0, w3lib 1.22.0, Twisted 20.3.0, Python 3.8.12 | packaged by conda-forge | (default, Oct 12 2021, 21:22:46) [MSC v.1916 64 bit (AMD64)], pyOpenSSL 21.0.0 (OpenSSL 1.1.1n  15 Mar 2022), cryptography 35.0.0, Platform Windows-10-10.0.19043-SP0
+DEBUG:scrapy.utils.log:Using reactor: twisted.internet.selectreactor.SelectReactor
+INFO:scrapy.crawler:Overridden settings:
+{'BOT_NAME': 'shangQing',
+ 'CLOSESPIDER_ERRORCOUNT': 10,
+ 'CONCURRENT_REQUESTS': 32,
+ 'CONCURRENT_REQUESTS_PER_IP': 16,
+ 'COOKIES_DEBUG': True,
+ 'DOWNLOAD_DELAY': 3,
+ 'DOWNLOAD_TIMEOUT': 120,
+ 'NEWSPIDER_MODULE': 'shangQing.spiders',
+ 'SPIDER_MODULES': ['shangQing.spiders']}
+INFO:scrapy.extensions.telnet:Telnet Password: 97a4f836d3aa6328
+INFO:scrapy.middleware:Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.closespider.CloseSpider',
+ 'scrapy.extensions.logstats.LogStats']
+CRITICAL:twisted:Unhandled error in Deferred:
+CRITICAL:twisted:
+Traceback (most recent call last):
+  File "c:\anaconda3\lib\site-packages\twisted\internet\defer.py", line 1418, in _inlineCallbacks
+    result = g.send(result)
+  File "c:\anaconda3\lib\site-packages\scrapy\crawler.py", line 86, in crawl
+    self.spider = self._create_spider(*args, **kwargs)
+  File "c:\anaconda3\lib\site-packages\scrapy\crawler.py", line 98, in _create_spider
+    return self.spidercls.from_crawler(self, *args, **kwargs)
+  File "c:\anaconda3\lib\site-packages\scrapy\spiders\__init__.py", line 50, in from_crawler
+    spider = cls(*args, **kwargs)
+  File "D:\PythonCode\MyCrawlFrame\scrapyModel\shangQing\shangQing\spiders\shannxi_ccpy.py", line 82, in __init__
+    print('开始时间：', self.startT)
+AttributeError: 'ShannxiSpider' object has no attribute 'startT'

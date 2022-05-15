@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>数字小港产品目录-数字小港项目专供---服务确认</title>
+
+</head>
+
+<body>
+<html>
+    <head>
+
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename = 'style.css') }}" />
+
+        <style>
+            .filter {float:left}
+        </style>
+    </head>
+    <body>
+    <h1>您本次选择的服务为</h1>
+
+    <div id="form-example" class="example">
+        <div class="filter"></div>
+        <div class="clear"></div>
+        <div>
+
+            <table class="order-table">
+               <thead>
+               <tr><th>客户姓名</th>
+                   <th>客户电话</th>
+                   <th>客户选择项目</th>
+                   <th>提交时间</th>
+
+               </thead>
+               <tbody>
+
+               {% for item in info %}
+
+               <tr>
+                   <td>{{ item.preson_name }}</td>
+                   <td>{{ item.preson_tel }}</td>
+                   <td>{{ item.artInfo }}</td>
+                   <td>{{ item.times }}</td>
+                  </tr>
+               {% endfor %}
+
+               <table align="center">
+               <tr>
+                   <td>
+
+<form action = "/todb" method="post">
+                                <button name="subok" type="submit" value="{{ info }}">确认无误，提交</button>
+</form>
+
+                   </td>
+
+                   <td>
+                       <form action = "/" method="get">
+
+                                <button name="subindex" type="submit" formmethod="get" formaction="/">我要返回首页修改</button>
+                           </form>
+
+                   </td>
+
+
+               </tr>
+
+                </table>
+
+               </tbody>
+           </table>
+
+
+
+        </div>
+    </div>
+
+
+
+    </body>
+</html>
+</body>
+
+</html>

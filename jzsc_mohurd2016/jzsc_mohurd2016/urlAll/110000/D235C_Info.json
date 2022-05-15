@@ -1,0 +1,1 @@
+{"url": "http://jzsc.mohurd.gov.cn/api/webApi/dataservice/query/comp/list?qy_region=110000&apt_code=D235C&pg={}&pgsz=15", "reg_Name": "北京", "apt_Name": "环保工程专业承包三级", "reg_id": "110000", "apt_id": "D235C", "total": 6515, "crawled_pageNum": 1, "crawled_articleNum": 0, "status": 1, "filePath": "D:\\PythonCode\\jzsc_mohurd2016\\jzsc_mohurd2016\\urlAll\\110000\\D235C_Info.json"}

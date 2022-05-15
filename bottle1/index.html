@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>u学爬虫中间件系统V1.1</title>
+    <style>
+            　　*{margin:0;padding:0}
+       　　 .marginCenter{ width:200px; height: 200px; position: absolute;left:0; top:0; right:0; bottom: 0; margin: auto; background: #f2056e;}
+        </style>
+</head>
+<body>
+<form class="marginCenter" action="/get">
+<div>
+    <ul><b>以下元素缺一不可。若缺任意一项，则本系统暂时不支持抓取。请仔细排查您输入的信息正确性、一致性。否则会报错</b></ul>
+    <ul>列表页---入口链接</ul>
+<input type = "text" name="url" required="required" rows="10" cols="30"/>
+    <ul>列表页---分页链接，页码请用{}代替。比如page=2，请写作 page={}</ul>
+<input type = "text" name="pageUrl" required="required" rows="10" cols="30"/>
+    <ul>列表页---样本标题</ul>
+<input type = "text" name = "TitleList" required="required" rows="10" cols="30"/>
+    <ul>样本文章---地址链接_1</ul>
+<input type = "text" name = "contenturl_1" required="required" rows="10" cols="30"/>
+    <ul>样本文章---地址链接_2</ul>
+<input type = "text" name = "contenturl_2" rows="10" cols="30"/>
+    <ul>样本文章---地址链接_3</ul>
+<input type = "text" name = "contenturl_3" rows="10" cols="30"/>
+    <ul>样本文章---地址链接_4</ul>
+<input type = "text" name = "contenturl_4" rows="10" cols="30"/>
+    <ul>样本文章---地址链接_5</ul>
+<input type = "text" name = "contenturl_5" rows="10" cols="30"/>
+    <ul>样本文章---地址链接_6</ul>
+<input type = "text" name = "contenturl_6" rows="10" cols="30"/>
+    <ul>样本文章----正文标题</ul>
+
+<input type = "text" name = "TitleContent" required="required" rows="10" cols="30"/>
+    <ul>样本文章---正文第一段节选（10个以上，20个字体以下即可。中间不要有带连接的文字）</ul>
+<input type = "text" name = "Tag1" required="required" rows="10" cols="30"/>
+    <ul>样本文章---正文中间段节选（10个以上，20个字体以下即可。中间不要有带连接的文字）</ul>
+<input type = "text" name = "Tag2" required="required" rows="10" cols="30"/>
+    <ul>样本文章---正文任意段节选（10个以上，20个字体以下即可。中间不要有带连接的文字）</ul>
+<input type = "text" name = "Tag3" required="required" rows="10" cols="30"/>
+    <ul>本爬虫权重为：1 最高  3 最低</ul>
+<input type = "text" name = "uPR" required="required" rows="10" cols="30"/>
+    <ul>爬虫类别：</ul>
+<input type = "text" name = "catName" required="required" rows="10" cols="30"/>
+    <ul>是否下载本站图片到本地服务器：0 禁止下载--1 允许下载(必须‘0’或‘1’)</ul>
+<input type = "text" name = "imgDownload" required="required" rows="10" cols="30"/>
+<ul>
+<input type="submit" value="测试一下"/>
+</ul>
+</form>
+</body>
+</html>

@@ -1,0 +1,8 @@
+anhui_ccgp
+jilin_ccgp
+neimenggu_ccgp
+shandong_ccgp
+shannxi_ccgp
+tianjin_ccgp
+guizhou_ccgp
+xizang_ccgp

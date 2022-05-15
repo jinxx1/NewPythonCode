@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4307d358-6467-48fc-bd5e-c211ed7af533" name="Default Changelist" comment="Default Changelist" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="JupyterTrust" id="1c27210e-ff9c-48d6-ac10-d509025c911e" />
+  <component name="ProjectId" id="1j4rS83QcWE1cITV3IxXHGHFKzx" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Python" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\PythonCode\gcproject\gcproject" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\PythonCode\gcproject\gcproject" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.test">
+    <configuration name="dbtodb" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="gcproject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/gcproject" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gcproject/dbtodb.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main_gcpCrawl (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="gcproject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/gcproject" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gcproject/main_gcpCrawl.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="mysqlprecess" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="gcproject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/gcproject" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gcproject/mysqlprecess.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="sqlitedb_orm" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="gcproject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/gcproject" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gcproject/sqlitedb_orm.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="gcproject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/gcproject" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gcproject/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.sqlitedb_orm" />
+        <item itemvalue="Python.mysqlprecess" />
+        <item itemvalue="Python.dbtodb" />
+        <item itemvalue="Python.main_gcpCrawl (1)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4307d358-6467-48fc-bd5e-c211ed7af533" name="Default Changelist" comment="" />
+      <created>1603074201131</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1603074201131</updated>
+      <workItem from="1603074205090" duration="29821000" />
+      <workItem from="1603332701059" duration="20756000" />
+      <workItem from="1603636349803" duration="6567000" />
+      <workItem from="1603687951283" duration="253000" />
+      <workItem from="1603699456463" duration="2492000" />
+      <workItem from="1603763629558" duration="4475000" />
+      <workItem from="1603848016449" duration="13047000" />
+      <workItem from="1604048074405" duration="1676000" />
+      <workItem from="1604308073096" duration="1060000" />
+      <workItem from="1604369405065" duration="2973000" />
+      <workItem from="1604460287037" duration="3288000" />
+      <workItem from="1604559189756" duration="6753000" />
+      <workItem from="1604624643249" duration="11051000" />
+      <workItem from="1604759338580" duration="1235000" />
+      <workItem from="1604827290839" duration="4695000" />
+      <workItem from="1604970985049" duration="14271000" />
+      <workItem from="1605057826670" duration="6396000" />
+      <workItem from="1605096417910" duration="584000" />
+      <workItem from="1605097016878" duration="11256000" />
+      <workItem from="1605170766705" duration="1853000" />
+      <workItem from="1605187758207" duration="6874000" />
+      <workItem from="1605235250769" duration="283000" />
+      <workItem from="1605236287806" duration="8860000" />
+      <workItem from="1605269938207" duration="6091000" />
+      <workItem from="1605595826979" duration="38542000" />
+      <workItem from="1607668188077" duration="1513000" />
+      <workItem from="1607741830847" duration="361000" />
+      <workItem from="1607841888323" duration="1202000" />
+      <workItem from="1608083568343" duration="3389000" />
+      <workItem from="1609401755899" duration="2545000" />
+      <workItem from="1609728107625" duration="3687000" />
+      <workItem from="1609743612514" duration="867000" />
+      <workItem from="1609744505572" duration="598000" />
+      <workItem from="1609755102086" duration="1364000" />
+      <workItem from="1609813364514" duration="2465000" />
+      <workItem from="1609835970068" duration="610000" />
+      <workItem from="1609847229243" duration="101000" />
+      <workItem from="1609847560343" duration="206000" />
+      <workItem from="1609900900499" duration="2795000" />
+      <workItem from="1609986643639" duration="4611000" />
+      <workItem from="1610614811630" duration="5345000" />
+      <workItem from="1610794180699" duration="2126000" />
+      <workItem from="1612252145896" duration="1881000" />
+      <workItem from="1612265453759" duration="620000" />
+      <workItem from="1612405416063" duration="1164000" />
+      <workItem from="1613717431249" duration="343000" />
+      <workItem from="1614134075123" duration="227000" />
+      <workItem from="1614134312262" duration="5007000" />
+      <workItem from="1614219003489" duration="40000" />
+      <workItem from="1614219079525" duration="1731000" />
+      <workItem from="1614246346106" duration="1448000" />
+      <workItem from="1614579378872" duration="1323000" />
+      <workItem from="1614649949575" duration="3000" />
+      <workItem from="1614825103458" duration="323000" />
+      <workItem from="1615255021361" duration="2726000" />
+      <workItem from="1615340095604" duration="397000" />
+      <workItem from="1615375831018" duration="154000" />
+      <workItem from="1615859707700" duration="5154000" />
+      <workItem from="1615864904323" duration="3407000" />
+      <workItem from="1615884527352" duration="2104000" />
+      <workItem from="1615922111923" duration="2136000" />
+      <workItem from="1615959018207" duration="809000" />
+      <workItem from="1619685322518" duration="2137000" />
+      <workItem from="1619750542624" duration="8317000" />
+      <workItem from="1622685659342" duration="324000" />
+      <workItem from="1622771942221" duration="1847000" />
+      <workItem from="1623032821614" duration="1209000" />
+      <workItem from="1623807665419" duration="613000" />
+      <workItem from="1628868440310" duration="673000" />
+      <workItem from="1629082486602" duration="1803000" />
+      <workItem from="1633874687590" duration="1801000" />
+      <workItem from="1634023241444" duration="9341000" />
+      <workItem from="1634108103882" duration="1189000" />
+      <workItem from="1634110865571" duration="837000" />
+      <workItem from="1637904929538" duration="17122000" />
+      <workItem from="1637978099598" duration="595000" />
+      <workItem from="1638098262400" duration="685000" />
+      <workItem from="1638168098872" duration="20876000" />
+      <workItem from="1638240482641" duration="6117000" />
+      <workItem from="1638327418044" duration="3113000" />
+      <workItem from="1638408183797" duration="980000" />
+      <workItem from="1638441533073" duration="6403000" />
+      <workItem from="1638926976312" duration="1854000" />
+      <workItem from="1639014862224" duration="61000" />
+      <workItem from="1639024191039" duration="1302000" />
+      <workItem from="1639361067248" duration="1750000" />
+      <workItem from="1639564634436" duration="4665000" />
+      <workItem from="1639882647880" duration="11000" />
+      <workItem from="1639885972425" duration="1046000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/gcproject$dbtodb.coverage" NAME="dbtodb 覆盖结果" MODIFIED="1619793808288" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gcproject" />
+    <SUITE FILE_PATH="coverage/gcproject$mysqlprecess.coverage" NAME="mysqlprecess 覆盖结果" MODIFIED="1638180060783" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gcproject" />
+    <SUITE FILE_PATH="coverage/gcproject$test.coverage" NAME="test 覆盖结果" MODIFIED="1639571180146" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gcproject" />
+    <SUITE FILE_PATH="coverage/gcproject$sqlitedb_orm.coverage" NAME="sqlitedb_orm 覆盖结果" MODIFIED="1638463334912" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gcproject" />
+  </component>
+</project>

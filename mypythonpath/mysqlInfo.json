@@ -1,0 +1,5 @@
+{
+	"uxuepai_sql": {"HOST": "183.6.136.70", "DBNAME": "uxsq_collect", "USER": "jinxiao_70", "PASSWORD": "Qwer1234AQ_qwer",
+	                "PORT": 3306},
+	"local_sql": {"HOST": "localhost", "DBNAME": "uxsq", "USER": "root", "PASSWORD": "040304", "PORT": 3306}
+}

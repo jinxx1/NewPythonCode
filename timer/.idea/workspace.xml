@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ac03623f-0e4a-45bc-82aa-1bfbafd087aa" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Python_script/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cicCrawl/cicCrawl/cicCrawl/mysql_processing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gcproject/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gcproject/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gcproject/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gcproject/.idea/rSettings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gcproject/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gcproject/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gcproject/gcproject/metro_everdayCount.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../home/homeScrapy/myscrapy/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../home/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../home/video_id_get.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../metro/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../metro/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../metro/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../metro/.idea/rSettings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../metro/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../metro/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scrapySplash10086/spalsh10086/spalsh10086/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scrapySplash10086/spalsh10086/spalsh10086/mysql_processing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scrapySplash10086/spalsh10086/spalsh10086/scrapyParse.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scrapySplash10086/spalsh10086/spalsh10086/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wyqWeb/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wyqWeb/pdftostr.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WCplus/app/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WCplus/app/api/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WCplus/app/api/delete.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WCplus/app/api/l11lll1l1_wcplus_.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WCplus/app/api/l1lll1_wcplus_.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WCplus/app/api/process.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WCplus/app/api/search.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WCplus/app/api/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WCplus/app/command_handler/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WCplus/app/command_handler/l111ll1ll_wcplus_.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WCplus/app/export/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WCplus/app/export/excel.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WCplus/app/l1ll11ll1_wcplus_/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WCplus/app/l1ll11ll1_wcplus_/article/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WCplus/app/l1ll11ll1_wcplus_/l1l1l1111_wcplus_/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WCplus/app/l1ll11ll1_wcplus_/l1l1lllll_wcplus_/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WCplus/app/l1ll11ll1_wcplus_/l1l1lllll_wcplus_/l1lll1_wcplus_.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WCplus/app/l1ll11ll1_wcplus_/l1ll1l1l1_wcplus_/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WCplus/app/l1ll11ll1_wcplus_/l1ll1l1l1_wcplus_/l1lll1_wcplus_.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WCplus/app/search/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WCplus/app/search/config.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WCplus/app/search/index.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WCplus/app/search/search.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WCplus/cmp/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WCplus/cmp/db/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WCplus/cmp/db/es/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WCplus/cmp/db/es/config.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WCplus/cmp/db/es/index.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WCplus/cmp/db/es/search.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WCplus/cmp/db/file/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WCplus/cmp/db/l11l11ll11_wcplus_/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WCplus/cmp/db/l11l11ll11_wcplus_/l1111l1ll1_wcplus_.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WCplus/cmp/db/l1ll11l11_wcplus_/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WCplus/cmp/l111l_wcplus_/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WCplus/cmp/l111l_wcplus_/addons.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WCplus/cmp/protect/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WCplus/cmp/proxy/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WCplus/config/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WCplus/instance/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WCplus/l1l11_wcplus_/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WCplus/l1l11_wcplus_/api/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WCplus/l1l11_wcplus_/api/l11lll1l1_wcplus_.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WCplus/l1l11_wcplus_/api/l1ll111l1l1_wcplus_.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WCplus/l1l11_wcplus_/api/l1lll1_wcplus_.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WCplus/l1l11_wcplus_/api/search.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WCplus/l1l11_wcplus_/api/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WCplus/l1l11_wcplus_/event/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WCplus/l1l11_wcplus_/router/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WCplus/license.ca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WCplus/license_generator.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WCplus/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WCplus/utils/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WCplus/utils/base.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WCplus/utils/front.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WCplus/utils/l11ll1111_wcplus_.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WCplus/utils/network.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WCplus/utils/time.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WCplus/web_server/static/css/app.53cff2ce.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WCplus/web_server/static/css/chunk-04b7.00e2dbff.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WCplus/web_server/static/css/chunk-0d75.b8ea83c5.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WCplus/web_server/static/css/chunk-183d.8a4645f7.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WCplus/web_server/static/css/chunk-1c7e.af42a276.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WCplus/web_server/static/css/chunk-3f0d.f1d3b03a.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WCplus/web_server/static/css/chunk-66f8.9a126b21.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WCplus/web_server/static/css/chunk-7040.e805b4ed.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WCplus/web_server/static/css/chunk-9c3d.e9848bc3.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WCplus/web_server/static/css/chunk-d66d.70fcca84.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WCplus/web_server/static/css/chunk-dd46.696105c3.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WCplus/web_server/static/css/chunk-elementUI.8441406c.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WCplus/web_server/static/css/chunk-libs.5c5ced32.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WCplus/web_server/static/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WCplus/web_server/static/fonts/element-icons.6f0a763.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WCplus/web_server/static/fonts/fontawesome-webfont.674f50d.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WCplus/web_server/static/fonts/fontawesome-webfont.af7ae50.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WCplus/web_server/static/fonts/fontawesome-webfont.b06871f.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WCplus/web_server/static/fonts/fontawesome-webfont.fee66e7.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WCplus/web_server/static/img/404.a57b6f3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WCplus/web_server/static/img/fontawesome-webfont.912ec66.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WCplus/web_server/static/img/luntan.1e96134.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WCplus/web_server/static/js/app.86dcc4f9.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WCplus/web_server/static/js/chunk-04b7.5a34da5e.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WCplus/web_server/static/js/chunk-0d75.58973356.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WCplus/web_server/static/js/chunk-0e20.3d7336d6.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WCplus/web_server/static/js/chunk-183d.119c8473.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WCplus/web_server/static/js/chunk-1c7e.b95fc272.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WCplus/web_server/static/js/chunk-3f0d.85b9a078.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WCplus/web_server/static/js/chunk-66f8.9f4557ab.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WCplus/web_server/static/js/chunk-7040.169009f7.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WCplus/web_server/static/js/chunk-9c3d.2b02953e.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WCplus/web_server/static/js/chunk-d66d.43aa2b28.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WCplus/web_server/static/js/chunk-dd46.dd1ef29e.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WCplus/web_server/static/js/chunk-elementUI.6c11bf61.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WCplus/web_server/static/js/chunk-libs.1171f68d.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WCplus/xml.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WCplus/启动数据库服务.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../newscrapy/newscrapy/gcable_run_guangdong.py" beforeDir="false" afterPath="$PROJECT_DIR$/../newscrapy/newscrapy/gcable_run_guangdong.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../newscrapy/newscrapy/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../newscrapy/newscrapy/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../newscrapy/newscrapy/spiders/ccgp.py" beforeDir="false" afterPath="$PROJECT_DIR$/../newscrapy/newscrapy/spiders/ccgp.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../numpyLearn/.ipynb_checkpoints/ipython_demo-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../numpyLearn/id_vaildator.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../numpyLearn/ipython_demo.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../numpyLearn/numpy_1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python_github/GuangXi_Crawl/gxcrawl/gxcrawl/spiders/getArticle02.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python_github/GuangXi_Crawl/gxcrawl/gxcrawl/spiders/getArticle03.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python_github/GuangXi_Crawl/gxcrawl/gxcrawl/spiders/getArticle04.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python_github/GuangXi_Crawl/gxcrawl/gxcrawl/spiders/zfcg_guangxi.py" beforeDir="false" afterPath="$PROJECT_DIR$/../python_github/GuangXi_Crawl/gxcrawl/gxcrawl/spiders/zfcg_guangxi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python_github/MasterPiece/masterpic/masterpic/TEST.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python_github/MasterPiece/masterpic/masterpic/spiders/getpicurl.py" beforeDir="false" afterPath="$PROJECT_DIR$/../python_github/MasterPiece/masterpic/masterpic/spiders/getpicurl.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python_github/u1webcrwal/u1webcrwal/nohup.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python_github/u1webcrwal/u1webcrwal/pipelines.py" beforeDir="false" afterPath="$PROJECT_DIR$/../python_github/u1webcrwal/u1webcrwal/pipelines.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wyqWeb/info.json" beforeDir="false" afterPath="$PROJECT_DIR$/../wyqWeb/info.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wyqWeb/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../wyqWeb/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wyqWeb/scrpt.py" beforeDir="false" afterPath="$PROJECT_DIR$/../wyqWeb/scrpt.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wyqWeb/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../wyqWeb/static/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wyqWeb/static/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../wyqWeb/static/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wyqWeb/static/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../wyqWeb/static/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wyqWeb/templates/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../wyqWeb/templates/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wyqWeb/templates/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../wyqWeb/templates/js/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wyqWeb/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../wyqWeb/test.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1lVCuN5nayaOLhilVFnlDKZCP4m" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../home" />
+  </component>
+  <component name="RunManager">
+    <configuration name="standTime" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="timer" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/standTime.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.standTime" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ac03623f-0e4a-45bc-82aa-1bfbafd087aa" name="Default Changelist" comment="" />
+      <created>1607673092723</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1607673092723</updated>
+      <workItem from="1607673095807" duration="5526000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="741" y="275" key="FileChooserDialogImpl" timestamp="1607695288694">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="741" y="275" key="FileChooserDialogImpl/0.0.1920.1040/-2160.0.960.1667@0.0.1920.1040" timestamp="1607695288694" />
+    <state width="1878" height="282" key="GridCell.Tab.0.bottom" timestamp="1607697923136">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1878" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/-2160.0.960.1667@0.0.1920.1040" timestamp="1607697923136" />
+    <state width="1878" height="282" key="GridCell.Tab.0.center" timestamp="1607697923136">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1878" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/-2160.0.960.1667@0.0.1920.1040" timestamp="1607697923136" />
+    <state width="1878" height="282" key="GridCell.Tab.0.left" timestamp="1607697923136">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1878" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/-2160.0.960.1667@0.0.1920.1040" timestamp="1607697923136" />
+    <state width="1878" height="282" key="GridCell.Tab.0.right" timestamp="1607697923136">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1878" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/-2160.0.960.1667@0.0.1920.1040" timestamp="1607697923136" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/timer$standTime.coverage" NAME="standTime Coverage Results" MODIFIED="1607677742527" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>

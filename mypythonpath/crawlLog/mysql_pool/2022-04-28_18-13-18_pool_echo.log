@@ -1,0 +1,346 @@
+INFO:scrapy.utils.log:Scrapy 2.4.1 started (bot: shangQing)
+INFO:scrapy.utils.log:Versions: lxml 4.6.4.0, libxml2 2.9.12, cssselect 1.1.0, parsel 1.6.0, w3lib 1.22.0, Twisted 20.3.0, Python 3.8.12 | packaged by conda-forge | (default, Oct 12 2021, 21:22:46) [MSC v.1916 64 bit (AMD64)], pyOpenSSL 21.0.0 (OpenSSL 1.1.1n  15 Mar 2022), cryptography 35.0.0, Platform Windows-10-10.0.19043-SP0
+DEBUG:scrapy.utils.log:Using reactor: twisted.internet.selectreactor.SelectReactor
+INFO:scrapy.crawler:Overridden settings:
+{'BOT_NAME': 'shangQing',
+ 'CLOSESPIDER_ERRORCOUNT': 10,
+ 'CONCURRENT_REQUESTS': 32,
+ 'CONCURRENT_REQUESTS_PER_IP': 16,
+ 'COOKIES_DEBUG': True,
+ 'DOWNLOAD_DELAY': 3,
+ 'DOWNLOAD_TIMEOUT': 120,
+ 'NEWSPIDER_MODULE': 'shangQing.spiders',
+ 'SPIDER_MODULES': ['shangQing.spiders']}
+INFO:scrapy.extensions.telnet:Telnet Password: d51fc3ccbecd41b7
+INFO:scrapy.middleware:Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.closespider.CloseSpider',
+ 'scrapy.extensions.logstats.LogStats']
+INFO:scrapy.middleware:Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+INFO:scrapy.middleware:Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+INFO:scrapy.middleware:Enabled item pipelines:
+['shangQing.pipelines.ShangqingPipeline']
+INFO:scrapy.core.engine:Spider opened
+INFO:scrapy.extensions.logstats:Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+INFO:scrapy.extensions.telnet:Telnet console listening on 127.0.0.1:6023
+DEBUG:scrapy.downloadermiddlewares.cookies:Received cookies from: <200 http://www.ccgp-jilin.gov.cn/ext/search/keyPair.action>
+Set-Cookie: JSESSIONID=0ABF5BE8AF95725880DCE061642CC0C0; Path=/; Secure; HttpOnly
+
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.ccgp-jilin.gov.cn/ext/search/keyPair.action> (referer: None)
+DEBUG:scrapy.downloadermiddlewares.cookies:Received cookies from: <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+Set-Cookie: JSESSIONID=0395CB0B35FFE7AC2E6E6D020A38DA37; Path=/; Secure; HttpOnly
+
+DEBUG:scrapy.core.engine:Crawled (200) <POST http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action> (referer: http://www.ccgp-jilin.gov.cn/ext/search/keyPair.action)
+DEBUG:scrapy.downloadermiddlewares.cookies:Received cookies from: <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+Set-Cookie: JSESSIONID=FD3CDBAFED0A682A8C61C98E64641C5E; Path=/; Secure; HttpOnly
+
+DEBUG:scrapy.core.engine:Crawled (200) <POST http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action> (referer: http://www.ccgp-jilin.gov.cn/ext/search/keyPair.action)
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+{'city_name': '长春市',
+ 'issue_time': '2022-04-28 00:00:00',
+ 'page_url': 'http://www.ccgp-jilin.gov.cn/ext/search/gotoHelpFrontList.action?articleId=255394',
+ 'province_name': '吉林省',
+ 'purchase_type': '合同、验收公告',
+ 'site': 'www.ccgp-jilin.gov.cn',
+ 'subclass': '市县级采购公告',
+ 'title': '关于替芯/铅芯的网上超市合同公告'}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+{'city_name': '长春市',
+ 'issue_time': '2022-04-28 00:00:00',
+ 'page_url': 'http://www.ccgp-jilin.gov.cn/ext/search/gotoHelpFrontList.action?articleId=255393',
+ 'province_name': '吉林省',
+ 'purchase_type': '合同、验收公告',
+ 'site': 'www.ccgp-jilin.gov.cn',
+ 'subclass': '市县级采购公告',
+ 'title': '关于医用防护服的网上超市合同公告'}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+{'city_name': '白城市',
+ 'issue_time': '2022-04-28 00:00:00',
+ 'page_url': 'http://www.ccgp-jilin.gov.cn/ext/search/gotoHelpFrontList.action?articleId=255392',
+ 'province_name': '吉林省',
+ 'purchase_type': '合同、验收公告',
+ 'site': 'www.ccgp-jilin.gov.cn',
+ 'subclass': '市县级采购公告',
+ 'title': '洮南市第七小学的合同公告'}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+{'city_name': '长春市',
+ 'issue_time': '2022-04-28 00:00:00',
+ 'page_url': 'http://www.ccgp-jilin.gov.cn/ext/search/gotoHelpFrontList.action?articleId=255391',
+ 'province_name': '吉林省',
+ 'purchase_type': '合同、验收公告',
+ 'site': 'www.ccgp-jilin.gov.cn',
+ 'subclass': '市县级采购公告',
+ 'title': '关于粉盒的网上超市合同公告'}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+{'city_name': '',
+ 'issue_time': '2022-04-28 00:00:00',
+ 'page_url': 'http://www.ccgp-jilin.gov.cn/ext/search/gotoHelpFrontList.action?articleId=255390',
+ 'province_name': '吉林省',
+ 'purchase_type': '合同、验收公告',
+ 'site': 'www.ccgp-jilin.gov.cn',
+ 'subclass': '市县级采购公告',
+ 'title': '关于文件柜的网上超市合同公告'}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+{'city_name': '四平市',
+ 'issue_time': '2022-04-28 00:00:00',
+ 'page_url': 'http://www.ccgp-jilin.gov.cn/ext/search/gotoHelpFrontList.action?articleId=255389',
+ 'province_name': '吉林省',
+ 'purchase_type': '合同、验收公告',
+ 'site': 'www.ccgp-jilin.gov.cn',
+ 'subclass': '市县级采购公告',
+ 'title': '双辽市第二幼儿园的合同公告'}
+DEBUG:scrapy.downloadermiddlewares.cookies:Received cookies from: <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+Set-Cookie: JSESSIONID=8E3A109AF84FA4A8299B8F1753FBB9EE; Path=/; Secure; HttpOnly
+
+DEBUG:scrapy.core.engine:Crawled (200) <POST http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action> (referer: http://www.ccgp-jilin.gov.cn/ext/search/keyPair.action)
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+{'city_name': '四平市',
+ 'issue_time': '2022-04-28 00:00:00',
+ 'page_url': 'http://www.ccgp-jilin.gov.cn/ext/search/gotoHelpFrontList.action?articleId=255388',
+ 'province_name': '吉林省',
+ 'purchase_type': '合同、验收公告',
+ 'site': 'www.ccgp-jilin.gov.cn',
+ 'subclass': '市县级采购公告',
+ 'title': '关于包装袋的网上超市合同公告'}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+{'city_name': '四平市',
+ 'issue_time': '2022-04-28 00:00:00',
+ 'page_url': 'http://www.ccgp-jilin.gov.cn/ext/search/gotoHelpFrontList.action?articleId=255384',
+ 'province_name': '吉林省',
+ 'purchase_type': '合同、验收公告',
+ 'site': 'www.ccgp-jilin.gov.cn',
+ 'subclass': '市县级采购公告',
+ 'title': '四平市铁东区黄土坑街道社区卫生服务中心的合同公告'}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+{'city_name': '四平市',
+ 'issue_time': '2022-04-28 00:00:00',
+ 'page_url': 'http://www.ccgp-jilin.gov.cn/ext/search/gotoHelpFrontList.action?articleId=255385',
+ 'province_name': '吉林省',
+ 'purchase_type': '合同、验收公告',
+ 'site': 'www.ccgp-jilin.gov.cn',
+ 'subclass': '市县级采购公告',
+ 'title': '四平市铁东区黄土坑街道社区卫生服务中心的合同公告'}
+DEBUG:scrapy.downloadermiddlewares.cookies:Received cookies from: <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+Set-Cookie: JSESSIONID=D0D38A75541A890BD9EC9529EBD5E4BA; Path=/; Secure; HttpOnly
+
+DEBUG:scrapy.core.engine:Crawled (200) <POST http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action> (referer: http://www.ccgp-jilin.gov.cn/ext/search/keyPair.action)
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+{'city_name': '长春市',
+ 'issue_time': '2022-04-28 00:00:00',
+ 'page_url': 'http://www.ccgp-jilin.gov.cn/ext/search/gotoHelpFrontList.action?articleId=255395',
+ 'province_name': '吉林省',
+ 'purchase_type': '成交公告',
+ 'site': 'www.ccgp-jilin.gov.cn',
+ 'subclass': '市县级采购公告',
+ 'title': '南关区富裕关联项目征收成本一审成交公告'}
+DEBUG:scrapy.downloadermiddlewares.cookies:Received cookies from: <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+Set-Cookie: JSESSIONID=998CC0A58FFDC9658A800EEB820398B7; Path=/; Secure; HttpOnly
+
+DEBUG:scrapy.core.engine:Crawled (200) <POST http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action> (referer: http://www.ccgp-jilin.gov.cn/ext/search/keyPair.action)
+DEBUG:scrapy.downloadermiddlewares.cookies:Received cookies from: <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+Set-Cookie: JSESSIONID=97830F36D6990D2237B231A8634F1E31; Path=/; Secure; HttpOnly
+
+DEBUG:scrapy.core.engine:Crawled (200) <POST http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action> (referer: http://www.ccgp-jilin.gov.cn/ext/search/keyPair.action)
+DEBUG:scrapy.downloadermiddlewares.cookies:Received cookies from: <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+Set-Cookie: JSESSIONID=99E6D989F2D65D14EDDD4912F3F2D315; Path=/; Secure; HttpOnly
+
+DEBUG:scrapy.core.engine:Crawled (200) <POST http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action> (referer: http://www.ccgp-jilin.gov.cn/ext/search/keyPair.action)
+DEBUG:scrapy.downloadermiddlewares.cookies:Received cookies from: <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+Set-Cookie: JSESSIONID=5E9AEDE16E8E2E7E10FDAF1ADD851CC8; Path=/; Secure; HttpOnly
+
+DEBUG:scrapy.core.engine:Crawled (200) <POST http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action> (referer: http://www.ccgp-jilin.gov.cn/ext/search/keyPair.action)
+DEBUG:scrapy.downloadermiddlewares.cookies:Received cookies from: <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+Set-Cookie: JSESSIONID=114D801AA2EE1923883295AA74EB0547; Path=/; Secure; HttpOnly
+
+DEBUG:scrapy.core.engine:Crawled (200) <POST http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action> (referer: http://www.ccgp-jilin.gov.cn/ext/search/keyPair.action)
+DEBUG:scrapy.downloadermiddlewares.cookies:Received cookies from: <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+Set-Cookie: JSESSIONID=99B7B4F59C4DEFE6EA555C4716E2E389; Path=/; Secure; HttpOnly
+
+DEBUG:scrapy.core.engine:Crawled (200) <POST http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action> (referer: http://www.ccgp-jilin.gov.cn/ext/search/keyPair.action)
+DEBUG:scrapy.downloadermiddlewares.cookies:Received cookies from: <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+Set-Cookie: JSESSIONID=DB9C280638C97551B41BB45848AA08E4; Path=/; Secure; HttpOnly
+
+DEBUG:scrapy.core.engine:Crawled (200) <POST http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action> (referer: http://www.ccgp-jilin.gov.cn/ext/search/keyPair.action)
+DEBUG:scrapy.downloadermiddlewares.cookies:Received cookies from: <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+Set-Cookie: JSESSIONID=335E397CBE8196D41C23F04B99991EF9; Path=/; Secure; HttpOnly
+
+DEBUG:scrapy.core.engine:Crawled (200) <POST http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action> (referer: http://www.ccgp-jilin.gov.cn/ext/search/keyPair.action)
+DEBUG:scrapy.downloadermiddlewares.cookies:Received cookies from: <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+Set-Cookie: JSESSIONID=774815C93AACBA17AD09FFA4700EB7A8; Path=/; Secure; HttpOnly
+
+DEBUG:scrapy.core.engine:Crawled (200) <POST http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action> (referer: http://www.ccgp-jilin.gov.cn/ext/search/keyPair.action)
+DEBUG:scrapy.downloadermiddlewares.cookies:Received cookies from: <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+Set-Cookie: JSESSIONID=2E24158A835782DD747A85D4A69EE4C0; Path=/; Secure; HttpOnly
+
+DEBUG:scrapy.core.engine:Crawled (200) <POST http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action> (referer: http://www.ccgp-jilin.gov.cn/ext/search/keyPair.action)
+DEBUG:scrapy.downloadermiddlewares.cookies:Received cookies from: <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+Set-Cookie: JSESSIONID=89BEE7ECECAE879D4310E51E52DEFE03; Path=/; Secure; HttpOnly
+
+DEBUG:scrapy.core.engine:Crawled (200) <POST http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action> (referer: http://www.ccgp-jilin.gov.cn/ext/search/keyPair.action)
+INFO:scrapy.extensions.logstats:Crawled 16 pages (at 16 pages/min), scraped 10 items (at 10 items/min)
+DEBUG:scrapy.downloadermiddlewares.cookies:Received cookies from: <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+Set-Cookie: JSESSIONID=CCC734126E5307161DB279C27D498FBF; Path=/; Secure; HttpOnly
+
+DEBUG:scrapy.core.engine:Crawled (200) <POST http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action> (referer: http://www.ccgp-jilin.gov.cn/ext/search/keyPair.action)
+DEBUG:scrapy.downloadermiddlewares.cookies:Received cookies from: <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+Set-Cookie: JSESSIONID=84AA9DC3CAC968B3B68342311DF0BD89; Path=/; Secure; HttpOnly
+
+DEBUG:scrapy.core.engine:Crawled (200) <POST http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action> (referer: http://www.ccgp-jilin.gov.cn/ext/search/keyPair.action)
+DEBUG:scrapy.downloadermiddlewares.cookies:Received cookies from: <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+Set-Cookie: JSESSIONID=558D1D14B1C434FF24D5D79817EF8FBC; Path=/; Secure; HttpOnly
+
+DEBUG:scrapy.core.engine:Crawled (200) <POST http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action> (referer: http://www.ccgp-jilin.gov.cn/ext/search/keyPair.action)
+DEBUG:scrapy.downloadermiddlewares.cookies:Received cookies from: <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+Set-Cookie: JSESSIONID=ED3B4EB6A9ADFC8C5F3F6B162EF5AF5D; Path=/; Secure; HttpOnly
+
+DEBUG:scrapy.core.engine:Crawled (200) <POST http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action> (referer: http://www.ccgp-jilin.gov.cn/ext/search/keyPair.action)
+DEBUG:scrapy.downloadermiddlewares.cookies:Received cookies from: <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+Set-Cookie: JSESSIONID=A060E4BF181884AD565581E321B172E1; Path=/; Secure; HttpOnly
+
+DEBUG:scrapy.core.engine:Crawled (200) <POST http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action> (referer: http://www.ccgp-jilin.gov.cn/ext/search/keyPair.action)
+DEBUG:scrapy.downloadermiddlewares.cookies:Received cookies from: <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+Set-Cookie: JSESSIONID=3C6CF30719CA669958624764160BDB7C; Path=/; Secure; HttpOnly
+
+DEBUG:scrapy.core.engine:Crawled (200) <POST http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action> (referer: http://www.ccgp-jilin.gov.cn/ext/search/keyPair.action)
+DEBUG:scrapy.downloadermiddlewares.cookies:Received cookies from: <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+Set-Cookie: JSESSIONID=F7F8DF6A52B1A2435FD74CD08559B10F; Path=/; Secure; HttpOnly
+
+DEBUG:scrapy.core.engine:Crawled (200) <POST http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action> (referer: http://www.ccgp-jilin.gov.cn/ext/search/keyPair.action)
+DEBUG:scrapy.downloadermiddlewares.cookies:Received cookies from: <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+Set-Cookie: JSESSIONID=672725FD4F0AA64392ACBA02968691AE; Path=/; Secure; HttpOnly
+
+DEBUG:scrapy.core.engine:Crawled (200) <POST http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action> (referer: http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action)
+DEBUG:scrapy.downloadermiddlewares.cookies:Received cookies from: <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+Set-Cookie: JSESSIONID=FB221904EF193C5BFF34DA06C549BBDB; Path=/; Secure; HttpOnly
+
+DEBUG:scrapy.core.engine:Crawled (200) <POST http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action> (referer: http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action)
+DEBUG:scrapy.downloadermiddlewares.cookies:Received cookies from: <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+Set-Cookie: JSESSIONID=3DCD7F99378B1D67B9BEFA74C5EB8183; Path=/; Secure; HttpOnly
+
+DEBUG:scrapy.core.engine:Crawled (200) <POST http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action> (referer: http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action)
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+{'city_name': '四平市',
+ 'issue_time': '2022-04-28 00:00:00',
+ 'page_url': 'http://www.ccgp-jilin.gov.cn/ext/search/gotoHelpFrontList.action?articleId=255383',
+ 'province_name': '吉林省',
+ 'purchase_type': '合同、验收公告',
+ 'site': 'www.ccgp-jilin.gov.cn',
+ 'subclass': '市县级采购公告',
+ 'title': '四平市铁东区黄土坑街道社区卫生服务中心的合同公告'}
+DEBUG:scrapy.downloadermiddlewares.cookies:Received cookies from: <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+Set-Cookie: JSESSIONID=494F195073F2BBBAEABDE8EC811EB29D; Path=/; Secure; HttpOnly
+
+DEBUG:scrapy.core.engine:Crawled (200) <POST http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action> (referer: http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action)
+DEBUG:scrapy.downloadermiddlewares.cookies:Received cookies from: <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+Set-Cookie: JSESSIONID=7CD60AC97D69726EAA4399C1C8BD16E6; Path=/; Secure; HttpOnly
+
+DEBUG:scrapy.core.engine:Crawled (200) <POST http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action> (referer: http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action)
+DEBUG:scrapy.downloadermiddlewares.cookies:Received cookies from: <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+Set-Cookie: JSESSIONID=DEED977D724AC193AF976CC18C7E9588; Path=/; Secure; HttpOnly
+
+DEBUG:scrapy.core.engine:Crawled (200) <POST http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action> (referer: http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action)
+DEBUG:scrapy.downloadermiddlewares.cookies:Received cookies from: <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+Set-Cookie: JSESSIONID=62ED4096B96035A3E8E395CED9C812C5; Path=/; Secure; HttpOnly
+
+DEBUG:scrapy.core.engine:Crawled (200) <POST http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action> (referer: http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action)
+DEBUG:scrapy.downloadermiddlewares.cookies:Received cookies from: <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+Set-Cookie: JSESSIONID=71AA368EA441C07BD62DEEB7F5126624; Path=/; Secure; HttpOnly
+
+DEBUG:scrapy.core.engine:Crawled (200) <POST http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action> (referer: http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action)
+DEBUG:scrapy.downloadermiddlewares.cookies:Received cookies from: <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+Set-Cookie: JSESSIONID=7CD177BA90586931C3464E81280679FB; Path=/; Secure; HttpOnly
+
+DEBUG:scrapy.core.engine:Crawled (200) <POST http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action> (referer: http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action)
+INFO:scrapy.extensions.logstats:Crawled 32 pages (at 16 pages/min), scraped 11 items (at 1 items/min)
+DEBUG:scrapy.downloadermiddlewares.cookies:Received cookies from: <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+Set-Cookie: JSESSIONID=D21750E6E89C30AD18E06078AB60E92E; Path=/; Secure; HttpOnly
+
+DEBUG:scrapy.core.engine:Crawled (200) <POST http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action> (referer: http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action)
+DEBUG:scrapy.downloadermiddlewares.cookies:Received cookies from: <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+Set-Cookie: JSESSIONID=3C1A17EEED5FFBC3814BAF7F12A3F8AD; Path=/; Secure; HttpOnly
+
+DEBUG:scrapy.core.engine:Crawled (200) <POST http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action> (referer: http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action)
+DEBUG:scrapy.downloadermiddlewares.cookies:Received cookies from: <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+Set-Cookie: JSESSIONID=5EDA4AACC1273FA1821F2A242CFF00D7; Path=/; Secure; HttpOnly
+
+DEBUG:scrapy.core.engine:Crawled (200) <POST http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action> (referer: http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action)
+DEBUG:scrapy.downloadermiddlewares.cookies:Received cookies from: <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+Set-Cookie: JSESSIONID=CA8C3C518717FFC8E337EC80079522B9; Path=/; Secure; HttpOnly
+
+DEBUG:scrapy.core.engine:Crawled (200) <POST http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action> (referer: http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action)
+DEBUG:scrapy.downloadermiddlewares.cookies:Received cookies from: <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+Set-Cookie: JSESSIONID=7AC955F37D3E98A7B6A628C6BEF2D5DE; Path=/; Secure; HttpOnly
+
+DEBUG:scrapy.core.engine:Crawled (200) <POST http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action> (referer: http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action)
+DEBUG:scrapy.downloadermiddlewares.cookies:Received cookies from: <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+Set-Cookie: JSESSIONID=7E0CF551EAF4BE761147447906964E38; Path=/; Secure; HttpOnly
+
+DEBUG:scrapy.core.engine:Crawled (200) <POST http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action> (referer: http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action)
+DEBUG:scrapy.downloadermiddlewares.cookies:Received cookies from: <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+Set-Cookie: JSESSIONID=32C68C5BC2C0EC4743D339D5445E2ABB; Path=/; Secure; HttpOnly
+
+DEBUG:scrapy.core.engine:Crawled (200) <POST http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action> (referer: http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action)
+DEBUG:scrapy.downloadermiddlewares.cookies:Received cookies from: <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+Set-Cookie: JSESSIONID=6185074A1CD2FF1B4D4DC48BC845D538; Path=/; Secure; HttpOnly
+
+DEBUG:scrapy.core.engine:Crawled (200) <POST http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action> (referer: http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action)
+DEBUG:scrapy.downloadermiddlewares.cookies:Received cookies from: <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+Set-Cookie: JSESSIONID=1834752057DC8A216B287CEDFE336B7D; Path=/; Secure; HttpOnly
+
+DEBUG:scrapy.core.engine:Crawled (200) <POST http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action> (referer: http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action)
+DEBUG:scrapy.downloadermiddlewares.cookies:Received cookies from: <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+Set-Cookie: JSESSIONID=8517E31D871F172876BAAE91D412F930; Path=/; Secure; HttpOnly
+
+DEBUG:scrapy.core.engine:Crawled (200) <POST http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action> (referer: http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action)
+DEBUG:scrapy.downloadermiddlewares.cookies:Received cookies from: <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+Set-Cookie: JSESSIONID=2B0D60E11C0AC33EEC5EF13EC7207642; Path=/; Secure; HttpOnly
+
+DEBUG:scrapy.core.engine:Crawled (200) <POST http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action> (referer: http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action)
+DEBUG:scrapy.downloadermiddlewares.cookies:Received cookies from: <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+Set-Cookie: JSESSIONID=2642DF73646FD9840D8E40D63F4E310A; Path=/; Secure; HttpOnly
+
+DEBUG:scrapy.core.engine:Crawled (200) <POST http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action> (referer: http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action)
+DEBUG:scrapy.downloadermiddlewares.cookies:Received cookies from: <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+Set-Cookie: JSESSIONID=951E6C01046C8194EE81542DE9C0C163; Path=/; Secure; HttpOnly
+
+DEBUG:scrapy.core.engine:Crawled (200) <POST http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action> (referer: http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action)
+INFO:scrapy.core.engine:Closing spider (finished)
+INFO:scrapy.statscollectors:Dumping Scrapy stats:
+{'downloader/request_bytes': 38760,
+ 'downloader/request_count': 45,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/request_method_count/POST': 44,
+ 'downloader/response_bytes': 1452487,
+ 'downloader/response_count': 45,
+ 'downloader/response_status_count/200': 45,
+ 'elapsed_time_seconds': 161.657716,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2022, 4, 28, 10, 16, 1, 161700),
+ 'item_scraped_count': 11,
+ 'log_count/DEBUG': 101,
+ 'log_count/INFO': 12,
+ 'request_depth_max': 2,
+ 'response_received_count': 45,
+ 'scheduler/dequeued': 45,
+ 'scheduler/dequeued/memory': 45,
+ 'scheduler/enqueued': 45,
+ 'scheduler/enqueued/memory': 45,
+ 'start_time': datetime.datetime(2022, 4, 28, 10, 13, 19, 503984)}
+INFO:scrapy.core.engine:Spider closed (finished)

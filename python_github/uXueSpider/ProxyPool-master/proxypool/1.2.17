@@ -1,0 +1,6 @@
+Collecting pyquery
+  Downloading https://files.pythonhosted.org/packages/09/c7/ce8c9c37ab8ff8337faad3335c088d60bed4a35a4bed33a64f0e64fbcf29/pyquery-1.4.0-py2.py3-none-any.whl
+Requirement already satisfied: lxml>=2.1 in c:\anaconda3\lib\site-packages (from pyquery) (4.3.0)
+Requirement already satisfied: cssselect>0.7.9 in c:\anaconda3\lib\site-packages (from pyquery) (1.0.3)
+Installing collected packages: pyquery
+Successfully installed pyquery-1.4.0

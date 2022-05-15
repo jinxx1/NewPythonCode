@@ -1,0 +1,14 @@
+# ide
+.idea
+
+# log file
+*.log
+*/*.log
+
+# torrent
+*.torrent
+torrents/
+*/torrents/
+
+# db
+*.db

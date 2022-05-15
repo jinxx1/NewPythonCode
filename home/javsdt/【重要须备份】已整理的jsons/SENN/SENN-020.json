@@ -1,0 +1,38 @@
+{
+    "Car": "SENN-020",
+    "CarOrigin": "",
+    "Series": "",
+    "Title": "\u304a\u59c9\u3061\u3083\u3093\u306e\u5973\u53cb\u9054\u304c\u3048\u3063\u3061\u3067\u30b7\u30e7\u30bf\u30b3\u30f3\u3044\u305f\u305a\u3089\u3055\u308c\u3061\u3083\u3046\u50d5",
+    "TitleZh": "\u59d0\u59d0\u7684\u5973\u670b\u53cb\u56e0\u4e3a\u8272\u60c5\u800c\u88ab\u800d\u6b63\u592a\u63a7\u7684\u6211",
+    "Plot": "\u3010\u5f71\u7247\u4e0b\u67b6\uff0c\u6682\u65e0\u7b80\u4ecb\u3011",
+    "PlotZh": "\u3010\u5f71\u7247\u4e0b\u67b6\uff0c\u6682\u65f6\u65e0\u7b80\u4ecb\u3011",
+    "Review": "",
+    "Release": "2020-07-15",
+    "Runtime": 88,
+    "Director": "\u3072\u3087\u3093",
+    "Studio": "SOD Create",
+    "Publisher": "",
+    "Score": 86,
+    "CoverLibrary": "",
+    "CoverBus": "7rhi_b.jpg",
+    "CutType": 1,
+    "Javdb": "vqq7k",
+    "Javlibrary": "",
+    "Javbus": "SENN-020",
+    "Arzon": "",
+    "CompletionStatus": 5,
+    "Version": 1,
+    "Genres": [
+        "\u5236\u670d",
+        "\u6570\u4f4d\u9a6c\u8d5b\u514b",
+        "\u5e73\u80f8",
+        "\u4f01\u753b",
+        "\u65e0\u7801\u6d41\u51fa",
+        "\u591aP"
+    ],
+    "Actors": [
+        "\u3042\u3079\u307f\u304b\u3053",
+        "\u3042\u304a\u3044\u308c\u306a"
+    ],
+    "Modify": "2021-11-05 16:03:55"
+}

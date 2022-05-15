@@ -1,0 +1,37 @@
+{
+    "Car": "SIRO-3749",
+    "CarOrigin": "",
+    "Series": "",
+    "Title": "\u3010\u521d\u64ae\u308a\u3011\u30cd\u30c3\u30c8\u3067AV\u5fdc\u52df\u2192AV\u4f53\u9a13\u64ae\u5f71 905 \u30b9\u30ec\u30f3\u30c0\u30fc\u5de8\u4e73\u306e\u7f8e\u30dc\u30c7\u30a3\u3092\u60dc\u3057\u307f\u306a\u304f\u62ab\u9732\uff01\u304a\u307e\u25cb\u3053\u3092\u30d2\u30af\u30d2\u30af\u3055\u305b\u3066\u7537\u6839\u3092\u53d7\u3051\u5165\u308c\u308b\u2192\u81ea\u3089\u3082\u8170\u3092\u63fa\u3089\u3057\u4f55\u5ea6\u3082\u7d76\u9802\uff01",
+    "TitleZh": "\u3010\u9996\u6b21\u62cd\u6444\u3011\u5728\u7f51\u4e0a\u62db\u52dfAV\u2192AV\u4f53\u9a8c\u6444\u5f71905\u7ea4\u7ec6\u5de8\u4e73\u7684\u7f8e\u4f53\u6beb\u4e0d\u541d\u60dc\u5730\u62ab\u9732\uff01\u8ba9\u25cb\u25cb\u5b50\u62bd\u6410\u7740\u63a5\u53d7\u7537\u4eba\u7684\u672c\u6027\u2192\u81ea\u5df1\u4e5f\u6447\u7740\u8170\u591a\u6b21\u7edd\u9876\uff01",
+    "Plot": "\u3010\u5f71\u7247\u4e0b\u67b6\uff0c\u6682\u65e0\u7b80\u4ecb\u3011",
+    "PlotZh": "\u3010\u5f71\u7247\u4e0b\u67b6\uff0c\u6682\u65f6\u65e0\u7b80\u4ecb\u3011",
+    "Review": "",
+    "Release": "2019-03-10",
+    "Runtime": 56,
+    "Director": "",
+    "Studio": "\u30b7\u30ed\u30a6\u30c8TV",
+    "Publisher": "",
+    "Score": 80,
+    "CoverLibrary": "",
+    "CoverBus": "",
+    "CutType": 1,
+    "Javdb": "xDEBV",
+    "Javlibrary": "",
+    "Javbus": "",
+    "Arzon": "",
+    "CompletionStatus": 1,
+    "Version": 1,
+    "Genres": [
+        "\u5de8\u4e73",
+        "\u65e0\u6bdb",
+        "\u7f8e\u5c11\u5973",
+        "\u4e3b\u89c2\u89c6\u89d2",
+        "\u82d7\u6761",
+        "\u4e1a\u4f59"
+    ],
+    "Actors": [
+        "\u6cb3\u5317\u9ebb\u8863"
+    ],
+    "Modify": "2021-10-31 20:49:15"
+}

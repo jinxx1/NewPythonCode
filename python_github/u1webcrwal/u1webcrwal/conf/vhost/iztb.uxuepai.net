@@ -1,0 +1,44 @@
+server
+  {
+    server_name iztb.uxuepai.net;
+    index index.html index.htm index.php default.php default.html;
+    access_log  /home/www/logs/iztb.uxuepai.net.log;
+
+    location /mobile {
+        proxy_redirect off;
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+		proxy_pass http://192.168.1.4:80;
+    }
+
+	location /pc {
+        proxy_redirect off;
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+		proxy_pass http://192.168.1.4:80;
+    }
+	
+	location /service {
+        proxy_redirect off;
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+		proxy_pass http://192.168.1.4:80;
+    }
+
+	#location /bidc {
+        #        alias /home/www/umxhbidpc.test/;
+        #        index index.html;
+        #}
+
+	
+	location /bid {
+        proxy_redirect off;
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+	proxy_pass http://192.168.1.4:80;
+    }
+}	

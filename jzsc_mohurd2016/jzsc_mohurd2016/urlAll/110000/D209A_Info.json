@@ -1,0 +1,1 @@
+{"url": "http://jzsc.mohurd.gov.cn/api/webApi/dataservice/query/comp/list?qy_region=110000&apt_code=D209A&pg={}&pgsz=15", "reg_Name": "北京", "apt_Name": "钢结构工程专业承包一级", "reg_id": "110000", "apt_id": "D209A", "total": 105, "crawled_pageNum": 6, "crawled_articleNum": 0, "status": 2, "filePath": "D:\\PythonCode\\jzsc_mohurd2016\\jzsc_mohurd2016\\urlAll\\110000\\D209A_Info.json"}

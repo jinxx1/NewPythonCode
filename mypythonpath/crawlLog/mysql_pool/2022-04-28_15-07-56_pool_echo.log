@@ -1,0 +1,360 @@
+INFO:scrapy.utils.log:Scrapy 2.4.1 started (bot: shangQing)
+INFO:scrapy.utils.log:Versions: lxml 4.6.4.0, libxml2 2.9.12, cssselect 1.1.0, parsel 1.6.0, w3lib 1.22.0, Twisted 20.3.0, Python 3.8.12 | packaged by conda-forge | (default, Oct 12 2021, 21:22:46) [MSC v.1916 64 bit (AMD64)], pyOpenSSL 21.0.0 (OpenSSL 1.1.1n  15 Mar 2022), cryptography 35.0.0, Platform Windows-10-10.0.19043-SP0
+DEBUG:scrapy.utils.log:Using reactor: twisted.internet.selectreactor.SelectReactor
+INFO:scrapy.crawler:Overridden settings:
+{'BOT_NAME': 'shangQing',
+ 'CLOSESPIDER_ERRORCOUNT': 10,
+ 'CONCURRENT_REQUESTS': 32,
+ 'CONCURRENT_REQUESTS_PER_IP': 16,
+ 'COOKIES_DEBUG': True,
+ 'DOWNLOAD_DELAY': 3,
+ 'DOWNLOAD_TIMEOUT': 120,
+ 'NEWSPIDER_MODULE': 'shangQing.spiders',
+ 'SPIDER_MODULES': ['shangQing.spiders']}
+INFO:scrapy.extensions.telnet:Telnet Password: 72b5922c6760b533
+INFO:scrapy.middleware:Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.closespider.CloseSpider',
+ 'scrapy.extensions.logstats.LogStats']
+INFO:scrapy.middleware:Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+INFO:scrapy.middleware:Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+INFO:scrapy.middleware:Enabled item pipelines:
+['shangQing.pipelines.ShangqingPipeline']
+INFO:scrapy.core.engine:Spider opened
+INFO:scrapy.extensions.logstats:Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+INFO:scrapy.extensions.telnet:Telnet console listening on 127.0.0.1:6023
+DEBUG:scrapy.downloadermiddlewares.cookies:Received cookies from: <200 http://www.ccgp-jilin.gov.cn/ext/search/keyPair.action>
+Set-Cookie: JSESSIONID=C0B25FF05BC3D336249ECAE8306A5759; Path=/; Secure; HttpOnly
+
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.ccgp-jilin.gov.cn/ext/search/keyPair.action> (referer: None)
+DEBUG:scrapy.downloadermiddlewares.cookies:Received cookies from: <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+Set-Cookie: JSESSIONID=583A61D1C506DC49CBA96373A40DB5E4; Path=/; Secure; HttpOnly
+
+DEBUG:scrapy.core.engine:Crawled (200) <POST http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action> (referer: http://www.ccgp-jilin.gov.cn/ext/search/keyPair.action)
+DEBUG:scrapy.downloadermiddlewares.cookies:Received cookies from: <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+Set-Cookie: JSESSIONID=886C7A88C6C150BF55CBD34AA0F1AAEC; Path=/; Secure; HttpOnly
+
+DEBUG:scrapy.core.engine:Crawled (200) <POST http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action> (referer: http://www.ccgp-jilin.gov.cn/ext/search/keyPair.action)
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+{'city_name': '通化市',
+ 'issue_time': '2022-04-28 00:00:00',
+ 'page_url': 'http://www.ccgp-jilin.gov.cn/ext/search/gotoHelpFrontList.action?articleId=255377',
+ 'province_name': '吉林省',
+ 'purchase_type': '合同、验收公告',
+ 'site': 'www.ccgp-jilin.gov.cn',
+ 'subclass': '市县级采购公告',
+ 'title': '关于数码相机包的网上超市合同公告'}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+{'city_name': '四平市',
+ 'issue_time': '2022-04-28 00:00:00',
+ 'page_url': 'http://www.ccgp-jilin.gov.cn/ext/search/gotoHelpFrontList.action?articleId=255376',
+ 'province_name': '吉林省',
+ 'purchase_type': '合同、验收公告',
+ 'site': 'www.ccgp-jilin.gov.cn',
+ 'subclass': '市县级采购公告',
+ 'title': '关于胶带/胶纸/胶条的网上超市合同公告'}
+INFO:scrapy.extensions.logstats:Crawled 3 pages (at 3 pages/min), scraped 2 items (at 2 items/min)
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+{'city_name': '四平市',
+ 'issue_time': '2022-04-28 00:00:00',
+ 'page_url': 'http://www.ccgp-jilin.gov.cn/ext/search/gotoHelpFrontList.action?articleId=255375',
+ 'province_name': '吉林省',
+ 'purchase_type': '合同、验收公告',
+ 'site': 'www.ccgp-jilin.gov.cn',
+ 'subclass': '市县级采购公告',
+ 'title': '关于桌面文件柜的网上超市合同公告'}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+{'city_name': '',
+ 'issue_time': '2022-04-28 00:00:00',
+ 'page_url': 'http://www.ccgp-jilin.gov.cn/ext/search/gotoHelpFrontList.action?articleId=255374',
+ 'province_name': '吉林省',
+ 'purchase_type': '合同、验收公告',
+ 'site': 'www.ccgp-jilin.gov.cn',
+ 'subclass': '市县级采购公告',
+ 'title': '延边州直属机关工作委员会的合同公告'}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+{'city_name': '白城市',
+ 'issue_time': '2022-04-28 00:00:00',
+ 'page_url': 'http://www.ccgp-jilin.gov.cn/ext/search/gotoHelpFrontList.action?articleId=255373',
+ 'province_name': '吉林省',
+ 'purchase_type': '合同、验收公告',
+ 'site': 'www.ccgp-jilin.gov.cn',
+ 'subclass': '市县级采购公告',
+ 'title': '镇赉县镇赉镇中心卫生院的合同公告'}
+DEBUG:scrapy.downloadermiddlewares.cookies:Received cookies from: <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+Set-Cookie: JSESSIONID=748E6DA5F7B8169CA7E0356FA878D454; Path=/; Secure; HttpOnly
+
+DEBUG:scrapy.core.engine:Crawled (200) <POST http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action> (referer: http://www.ccgp-jilin.gov.cn/ext/search/keyPair.action)
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+{'city_name': '',
+ 'issue_time': '2022-04-28 00:00:00',
+ 'page_url': 'http://www.ccgp-jilin.gov.cn/ext/search/gotoHelpFrontList.action?articleId=255372',
+ 'province_name': '吉林省',
+ 'purchase_type': '合同、验收公告',
+ 'site': 'www.ccgp-jilin.gov.cn',
+ 'subclass': '市县级采购公告',
+ 'title': '关于普通路由器的网上超市合同公告'}
+DEBUG:scrapy.downloadermiddlewares.cookies:Received cookies from: <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+Set-Cookie: JSESSIONID=4D921EBA916E586F647ECA81D9A5650D; Path=/; Secure; HttpOnly
+
+DEBUG:scrapy.core.engine:Crawled (200) <POST http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action> (referer: http://www.ccgp-jilin.gov.cn/ext/search/keyPair.action)
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+{'city_name': '通化市',
+ 'issue_time': '2022-04-28 00:00:00',
+ 'page_url': 'http://www.ccgp-jilin.gov.cn/ext/search/gotoHelpFrontList.action?articleId=255371',
+ 'province_name': '吉林省',
+ 'purchase_type': '合同、验收公告',
+ 'site': 'www.ccgp-jilin.gov.cn',
+ 'subclass': '市县级采购公告',
+ 'title': '关于碎纸机的网上超市合同公告'}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+{'city_name': '延边朝鲜族自治州',
+ 'issue_time': '2022-04-28 00:00:00',
+ 'page_url': 'http://www.ccgp-jilin.gov.cn/ext/search/gotoHelpFrontList.action?articleId=255370',
+ 'province_name': '吉林省',
+ 'purchase_type': '成交公告',
+ 'site': 'www.ccgp-jilin.gov.cn',
+ 'subclass': '市县级采购公告',
+ 'title': '汪清县教育局车辆加油公告'}
+DEBUG:scrapy.downloadermiddlewares.cookies:Received cookies from: <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+Set-Cookie: JSESSIONID=66AFBBF886DC7F48EEDF9725125966C9; Path=/; Secure; HttpOnly
+
+DEBUG:scrapy.core.engine:Crawled (200) <POST http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action> (referer: http://www.ccgp-jilin.gov.cn/ext/search/keyPair.action)
+DEBUG:scrapy.downloadermiddlewares.cookies:Received cookies from: <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+Set-Cookie: JSESSIONID=1EEE6EC0327E121CC1CE119E0BB68F69; Path=/; Secure; HttpOnly
+
+DEBUG:scrapy.core.engine:Crawled (200) <POST http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action> (referer: http://www.ccgp-jilin.gov.cn/ext/search/keyPair.action)
+DEBUG:scrapy.downloadermiddlewares.cookies:Received cookies from: <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+Set-Cookie: JSESSIONID=4D1C5BA1674871CE8CA5FECBE66EE7CD; Path=/; Secure; HttpOnly
+
+DEBUG:scrapy.core.engine:Crawled (200) <POST http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action> (referer: http://www.ccgp-jilin.gov.cn/ext/search/keyPair.action)
+DEBUG:scrapy.downloadermiddlewares.cookies:Received cookies from: <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+Set-Cookie: JSESSIONID=77A6BB85B3A8178B9AC3A9D7B2143F45; Path=/; Secure; HttpOnly
+
+DEBUG:scrapy.core.engine:Crawled (200) <POST http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action> (referer: http://www.ccgp-jilin.gov.cn/ext/search/keyPair.action)
+DEBUG:scrapy.downloadermiddlewares.cookies:Received cookies from: <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+Set-Cookie: JSESSIONID=6F944CE3BE81BC8802178E1E40AB8D87; Path=/; Secure; HttpOnly
+
+DEBUG:scrapy.core.engine:Crawled (200) <POST http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action> (referer: http://www.ccgp-jilin.gov.cn/ext/search/keyPair.action)
+DEBUG:scrapy.downloadermiddlewares.cookies:Received cookies from: <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+Set-Cookie: JSESSIONID=C7F4920E3709776CC7C24ED0FEAE5D4C; Path=/; Secure; HttpOnly
+
+DEBUG:scrapy.core.engine:Crawled (200) <POST http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action> (referer: http://www.ccgp-jilin.gov.cn/ext/search/keyPair.action)
+DEBUG:scrapy.downloadermiddlewares.cookies:Received cookies from: <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+Set-Cookie: JSESSIONID=9340EC8E8D1C89C8FE7D0443E8391BEA; Path=/; Secure; HttpOnly
+
+DEBUG:scrapy.core.engine:Crawled (200) <POST http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action> (referer: http://www.ccgp-jilin.gov.cn/ext/search/keyPair.action)
+DEBUG:scrapy.downloadermiddlewares.cookies:Received cookies from: <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+Set-Cookie: JSESSIONID=C9E754672A395263578031A677733796; Path=/; Secure; HttpOnly
+
+DEBUG:scrapy.core.engine:Crawled (200) <POST http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action> (referer: http://www.ccgp-jilin.gov.cn/ext/search/keyPair.action)
+DEBUG:scrapy.downloadermiddlewares.cookies:Received cookies from: <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+Set-Cookie: JSESSIONID=6E0F4CFCE55938C0E60D30CAA97D47EA; Path=/; Secure; HttpOnly
+
+DEBUG:scrapy.core.engine:Crawled (200) <POST http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action> (referer: http://www.ccgp-jilin.gov.cn/ext/search/keyPair.action)
+DEBUG:scrapy.downloadermiddlewares.cookies:Received cookies from: <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+Set-Cookie: JSESSIONID=948456F4085EA4F82B37730217523AFD; Path=/; Secure; HttpOnly
+
+DEBUG:scrapy.core.engine:Crawled (200) <POST http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action> (referer: http://www.ccgp-jilin.gov.cn/ext/search/keyPair.action)
+DEBUG:scrapy.downloadermiddlewares.cookies:Received cookies from: <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+Set-Cookie: JSESSIONID=348CC00386B3F22A265FF2EEB2EC1B5F; Path=/; Secure; HttpOnly
+
+DEBUG:scrapy.core.engine:Crawled (200) <POST http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action> (referer: http://www.ccgp-jilin.gov.cn/ext/search/keyPair.action)
+DEBUG:scrapy.downloadermiddlewares.cookies:Received cookies from: <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+Set-Cookie: JSESSIONID=7FFD2CD31D1B8DD703C556C7CA07BAA5; Path=/; Secure; HttpOnly
+
+DEBUG:scrapy.core.engine:Crawled (200) <POST http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action> (referer: http://www.ccgp-jilin.gov.cn/ext/search/keyPair.action)
+INFO:scrapy.extensions.logstats:Crawled 17 pages (at 14 pages/min), scraped 8 items (at 6 items/min)
+DEBUG:scrapy.downloadermiddlewares.cookies:Received cookies from: <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+Set-Cookie: JSESSIONID=62B51DB1C40292D98AE71A807618FBFA; Path=/; Secure; HttpOnly
+
+DEBUG:scrapy.core.engine:Crawled (200) <POST http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action> (referer: http://www.ccgp-jilin.gov.cn/ext/search/keyPair.action)
+DEBUG:scrapy.downloadermiddlewares.cookies:Received cookies from: <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+Set-Cookie: JSESSIONID=29338C3B692A131E7A0FBF8473A8D243; Path=/; Secure; HttpOnly
+
+DEBUG:scrapy.core.engine:Crawled (200) <POST http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action> (referer: http://www.ccgp-jilin.gov.cn/ext/search/keyPair.action)
+DEBUG:scrapy.downloadermiddlewares.cookies:Received cookies from: <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+Set-Cookie: JSESSIONID=068C33FC4CFBFBC272B41AC4D826DF88; Path=/; Secure; HttpOnly
+
+DEBUG:scrapy.core.engine:Crawled (200) <POST http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action> (referer: http://www.ccgp-jilin.gov.cn/ext/search/keyPair.action)
+ERROR:scrapy.core.scraper:Spider error processing <POST http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action> (referer: http://www.ccgp-jilin.gov.cn/ext/search/keyPair.action)
+Traceback (most recent call last):
+  File "c:\anaconda3\lib\site-packages\scrapy\utils\defer.py", line 120, in iter_errback
+    yield next(it)
+  File "c:\anaconda3\lib\site-packages\scrapy\utils\python.py", line 353, in __next__
+    return next(self.data)
+  File "c:\anaconda3\lib\site-packages\scrapy\utils\python.py", line 353, in __next__
+    return next(self.data)
+  File "c:\anaconda3\lib\site-packages\scrapy\core\spidermw.py", line 62, in _evaluate_iterable
+    for r in iterable:
+  File "c:\anaconda3\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "c:\anaconda3\lib\site-packages\scrapy\core\spidermw.py", line 62, in _evaluate_iterable
+    for r in iterable:
+  File "c:\anaconda3\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 340, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "c:\anaconda3\lib\site-packages\scrapy\core\spidermw.py", line 62, in _evaluate_iterable
+    for r in iterable:
+  File "c:\anaconda3\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "c:\anaconda3\lib\site-packages\scrapy\core\spidermw.py", line 62, in _evaluate_iterable
+    for r in iterable:
+  File "c:\anaconda3\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "c:\anaconda3\lib\site-packages\scrapy\core\spidermw.py", line 62, in _evaluate_iterable
+    for r in iterable:
+  File "D:\PythonCode\MyCrawlFrame\scrapyModel\shangQing\shangQing\spiders\jilin_ccgp.py", line 170, in parse_hub
+    links = soup.find('div', id='list_right').find_all('li')
+AttributeError: 'NoneType' object has no attribute 'find_all'
+DEBUG:scrapy.downloadermiddlewares.cookies:Received cookies from: <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+Set-Cookie: JSESSIONID=9FAA062A539601B6B24C3355A8F5FB4D; Path=/; Secure; HttpOnly
+
+DEBUG:scrapy.core.engine:Crawled (200) <POST http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action> (referer: http://www.ccgp-jilin.gov.cn/ext/search/keyPair.action)
+ERROR:scrapy.core.scraper:Spider error processing <POST http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action> (referer: http://www.ccgp-jilin.gov.cn/ext/search/keyPair.action)
+Traceback (most recent call last):
+  File "c:\anaconda3\lib\site-packages\scrapy\utils\defer.py", line 120, in iter_errback
+    yield next(it)
+  File "c:\anaconda3\lib\site-packages\scrapy\utils\python.py", line 353, in __next__
+    return next(self.data)
+  File "c:\anaconda3\lib\site-packages\scrapy\utils\python.py", line 353, in __next__
+    return next(self.data)
+  File "c:\anaconda3\lib\site-packages\scrapy\core\spidermw.py", line 62, in _evaluate_iterable
+    for r in iterable:
+  File "c:\anaconda3\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "c:\anaconda3\lib\site-packages\scrapy\core\spidermw.py", line 62, in _evaluate_iterable
+    for r in iterable:
+  File "c:\anaconda3\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 340, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "c:\anaconda3\lib\site-packages\scrapy\core\spidermw.py", line 62, in _evaluate_iterable
+    for r in iterable:
+  File "c:\anaconda3\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "c:\anaconda3\lib\site-packages\scrapy\core\spidermw.py", line 62, in _evaluate_iterable
+    for r in iterable:
+  File "c:\anaconda3\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "c:\anaconda3\lib\site-packages\scrapy\core\spidermw.py", line 62, in _evaluate_iterable
+    for r in iterable:
+  File "D:\PythonCode\MyCrawlFrame\scrapyModel\shangQing\shangQing\spiders\jilin_ccgp.py", line 170, in parse_hub
+    links = soup.find('div', id='list_right').find_all('li')
+AttributeError: 'NoneType' object has no attribute 'find_all'
+DEBUG:scrapy.downloadermiddlewares.cookies:Received cookies from: <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+Set-Cookie: JSESSIONID=178D825985331AB0D6262E50C3AA8174; Path=/; Secure; HttpOnly
+
+DEBUG:scrapy.core.engine:Crawled (200) <POST http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action> (referer: http://www.ccgp-jilin.gov.cn/ext/search/keyPair.action)
+ERROR:scrapy.core.scraper:Spider error processing <POST http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action> (referer: http://www.ccgp-jilin.gov.cn/ext/search/keyPair.action)
+Traceback (most recent call last):
+  File "c:\anaconda3\lib\site-packages\scrapy\utils\defer.py", line 120, in iter_errback
+    yield next(it)
+  File "c:\anaconda3\lib\site-packages\scrapy\utils\python.py", line 353, in __next__
+    return next(self.data)
+  File "c:\anaconda3\lib\site-packages\scrapy\utils\python.py", line 353, in __next__
+    return next(self.data)
+  File "c:\anaconda3\lib\site-packages\scrapy\core\spidermw.py", line 62, in _evaluate_iterable
+    for r in iterable:
+  File "c:\anaconda3\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "c:\anaconda3\lib\site-packages\scrapy\core\spidermw.py", line 62, in _evaluate_iterable
+    for r in iterable:
+  File "c:\anaconda3\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 340, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "c:\anaconda3\lib\site-packages\scrapy\core\spidermw.py", line 62, in _evaluate_iterable
+    for r in iterable:
+  File "c:\anaconda3\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "c:\anaconda3\lib\site-packages\scrapy\core\spidermw.py", line 62, in _evaluate_iterable
+    for r in iterable:
+  File "c:\anaconda3\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "c:\anaconda3\lib\site-packages\scrapy\core\spidermw.py", line 62, in _evaluate_iterable
+    for r in iterable:
+  File "D:\PythonCode\MyCrawlFrame\scrapyModel\shangQing\shangQing\spiders\jilin_ccgp.py", line 170, in parse_hub
+    links = soup.find('div', id='list_right').find_all('li')
+AttributeError: 'NoneType' object has no attribute 'find_all'
+DEBUG:scrapy.downloadermiddlewares.cookies:Received cookies from: <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+Set-Cookie: JSESSIONID=57C79261625C62C90274438EC2C3BC96; Path=/; Secure; HttpOnly
+
+DEBUG:scrapy.core.engine:Crawled (200) <POST http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action> (referer: http://www.ccgp-jilin.gov.cn/ext/search/keyPair.action)
+ERROR:scrapy.core.scraper:Spider error processing <POST http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action> (referer: http://www.ccgp-jilin.gov.cn/ext/search/keyPair.action)
+Traceback (most recent call last):
+  File "c:\anaconda3\lib\site-packages\scrapy\utils\defer.py", line 120, in iter_errback
+    yield next(it)
+  File "c:\anaconda3\lib\site-packages\scrapy\utils\python.py", line 353, in __next__
+    return next(self.data)
+  File "c:\anaconda3\lib\site-packages\scrapy\utils\python.py", line 353, in __next__
+    return next(self.data)
+  File "c:\anaconda3\lib\site-packages\scrapy\core\spidermw.py", line 62, in _evaluate_iterable
+    for r in iterable:
+  File "c:\anaconda3\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "c:\anaconda3\lib\site-packages\scrapy\core\spidermw.py", line 62, in _evaluate_iterable
+    for r in iterable:
+  File "c:\anaconda3\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 340, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "c:\anaconda3\lib\site-packages\scrapy\core\spidermw.py", line 62, in _evaluate_iterable
+    for r in iterable:
+  File "c:\anaconda3\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "c:\anaconda3\lib\site-packages\scrapy\core\spidermw.py", line 62, in _evaluate_iterable
+    for r in iterable:
+  File "c:\anaconda3\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "c:\anaconda3\lib\site-packages\scrapy\core\spidermw.py", line 62, in _evaluate_iterable
+    for r in iterable:
+  File "D:\PythonCode\MyCrawlFrame\scrapyModel\shangQing\shangQing\spiders\jilin_ccgp.py", line 170, in parse_hub
+    links = soup.find('div', id='list_right').find_all('li')
+AttributeError: 'NoneType' object has no attribute 'find_all'
+DEBUG:scrapy.downloadermiddlewares.cookies:Received cookies from: <200 http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action>
+Set-Cookie: JSESSIONID=52017763D1D34FEE8930FF841929A0EB; Path=/; Secure; HttpOnly
+
+DEBUG:scrapy.core.engine:Crawled (200) <POST http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action> (referer: http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action)
+ERROR:scrapy.core.scraper:Spider error processing <POST http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action> (referer: http://www.ccgp-jilin.gov.cn/ext/search/morePolicyNews.action)
+Traceback (most recent call last):
+  File "c:\anaconda3\lib\site-packages\scrapy\utils\defer.py", line 120, in iter_errback
+    yield next(it)
+  File "c:\anaconda3\lib\site-packages\scrapy\utils\python.py", line 353, in __next__
+    return next(self.data)
+  File "c:\anaconda3\lib\site-packages\scrapy\utils\python.py", line 353, in __next__
+    return next(self.data)
+  File "c:\anaconda3\lib\site-packages\scrapy\core\spidermw.py", line 62, in _evaluate_iterable
+    for r in iterable:
+  File "c:\anaconda3\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "c:\anaconda3\lib\site-packages\scrapy\core\spidermw.py", line 62, in _evaluate_iterable
+    for r in iterable:
+  File "c:\anaconda3\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 340, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "c:\anaconda3\lib\site-packages\scrapy\core\spidermw.py", line 62, in _evaluate_iterable
+    for r in iterable:
+  File "c:\anaconda3\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "c:\anaconda3\lib\site-packages\scrapy\core\spidermw.py", line 62, in _evaluate_iterable
+    for r in iterable:
+  File "c:\anaconda3\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "c:\anaconda3\lib\site-packages\scrapy\core\spidermw.py", line 62, in _evaluate_iterable
+    for r in iterable:
+  File "D:\PythonCode\MyCrawlFrame\scrapyModel\shangQing\shangQing\spiders\jilin_ccgp.py", line 170, in parse_hub
+    links = soup.find('div', id='list_right').find_all('li')
+AttributeError: 'NoneType' object has no attribute 'find_all'
+INFO:scrapy.crawler:Received SIGINT, shutting down gracefully. Send again to force 
+INFO:scrapy.core.engine:Closing spider (shutdown)
+INFO:scrapy.crawler:Received SIGINT twice, forcing unclean shutdown

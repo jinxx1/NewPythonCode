@@ -1,0 +1,14 @@
+ccgp_neimenggu
+ccgp_shanxi
+ccgp_guangxi
+ccgp_chongqing
+ccgp_zhejiang
+ccgp_shandong
+ccgp_sichuan
+ccgp_shanghai
+ccgp_jiangsu
+ccgp_henan
+ccgp_guangdong
+ccgp_xizang
+ccgp_heilongjiang
+dealggzy

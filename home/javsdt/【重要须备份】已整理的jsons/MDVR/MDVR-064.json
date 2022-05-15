@@ -1,0 +1,39 @@
+{
+    "Car": "MDVR-064",
+    "CarOrigin": "mdvr00064",
+    "Series": "",
+    "Title": "\u3010VR\u3011\u3010HQ\u9ad8\u753b\u8cea\u3011\u30d7\u30fc\u30eb\u3067\u6eba\u308c\u305f\u30dc\u30af\u3092\u52a9\u3051\u3066\u304f\u308c\u305f\u306e\u306f\u7f8e\u4eba\u76e3\u8996\u54e1\uff01 \u4eba\u5de5\u547c\u5438\u3055\u308c\u3066\u3044\u308b\u3068\u304d\u582a\u3089\u305a\u30d9\u30ed\u30ad\u30b9\u304b\u307e\u3057\u305f\u3089\u6b32\u6c42\u4e0d\u6e80\u3060\u3063\u305f\u306e\u304b\u304a\u59c9\u3055\u3093\u306f\u30cf\u30a1\u30cf\u30a1\u72b6\u614b\u306b\uff01\u3073\u3061\u3087\u6fe1\u308c\u3067\u4f55\u5ea6\u3082\u75f4\u5973\u3089\u308c\u4e2d\u51fa\u3057\uff01",
+    "TitleZh": "\u3010VR\u3011\u3010HQ\u9ad8\u753b\u8d28\u3011\u5728\u6e38\u6cf3\u6c60\u91cc\u6eba\u6c34\u7684\u662f\u7f8e\u5973\u76d1\u89c6\u5458\uff01\u5728\u4eba\u5de5\u547c\u5438\u7684\u65f6\u5019\uff0c\u5982\u679c\u5fcd\u4e0d\u4f4f\u4eb2\u4e86\u5979\uff0c\u59d0\u59d0\u53ef\u80fd\u662f\u6b32\u6c42\u4e0d\u6ee1\u5427\uff01\u88ab\u75f4\u5973\u591a\u6b21\u6253\u6e7f\uff01",
+    "Plot": "\u3010\u5f71\u7247\u4e0b\u67b6\uff0c\u6682\u65e0\u7b80\u4ecb\u3011",
+    "PlotZh": "\u3010\u5f71\u7247\u4e0b\u67b6\uff0c\u6682\u65f6\u65e0\u7b80\u4ecb\u3011",
+    "Review": "",
+    "Release": "2019-10-16",
+    "Runtime": 85,
+    "Director": "",
+    "Studio": "MOODYZ",
+    "Publisher": "MOODYZ VR",
+    "Score": 86,
+    "CoverLibrary": "http://pics.dmm.co.jp/digital/video/mdvr00064/mdvr00064pl.jpg",
+    "CoverBus": "7csr_b.jpg",
+    "CutType": 1,
+    "Javdb": "YqbXd",
+    "Javlibrary": "javli6im5a",
+    "Javbus": "MDVR-064",
+    "Arzon": "",
+    "CompletionStatus": 6,
+    "Version": 1,
+    "Genres": [
+        "\u5de8\u4e73",
+        "\u6cf3\u88c5",
+        "\u5355\u4f53\u4f5c\u54c1",
+        "\u4e2d\u51fa",
+        "\u7cbe\u9009\u7efc\u5408",
+        "\u63a5\u543b",
+        "\u53e3\u4ea4",
+        "VR"
+    ],
+    "Actors": [
+        "\u6df1\u7530\u3048\u3044\u307f"
+    ],
+    "Modify": "2021-10-31 21:02:47"
+}

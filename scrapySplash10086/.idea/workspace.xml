@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fc3a4af3-578c-4438-a265-33f585edee3f" name="Default Changelist" comment="Default Changelist" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="D:\PythonCode\scrapySplash10086\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1gWW9JxBpOaeRzEK7iYMrNuVKRj" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\PythonCode\scrapySplash10086\spalsh10086\spalsh10086" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.ccgp_cq">
+    <configuration name="HANDINSERT" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="scrapySplash10086" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Anaconda3\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/spalsh10086" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/spalsh10086/HANDINSERT.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="scrapySplash10086" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ccgp_cq" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="scrapySplash10086" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Anaconda3\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/spalsh10086/spalsh10086" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/spalsh10086/spalsh10086/ccgp_cq.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ccgp_cq" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="scrapySplash10086" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Anaconda3\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/spalsh10086/spalsh10086" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="D:\PythonCode\scrapySplash10086\spalsh10086\spalsh10086\ccgp_cq.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="chaxun" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="scrapySplash10086" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Anaconda3\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/spalsh10086" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/spalsh10086/chaxun.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="scrapyParse" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="scrapySplash10086" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Anaconda3\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/spalsh10086/spalsh10086" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/spalsh10086/spalsh10086/scrapyParse.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="scrapySplash10086" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Anaconda3\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/spalsh10086/spalsh10086" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/spalsh10086/spalsh10086/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.HANDINSERT" />
+      <item itemvalue="Python.ccgp_cq" />
+      <item itemvalue="Python.chaxun" />
+      <item itemvalue="Python.scrapyParse" />
+      <item itemvalue="Python.test" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.ccgp_cq" />
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.chaxun" />
+        <item itemvalue="Python.scrapyParse" />
+        <item itemvalue="Python.HANDINSERT" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fc3a4af3-578c-4438-a265-33f585edee3f" name="Default Changelist" comment="" />
+      <created>1598230675951</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1598230675951</updated>
+      <workItem from="1598230680659" duration="2084000" />
+      <workItem from="1599812352552" duration="606000" />
+      <workItem from="1600918528400" duration="1885000" />
+      <workItem from="1601005762716" duration="17000" />
+      <workItem from="1601008484689" duration="2035000" />
+      <workItem from="1601227212759" duration="3860000" />
+      <workItem from="1608529925556" duration="9272000" />
+      <workItem from="1608603111607" duration="634000" />
+      <workItem from="1609835985384" duration="782000" />
+      <workItem from="1609999459194" duration="1204000" />
+      <workItem from="1610206520798" duration="602000" />
+      <workItem from="1610349089398" duration="1880000" />
+      <workItem from="1610417628272" duration="1156000" />
+      <workItem from="1610590454076" duration="1910000" />
+      <workItem from="1610790100595" duration="1402000" />
+      <workItem from="1611285169741" duration="1353000" />
+      <workItem from="1611302922638" duration="608000" />
+      <workItem from="1611381437637" duration="595000" />
+      <workItem from="1611408301270" duration="2000" />
+      <workItem from="1611721790357" duration="13000" />
+      <workItem from="1611721811200" duration="18000" />
+      <workItem from="1611827051890" duration="4000" />
+      <workItem from="1612251587557" duration="2000" />
+      <workItem from="1615173360297" duration="13000" />
+      <workItem from="1615173387260" duration="11855000" />
+      <workItem from="1615209078312" duration="3025000" />
+      <workItem from="1615259591569" duration="1757000" />
+      <workItem from="1615375981077" duration="7077000" />
+      <workItem from="1615428704708" duration="32986000" />
+      <workItem from="1615570039358" duration="615000" />
+      <workItem from="1615644991620" duration="926000" />
+      <workItem from="1615778258299" duration="4614000" />
+      <workItem from="1615859686872" duration="1211000" />
+      <workItem from="1615864904517" duration="596000" />
+      <workItem from="1615884502130" duration="619000" />
+      <workItem from="1615901436407" duration="1804000" />
+      <workItem from="1618930912543" duration="846000" />
+      <workItem from="1618931778619" duration="265000" />
+      <workItem from="1618932080443" duration="859000" />
+      <workItem from="1618933258821" duration="1526000" />
+      <workItem from="1618935305655" duration="27000" />
+      <workItem from="1618935341126" duration="336000" />
+      <workItem from="1618935689250" duration="380000" />
+      <workItem from="1618936081311" duration="1051000" />
+      <workItem from="1618970678886" duration="3496000" />
+      <workItem from="1619057494884" duration="15075000" />
+      <workItem from="1619105018797" duration="1346000" />
+      <workItem from="1619140483679" duration="5663000" />
+      <workItem from="1619315349371" duration="24035000" />
+      <workItem from="1619356366283" duration="1440000" />
+      <workItem from="1619486720207" duration="2912000" />
+      <workItem from="1619525619150" duration="1034000" />
+      <workItem from="1619539825085" duration="3098000" />
+      <workItem from="1619590194999" duration="2148000" />
+      <workItem from="1619611131283" duration="625000" />
+      <workItem from="1619667462446" duration="3590000" />
+      <workItem from="1619750544498" duration="1390000" />
+      <workItem from="1620098380091" duration="121000" />
+      <workItem from="1620098563908" duration="1937000" />
+      <workItem from="1620525207869" duration="1090000" />
+      <workItem from="1620701686297" duration="1095000" />
+      <workItem from="1621066901331" duration="3945000" />
+      <workItem from="1621301694781" duration="624000" />
+      <workItem from="1621476824869" duration="1236000" />
+      <workItem from="1621565825710" duration="1951000" />
+      <workItem from="1621648993324" duration="1299000" />
+      <workItem from="1621692876508" duration="7136000" />
+      <workItem from="1621761680642" duration="1644000" />
+      <workItem from="1621817728817" duration="1852000" />
+      <workItem from="1621824734589" duration="3827000" />
+      <workItem from="1621909523666" duration="623000" />
+      <workItem from="1622037422928" duration="1078000" />
+      <workItem from="1622076829031" duration="621000" />
+      <workItem from="1622172654401" duration="696000" />
+      <workItem from="1622424760457" duration="11000" />
+      <workItem from="1622453634807" duration="1388000" />
+      <workItem from="1622604193675" duration="548000" />
+      <workItem from="1622685599677" duration="383000" />
+      <workItem from="1622771956048" duration="5025000" />
+      <workItem from="1623032840557" duration="5447000" />
+      <workItem from="1623051030583" duration="6261000" />
+      <workItem from="1623136924799" duration="2422000" />
+      <workItem from="1623201689491" duration="2343000" />
+      <workItem from="1623244576910" duration="1949000" />
+      <workItem from="1623755697470" duration="1760000" />
+      <workItem from="1623805262267" duration="2756000" />
+      <workItem from="1623845769307" duration="83000" />
+      <workItem from="1624690849333" duration="3025000" />
+      <workItem from="1624763770306" duration="1391000" />
+      <workItem from="1624847868166" duration="1000" />
+      <workItem from="1624951676207" duration="800000" />
+      <workItem from="1625189003844" duration="368000" />
+      <workItem from="1625192355739" duration="3578000" />
+      <workItem from="1625461366422" duration="1154000" />
+      <workItem from="1625537243344" duration="1204000" />
+      <workItem from="1625623483755" duration="1233000" />
+      <workItem from="1626502283097" duration="1693000" />
+      <workItem from="1626660342883" duration="1206000" />
+      <workItem from="1627441808108" duration="1490000" />
+      <workItem from="1627523456699" duration="869000" />
+      <workItem from="1627524437321" duration="974000" />
+      <workItem from="1627693764155" duration="1583000" />
+      <workItem from="1628558601632" duration="8077000" />
+      <workItem from="1628758798436" duration="988000" />
+      <workItem from="1628841669306" duration="596000" />
+      <workItem from="1628854153789" duration="1507000" />
+      <workItem from="1629079733371" duration="1797000" />
+      <workItem from="1629248792628" duration="42000" />
+      <workItem from="1629339083598" duration="2111000" />
+      <workItem from="1629511011400" duration="4512000" />
+      <workItem from="1630113590594" duration="4069000" />
+      <workItem from="1630375552551" duration="2829000" />
+      <workItem from="1630444816205" duration="1194000" />
+      <workItem from="1630543976048" duration="321000" />
+      <workItem from="1630547355112" duration="1246000" />
+      <workItem from="1630583337397" duration="666000" />
+      <workItem from="1630633811108" duration="2019000" />
+      <workItem from="1630747604832" duration="3946000" />
+      <workItem from="1630811275588" duration="582000" />
+      <workItem from="1630812634467" duration="597000" />
+      <workItem from="1630918702816" duration="645000" />
+      <workItem from="1630977970972" duration="4416000" />
+      <workItem from="1631082861924" duration="660000" />
+      <workItem from="1631094018270" duration="805000" />
+      <workItem from="1631164211586" duration="1138000" />
+      <workItem from="1631752614052" duration="1253000" />
+      <workItem from="1632477287315" duration="1068000" />
+      <workItem from="1632478674626" duration="1549000" />
+      <workItem from="1632966240127" duration="1090000" />
+      <workItem from="1633412767861" duration="2315000" />
+      <workItem from="1634017028938" duration="2259000" />
+      <workItem from="1634111143184" duration="1077000" />
+      <workItem from="1634262428700" duration="1639000" />
+      <workItem from="1634434967676" duration="14000" />
+      <workItem from="1635210671691" duration="2918000" />
+      <workItem from="1636537960915" duration="1869000" />
+      <workItem from="1639129263335" duration="3652000" />
+      <workItem from="1639190263800" duration="1770000" />
+      <workItem from="1639794484831" duration="1276000" />
+      <workItem from="1639821678496" duration="703000" />
+      <workItem from="1639880438428" duration="5103000" />
+      <workItem from="1639995569546" duration="3193000" />
+      <workItem from="1640049179070" duration="2202000" />
+      <workItem from="1640080855753" duration="3353000" />
+      <workItem from="1640136176771" duration="609000" />
+      <workItem from="1640226839176" duration="2316000" />
+      <workItem from="1640257324711" duration="4166000" />
+      <workItem from="1640312398993" duration="7422000" />
+      <workItem from="1640398117237" duration="14110000" />
+      <workItem from="1640659719835" duration="13469000" />
+      <workItem from="1640755990982" duration="594000" />
+      <workItem from="1641277753674" duration="666000" />
+      <workItem from="1641278676702" duration="6000" />
+      <workItem from="1641279263943" duration="616000" />
+      <workItem from="1642038180144" duration="1217000" />
+      <workItem from="1642557002650" duration="2219000" />
+      <workItem from="1643281772111" duration="3934000" />
+      <workItem from="1644808509769" duration="12533000" />
+      <workItem from="1644891475589" duration="13598000" />
+      <workItem from="1644976542567" duration="10991000" />
+      <workItem from="1645059427068" duration="7253000" />
+      <workItem from="1645150856609" duration="5437000" />
+      <workItem from="1645237747049" duration="2992000" />
+      <workItem from="1645526699436" duration="3834000" />
+      <workItem from="1645579326193" duration="704000" />
+      <workItem from="1645580146746" duration="1437000" />
+      <workItem from="1645671521858" duration="4232000" />
+      <workItem from="1645757253245" duration="1188000" />
+      <workItem from="1646013286398" duration="3688000" />
+      <workItem from="1646061939493" duration="1820000" />
+      <workItem from="1646104122232" duration="712000" />
+      <workItem from="1646187848171" duration="4084000" />
+      <workItem from="1646285604059" duration="2879000" />
+      <workItem from="1646308481634" duration="1131000" />
+      <workItem from="1646359121115" duration="2383000" />
+      <workItem from="1646449460730" duration="593000" />
+      <workItem from="1646558017677" duration="33000" />
+      <workItem from="1646880013592" duration="3320000" />
+      <workItem from="1646962758911" duration="1815000" />
+      <workItem from="1647566525650" duration="2081000" />
+      <workItem from="1647659097406" duration="2125000" />
+      <workItem from="1647934471895" duration="1918000" />
+      <workItem from="1648004625815" duration="1835000" />
+      <workItem from="1648034846031" duration="599000" />
+      <workItem from="1648092135650" duration="1648000" />
+      <workItem from="1648521743177" duration="1224000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.js" />
+  </component>
+</project>

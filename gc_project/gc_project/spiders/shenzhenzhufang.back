@@ -1,0 +1,101 @@
+# -*- coding: utf-8 -*-
+# author = wph
+# date = 2020/11/9
+import json,os
+import scrapy
+from time import sleep
+from scrapy import FormRequest
+from gc_project.items import GcProjectItem
+from redis import Redis
+from scrapy.selector import Selector
+from gc_project.db_helper import select_mysql
+r = Redis('127.0.0.1',6379)
+
+class ShenzhenzhufangSpider(scrapy.Spider):
+    name = 'shenzhenzhufang'
+    # allowed_domains = ['www.xxx.com']
+    start_urls = ['https://www.szjsjy.com.cn:8001/jyw/queryGongGaoList.do?rows=10&page=1']
+    # custom_settings = {
+    #     "REDIRECT_ENABLED": False,
+    #     "ROBOTSTXT_OBEY": False,  # 关闭robot 协议
+    #
+    #     "DEFAULT_REQUEST_HEADERS": {
+    #         'Cache-Control': 'no-cache',
+    #         'Connection': 'keep-alive',
+    #         'Cookie': 'user=null; user=null; JSESSIONID=1LyxaUETdJCtUX0fsYafgrkmwtR1J1N2yd9Yz_SktVjaos1QxYVU!-1203063273',
+    #         'Referer': 'https://www.szjsjy.com.cn:8001/jyw/jyw/zbGongGao_View.do?ggguid=2c9e8ac275740a840175ab05cbad474f',
+    #         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36',
+    #         'X-Requested-With': 'XMLHttpRequest',
+    #     }
+    # }
+    def start_requests(self):
+        headers = {
+            'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+            'Accept-Encoding': 'gzip, deflate, br',
+            'Accept-Language': 'zh-CN,zh;q=0.9',
+            'Cache-Control': 'max-age=0',
+            'Connection': 'keep-alive',
+            'Cookie': 'user=null; JSESSIONID=SIOw0s_lE3WROPEeBFLTl90_raWApGB5A23BB5NZOzKKlPotYc6m!-1203063273',
+            'Host': 'www.szjsjy.com.cn:8001',
+            'Sec-Fetch-Dest': 'document',
+            'Sec-Fetch-Mode': 'navigate',
+            'Sec-Fetch-Site': 'none',
+            'Sec-Fetch-User': '?1',
+            'Upgrade-Insecure-Requests': '1'
+        }
+        for page in range(1,20):
+            url = 'https://www.szjsjy.com.cn:8001/jyw/queryGongGaoList.do?rows=10&page=%s'%str(page)
+            sleep(1)
+            yield scrapy.Request(url=url,callback=self.parse_list,dont_filter=True)
+
+    def parse_list(self, response):
+        res_obj = response.text[16:-1]
+        dic = json.loads(res_obj)['rows']
+        for row in dic:
+            item = GcProjectItem()
+            item['title'] = row['ggName']
+            item['subclass'] = '招标公告'
+            item['page_url'] = row['detailUrl']
+            item['issue_time'] = row['ggStartTime2']
+            item['site'] = 'cgpt.sotcbb.com'
+            detail_link = 'https://www.szjsjy.com.cn:8001/jyw/showGongGao.do?ggGuid=%s&gcbh=&bdbhs='%row['ggGuid']
+            headers = {
+                'Accept': 'application/json, text/javascript, */*',
+                'Accept-Encoding': 'gzip, deflate, br',
+                'Accept-Language': 'zh-CN,zh;q=0.9',
+                'Connection': 'keep-alive',
+                'Content-Type': 'application/json',
+                'Host': 'www.szjsjy.com.cn:8001',
+                'Origin': 'https://www.szjsjy.com.cn:8001'
+            }
+            sleep(1)
+            yield scrapy.Request(url=detail_link,method='POST', headers=headers,callback=self.parse_detail, meta={'item': item}, dont_filter=True)
+            # yield scrapy.Request(
+            #     url=detail_link,
+            #     method='POST',
+            #     headers=headers,
+            #     body=json.dumps(data),
+            #     callback=self.parse_detail,
+            #     dont_filter=True,
+            #     meta={'item': item}
+            # )
+            # import urllib3
+            # urllib3.disable_warnings()
+            # import requests
+            # a = requests.post(url=detail_link, headers=headers, verify=False)
+            # print(a.text,type(a.text),"---------")
+            # print(a.json()['html'])
+    def parse_detail(self,response):
+        item = response.meta['item']
+        item['content'] = response.json()['html']
+        item['name']=Selector(text=item['content']).xpath('//*[@id="upload_file1"]/table/tbody/tr[2]/td[2]/a/text()').get()
+        item['download_url']=Selector(text=item['content']).xpath('//*[@id="upload_file1"]/table/tbody/tr[2]/td[2]/a/@href').get()
+        yield item
+if __name__ == '__main__':
+    os.system('scrapy crawl shenzhenzhufang')
+
+
+
+
+
+

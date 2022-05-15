@@ -1,0 +1,1 @@
+{"url": "http://jzsc.mohurd.gov.cn/api/webApi/dataservice/query/comp/list?qy_region=110000&apt_code=A204B&pg={}&pgsz=15", "reg_Name": "北京", "apt_Name": "工程设计电力行业乙级", "reg_id": "110000", "apt_id": "A204B", "total": 1, "crawled_pageNum": 0, "crawled_articleNum": 0, "status": 2, "filePath": "D:\\PythonCode\\jzsc_mohurd2016\\jzsc_mohurd2016\\urlAll\\110000\\A204B_Info.json"}

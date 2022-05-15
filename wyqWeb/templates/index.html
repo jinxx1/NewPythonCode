@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>数字小港产品目录-数字小港项目专供</title>
+
+</head>
+
+<body>
+<html>
+    <head>
+
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename = 'style.css') }}" />
+
+        <style>
+            .filter {float:left}
+        </style>
+    </head>
+    <body>
+    <h1>数字小港产品目录-数字小港项目专供</h1>
+
+    <div id="form-example" class="example">
+        <div class="filter">
+        </div>
+        <div class="clear"></div>
+        <div>
+
+<!--<form action = "/postpage" method="post">-->
+<form action = "/" method="post">
+            <table class="order-table">
+               <thead>
+               <tr><th>序号</th>
+                   <th>一级模块</th>
+                   <th>二级模块</th>
+                   <th>三级模块<font color="red">(鼠标悬停显示功能介绍)</font></th>
+<!--                   <th>功能描述</th>-->
+                   <th name="not">选择</th></tr>
+               </thead>
+               <tbody>
+               {% for item in info %}
+               <tr>
+                   <td>{{ item.l0 }}</td>
+                   <td>{{ item.l1 }}</td>
+                   <td>{{ item.l2 }}</td>
+                   <td><a title="{{ item.mark }}">{{ item.l3 }}</a></td>
+
+                   <td>
+                        <input name="checkbox_option" value={{ item.l0 }}_{{ item.l1 }}_{{ item.l2 }}_{{ item.l3 }} type="checkbox"/>
+
+                   </td>
+                   {% endfor %}
+
+
+                  </tr>
+               <table align="center">
+               <tr>
+                   <td>
+                       <div>
+                            <ul>您的姓名</ul>
+                            <input type = "text" name="proson_name" required="required" rows="10" cols="30"/>
+                            <ul>您的电话</ul>
+                            <input type = "text" name = "proson_tel" required="required" rows="10" cols="30"/>
+                            <ul>
+                            <input type="submit" value="选好了提交"/>
+                            </ul>
+                    </div>
+
+
+
+                   </td></tr>
+
+                </table>
+
+
+
+
+               </tbody>
+           </table>
+</form>
+
+
+        </div>
+    </div>
+
+
+
+    </body>
+</html>
+</body>
+
+</html>

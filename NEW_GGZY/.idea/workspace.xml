@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="33f72291-3cb8-4e4e-b08f-0856373f753e" name="Default Changelist" comment="Default Changelist" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="7b1c6faa-ece2-46a3-a2c2-bf5117ebab91" />
+  </component>
+  <component name="ProjectId" id="1a6TiwFmMAtnDKNQVEGW3ktO5rq" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\PthonCode\python_github\GuangZhouPython\GGZY\NEW_GGZY\NEW_GGZY\spiders" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.ccgp_jiangxi">
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="NEW_GGZY" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ccgp_jiangxi" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="NEW_GGZY" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/NEW_GGZY/spiders" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/NEW_GGZY/spiders/ccgp_jiangxi.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ecp_sgcc" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="NEW_GGZY" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/NEW_GGZY/spiders" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/NEW_GGZY/spiders/ecp_sgcc.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="mongol" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="NEW_GGZY" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/NEW_GGZY" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/NEW_GGZY/mongol.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="sap_liaoning" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="NEW_GGZY" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/NEW_GGZY/spiders" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/NEW_GGZY/spiders/sap_liaoning.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="NEW_GGZY" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/NEW_GGZY" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/NEW_GGZY/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.test (1)" />
+      <item itemvalue="Python.sap_liaoning" />
+      <item itemvalue="Python.ecp_sgcc" />
+      <item itemvalue="Python.mongol" />
+      <item itemvalue="Python.ccgp_jiangxi" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.ccgp_jiangxi" />
+        <item itemvalue="Python.test (1)" />
+        <item itemvalue="Python.mongol" />
+        <item itemvalue="Python.ecp_sgcc" />
+        <item itemvalue="Python.sap_liaoning" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="33f72291-3cb8-4e4e-b08f-0856373f753e" name="Default Changelist" comment="" />
+      <created>1557992100411</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1557992100411</updated>
+      <workItem from="1557992107059" duration="4328000" />
+      <workItem from="1558062518116" duration="6000" />
+      <workItem from="1561110413890" duration="12722000" />
+      <workItem from="1561200237648" duration="51000" />
+      <workItem from="1561253493932" duration="7001000" />
+      <workItem from="1561260693373" duration="3348000" />
+      <workItem from="1561368476506" duration="1918000" />
+      <workItem from="1561442036007" duration="1906000" />
+      <workItem from="1561526694807" duration="5000" />
+      <workItem from="1561526724845" duration="35000" />
+      <workItem from="1561530732018" duration="12000" />
+      <workItem from="1561690842822" duration="2170000" />
+      <workItem from="1562056320081" duration="23370000" />
+      <workItem from="1562121859485" duration="5050000" />
+      <workItem from="1562206313322" duration="1425000" />
+      <workItem from="1562241846313" duration="2112000" />
+      <workItem from="1562472284205" duration="11000" />
+      <workItem from="1562550965878" duration="3470000" />
+      <workItem from="1562761178227" duration="454000" />
+      <workItem from="1563444794285" duration="2084000" />
+      <workItem from="1563950012481" duration="4315000" />
+      <workItem from="1564038850079" duration="34000" />
+      <workItem from="1564040131976" duration="684000" />
+      <workItem from="1564108073089" duration="1015000" />
+      <workItem from="1564109472787" duration="1228000" />
+      <workItem from="1564572727652" duration="7975000" />
+      <workItem from="1564580740969" duration="8391000" />
+      <workItem from="1564597551234" duration="2852000" />
+      <workItem from="1564631394543" duration="823000" />
+      <workItem from="1564638665196" duration="12691000" />
+      <workItem from="1565093819352" duration="1466000" />
+      <workItem from="1565158644470" duration="8002000" />
+      <workItem from="1565229017074" duration="2782000" />
+      <workItem from="1565250183744" duration="1128000" />
+      <workItem from="1565317081046" duration="4114000" />
+      <workItem from="1565655723892" duration="12116000" />
+      <workItem from="1565748547133" duration="900000" />
+      <workItem from="1567310227863" duration="4552000" />
+      <workItem from="1567765612399" duration="1078000" />
+      <workItem from="1568250622544" duration="3555000" />
+      <workItem from="1568368686672" duration="1235000" />
+      <workItem from="1568683411857" duration="4593000" />
+      <workItem from="1568761573649" duration="13000000" />
+      <workItem from="1568872089484" duration="61884000" />
+      <workItem from="1569055435360" duration="4041000" />
+      <workItem from="1569218770495" duration="4762000" />
+      <workItem from="1569487164371" duration="2819000" />
+      <workItem from="1569540396743" duration="621000" />
+      <workItem from="1569742744084" duration="24000" />
+      <workItem from="1570498928362" duration="25814000" />
+      <workItem from="1573350459705" duration="198000" />
+      <workItem from="1573686757455" duration="1764000" />
+      <workItem from="1573797741676" duration="1849000" />
+      <workItem from="1574043278333" duration="4090000" />
+      <workItem from="1574300627896" duration="13092000" />
+      <workItem from="1574748477918" duration="648000" />
+      <workItem from="1574989658360" duration="3089000" />
+      <workItem from="1575194525611" duration="2029000" />
+      <workItem from="1585122556569" duration="39000" />
+      <workItem from="1585122614939" duration="70000" />
+      <workItem from="1586055175926" duration="639000" />
+      <workItem from="1586160807734" duration="1824000" />
+      <workItem from="1586419186780" duration="2128000" />
+      <workItem from="1586761257695" duration="8663000" />
+      <workItem from="1586917817578" duration="599000" />
+      <workItem from="1587264749419" duration="667000" />
+      <workItem from="1589194264145" duration="1030000" />
+      <workItem from="1589195551921" duration="1973000" />
+      <workItem from="1589203571426" duration="663000" />
+      <workItem from="1589249456928" duration="1287000" />
+      <workItem from="1589436859878" duration="874000" />
+      <workItem from="1589456057489" duration="612000" />
+      <workItem from="1589518962053" duration="633000" />
+      <workItem from="1590117567571" duration="1534000" />
+      <workItem from="1590286995183" duration="599000" />
+      <workItem from="1590387224427" duration="2435000" />
+      <workItem from="1590459566529" duration="7108000" />
+      <workItem from="1590541793441" duration="664000" />
+      <workItem from="1590630838529" duration="1059000" />
+      <workItem from="1590939903858" duration="29000" />
+      <workItem from="1593570947853" duration="896000" />
+      <workItem from="1593571863243" duration="5535000" />
+      <workItem from="1593655150522" duration="1991000" />
+      <workItem from="1594004200205" duration="1355000" />
+      <workItem from="1594353656981" duration="3232000" />
+      <workItem from="1594868454117" duration="344000" />
+      <workItem from="1595229447502" duration="1247000" />
+      <workItem from="1596166121843" duration="599000" />
+      <workItem from="1596598577824" duration="599000" />
+      <workItem from="1615210756317" duration="61000" />
+      <workItem from="1621911363485" duration="2245000" />
+      <workItem from="1621995968122" duration="1375000" />
+      <workItem from="1621997937965" duration="3827000" />
+      <workItem from="1624860329634" duration="4505000" />
+      <workItem from="1624951666593" duration="2388000" />
+      <workItem from="1625102034626" duration="3687000" />
+      <workItem from="1625137854804" duration="608000" />
+      <workItem from="1625188636936" duration="20000" />
+      <workItem from="1625642052705" duration="3210000" />
+      <workItem from="1625712679306" duration="6787000" />
+      <workItem from="1628841704342" duration="3039000" />
+      <workItem from="1629271114408" duration="1218000" />
+      <workItem from="1634892654977" duration="1942000" />
+      <workItem from="1639564650412" duration="1376000" />
+      <workItem from="1639625809114" duration="594000" />
+      <workItem from="1639668317061" duration="698000" />
+      <workItem from="1639732140001" duration="2287000" />
+      <workItem from="1639794474424" duration="2529000" />
+      <workItem from="1639882481523" duration="3404000" />
+      <workItem from="1640054671007" duration="4728000" />
+      <workItem from="1640136177213" duration="4256000" />
+      <workItem from="1641278708449" duration="2728000" />
+      <workItem from="1641351577215" duration="592000" />
+      <workItem from="1644486152384" duration="748000" />
+      <workItem from="1644916924210" duration="1009000" />
+      <workItem from="1645007102494" duration="2820000" />
+      <workItem from="1645059424482" duration="5784000" />
+      <workItem from="1645195192269" duration="670000" />
+      <workItem from="1645236691819" duration="8128000" />
+      <workItem from="1645346087199" duration="5916000" />
+      <workItem from="1645410095376" duration="3083000" />
+      <workItem from="1645496733179" duration="594000" />
+      <workItem from="1646408974250" duration="929000" />
+      <workItem from="1647487735175" duration="1446000" />
+      <workItem from="1647587054042" duration="634000" />
+    </task>
+    <task id="LOCAL-00001" summary="1.1.56">
+      <created>1562081656386</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1562081656386</updated>
+    </task>
+    <task id="LOCAL-00002" summary="1.1.56">
+      <created>1593577177009</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1593577177009</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="1.1.56" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.1.56" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/NEW_GGZY$sap_liaoning.coverage" NAME="sap_liaoning Coverage Results" MODIFIED="1570536269373" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NEW_GGZY/spiders" />
+    <SUITE FILE_PATH="coverage/NEW_GGZY$Pimg.coverage" NAME="Pimg Coverage Results" MODIFIED="1569222260650" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NEW_GGZY" />
+    <SUITE FILE_PATH="coverage/NEW_GGZY$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1575211730445" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NEW_GGZY" />
+    <SUITE FILE_PATH="coverage/NEW_GGZY$test.coverage" NAME="test Coverage Results" MODIFIED="1562074638074" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NEW_GGZY" />
+    <SUITE FILE_PATH="coverage/NEW_GGZY$sap_jilin.coverage" NAME="sap_jilin Coverage Results" MODIFIED="1570535475895" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NEW_GGZY/spiders" />
+    <SUITE FILE_PATH="coverage/NEW_GGZY$TEST02.coverage" NAME="TEST02 Coverage Results" MODIFIED="1562080177172" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NEW_GGZY" />
+    <SUITE FILE_PATH="coverage/NEW_GGZY$Breakpoint.coverage" NAME="Breakpoint Coverage Results" MODIFIED="1570533553021" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NEW_GGZY" />
+    <SUITE FILE_PATH="coverage/NEW_GGZY$cancel_spiders.coverage" NAME="cancel_spiders Coverage Results" MODIFIED="1562126296788" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NEW_GGZY" />
+    <SUITE FILE_PATH="coverage/NEW_GGZY$ggzy_fujian.coverage" NAME="ggzy_fujian Coverage Results" MODIFIED="1568771411568" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NEW_GGZY/spiders" />
+    <SUITE FILE_PATH="coverage/NEW_GGZY$runScrapy.coverage" NAME="runScrapy Coverage Results" MODIFIED="1562080856626" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NEW_GGZY" />
+    <SUITE FILE_PATH="coverage/NEW_GGZY$ccgp_jiangxi.coverage" NAME="ccgp_jiangxi Coverage Results" MODIFIED="1586420117056" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NEW_GGZY/spiders" />
+    <SUITE FILE_PATH="coverage/NEW_GGZY$mongol.coverage" NAME="mongol Coverage Results" MODIFIED="1575195007781" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NEW_GGZY" />
+    <SUITE FILE_PATH="coverage/NEW_GGZY$ccgp.coverage" NAME="ccgp Coverage Results" MODIFIED="1568959632708" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NEW_GGZY/spiders" />
+    <SUITE FILE_PATH="coverage/NEW_GGZY$gd_shanwei.coverage" NAME="gd_shanwei Coverage Results" MODIFIED="1565321675359" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NEW_GGZY/spiders" />
+  </component>
+</project>

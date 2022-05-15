@@ -1,0 +1,13 @@
+upstream flask{
+        server 127.0.0.1:5010;
+    }
+    server {
+        listen       5010;
+        server_name  jx.uxuepai.net;
+        #charset koi8-r;
+        #access_lo
+        location / {
+            include uwsgi_params;
+            uwsgi_pass flask;
+        }
+}

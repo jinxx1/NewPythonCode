@@ -1,0 +1,2 @@
+The revised masking majority function task (MFT-R) was based on the MFT-M (Wu et al., 2016).
+The MFT-R parametrically manipulated the amount of conflict information and the exposure time of the target stimuli to challenge the upper limit of subjects' information processing and estimate the capacity of cognitive control (CCC) from their accuracy.

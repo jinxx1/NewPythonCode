@@ -1,0 +1,1 @@
+INFO:sqlalchemy.pool.impl.QueuePool:Invalidate connection <pymysql.connections.Connection object at 0x000001B78A239370> (reason: OperationalError:(2013, 'Lost connection to MySQL server during query'))

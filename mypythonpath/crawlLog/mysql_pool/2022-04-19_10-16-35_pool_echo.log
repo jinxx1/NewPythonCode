@@ -1,0 +1,78 @@
+INFO:scrapy.utils.log:Scrapy 2.4.1 started (bot: shangQing)
+INFO:scrapy.utils.log:Versions: lxml 4.6.4.0, libxml2 2.9.12, cssselect 1.1.0, parsel 1.6.0, w3lib 1.22.0, Twisted 20.3.0, Python 3.8.12 | packaged by conda-forge | (default, Oct 12 2021, 21:22:46) [MSC v.1916 64 bit (AMD64)], pyOpenSSL 21.0.0 (OpenSSL 1.1.1n  15 Mar 2022), cryptography 35.0.0, Platform Windows-10-10.0.19043-SP0
+DEBUG:scrapy.utils.log:Using reactor: twisted.internet.selectreactor.SelectReactor
+INFO:scrapy.crawler:Overridden settings:
+{'BOT_NAME': 'shangQing',
+ 'CLOSESPIDER_ERRORCOUNT': 10,
+ 'CONCURRENT_REQUESTS': 32,
+ 'CONCURRENT_REQUESTS_PER_IP': 16,
+ 'COOKIES_DEBUG': True,
+ 'DOWNLOAD_DELAY': 3,
+ 'DOWNLOAD_TIMEOUT': 120,
+ 'NEWSPIDER_MODULE': 'shangQing.spiders',
+ 'SPIDER_MODULES': ['shangQing.spiders']}
+INFO:scrapy.extensions.telnet:Telnet Password: 48234da41725b39c
+INFO:scrapy.middleware:Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.closespider.CloseSpider',
+ 'scrapy.extensions.logstats.LogStats']
+INFO:scrapy.middleware:Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+INFO:scrapy.middleware:Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+INFO:scrapy.middleware:Enabled item pipelines:
+['shangQing.pipelines.ShangqingPipeline']
+INFO:scrapy.core.engine:Spider opened
+INFO:scrapy.extensions.logstats:Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+INFO:scrapy.extensions.telnet:Telnet console listening on 127.0.0.1:6023
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET http://www.ccgp-shaanxi.gov.cn/freecms/rest/v1/notice/selectInfoMoreChannel.do?&siteId=a7a15d60-de5b-42f2-b35a-7e3efc34e54f&channel=1eb454a2-7ff7-4a3b-b12c-12acc2685bd1&currPage=1&pageSize=100&noticeType=001011,001012,001013,001014,001016,001019&regionCode=&purchaseManner=1&title=&openTenderCode=&purchaseNature=&operationStartTime=2022-04-18%2010:16:35&operationEndTime=2022-04-19%2010:16:35&selectTimeName=noticeTime&cityOrArea=> (failed 1 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion.>]
+DEBUG:scrapy.downloadermiddlewares.cookies:Received cookies from: <200 http://www.ccgp-shaanxi.gov.cn/freecms/rest/v1/notice/selectInfoMoreChannel.do?&siteId=a7a15d60-de5b-42f2-b35a-7e3efc34e54f&channel=1eb454a2-7ff7-4a3b-b12c-12acc2685bd1&currPage=1&pageSize=100&noticeType=001011,001012,001013,001014,001016,001019&regionCode=&purchaseManner=3&title=&openTenderCode=&purchaseNature=&operationStartTime=2022-04-18%2010:16:35&operationEndTime=2022-04-19%2010:16:35&selectTimeName=noticeTime&cityOrArea=>
+Set-Cookie: JSESSIONID=C04D2FE4717914D9607C7EA045B7E1D9; Path=/freecms; HttpOnly
+
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.ccgp-shaanxi.gov.cn/freecms/rest/v1/notice/selectInfoMoreChannel.do?&siteId=a7a15d60-de5b-42f2-b35a-7e3efc34e54f&channel=1eb454a2-7ff7-4a3b-b12c-12acc2685bd1&currPage=1&pageSize=100&noticeType=001011,001012,001013,001014,001016,001019&regionCode=&purchaseManner=3&title=&openTenderCode=&purchaseNature=&operationStartTime=2022-04-18%2010:16:35&operationEndTime=2022-04-19%2010:16:35&selectTimeName=noticeTime&cityOrArea=> (referer: None)
+DEBUG:scrapy.downloadermiddlewares.cookies:Received cookies from: <200 http://www.ccgp-shaanxi.gov.cn/freecms/rest/v1/notice/selectInfoMoreChannel.do?&siteId=a7a15d60-de5b-42f2-b35a-7e3efc34e54f&channel=1eb454a2-7ff7-4a3b-b12c-12acc2685bd1&currPage=1&pageSize=100&noticeType=001011,001012,001013,001014,001016,001019&regionCode=&purchaseManner=4&title=&openTenderCode=&purchaseNature=&operationStartTime=2022-04-18%2010:16:35&operationEndTime=2022-04-19%2010:16:35&selectTimeName=noticeTime&cityOrArea=>
+Set-Cookie: JSESSIONID=E5671E9057EDC2DFC3649619095B32C0; Path=/freecms; HttpOnly
+
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.ccgp-shaanxi.gov.cn/freecms/rest/v1/notice/selectInfoMoreChannel.do?&siteId=a7a15d60-de5b-42f2-b35a-7e3efc34e54f&channel=1eb454a2-7ff7-4a3b-b12c-12acc2685bd1&currPage=1&pageSize=100&noticeType=001011,001012,001013,001014,001016,001019&regionCode=&purchaseManner=4&title=&openTenderCode=&purchaseNature=&operationStartTime=2022-04-18%2010:16:35&operationEndTime=2022-04-19%2010:16:35&selectTimeName=noticeTime&cityOrArea=> (referer: None)
+DEBUG:scrapy.downloadermiddlewares.cookies:Received cookies from: <200 http://www.ccgp-shaanxi.gov.cn/freecms/rest/v1/notice/selectInfoMoreChannel.do?&siteId=a7a15d60-de5b-42f2-b35a-7e3efc34e54f&channel=1eb454a2-7ff7-4a3b-b12c-12acc2685bd1&currPage=1&pageSize=100&noticeType=001011,001012,001013,001014,001016,001019&regionCode=&purchaseManner=6&title=&openTenderCode=&purchaseNature=&operationStartTime=2022-04-18%2010:16:35&operationEndTime=2022-04-19%2010:16:35&selectTimeName=noticeTime&cityOrArea=>
+Set-Cookie: JSESSIONID=4A987A6CC72B1A918F172EC2E8D298DA; Path=/freecms; HttpOnly
+
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.ccgp-shaanxi.gov.cn/freecms/rest/v1/notice/selectInfoMoreChannel.do?&siteId=a7a15d60-de5b-42f2-b35a-7e3efc34e54f&channel=1eb454a2-7ff7-4a3b-b12c-12acc2685bd1&currPage=1&pageSize=100&noticeType=001011,001012,001013,001014,001016,001019&regionCode=&purchaseManner=6&title=&openTenderCode=&purchaseNature=&operationStartTime=2022-04-18%2010:16:35&operationEndTime=2022-04-19%2010:16:35&selectTimeName=noticeTime&cityOrArea=> (referer: None)
+DEBUG:scrapy.downloadermiddlewares.cookies:Received cookies from: <200 http://www.ccgp-shaanxi.gov.cn/freecms/rest/v1/notice/selectInfoMoreChannel.do?&siteId=a7a15d60-de5b-42f2-b35a-7e3efc34e54f&channel=1eb454a2-7ff7-4a3b-b12c-12acc2685bd1&currPage=1&pageSize=100&noticeType=001021,001022,001023,001024,001025,001026,001029,001006&regionCode=&purchaseManner=1&title=&openTenderCode=&purchaseNature=&operationStartTime=2022-04-18%2010:16:35&operationEndTime=2022-04-19%2010:16:35&selectTimeName=noticeTime&cityOrArea=>
+Set-Cookie: JSESSIONID=7485767FC56D55FBFD6D56A19F6F6C19; Path=/freecms; HttpOnly
+
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.ccgp-shaanxi.gov.cn/freecms/rest/v1/notice/selectInfoMoreChannel.do?&siteId=a7a15d60-de5b-42f2-b35a-7e3efc34e54f&channel=1eb454a2-7ff7-4a3b-b12c-12acc2685bd1&currPage=1&pageSize=100&noticeType=001021,001022,001023,001024,001025,001026,001029,001006&regionCode=&purchaseManner=1&title=&openTenderCode=&purchaseNature=&operationStartTime=2022-04-18%2010:16:35&operationEndTime=2022-04-19%2010:16:35&selectTimeName=noticeTime&cityOrArea=> (referer: None)
+DEBUG:scrapy.downloadermiddlewares.cookies:Received cookies from: <200 http://www.ccgp-shaanxi.gov.cn/freecms/rest/v1/notice/selectInfoMoreChannel.do?&siteId=a7a15d60-de5b-42f2-b35a-7e3efc34e54f&channel=1eb454a2-7ff7-4a3b-b12c-12acc2685bd1&currPage=1&pageSize=100&noticeType=001021,001022,001023,001024,001025,001026,001029,001006&regionCode=&purchaseManner=3&title=&openTenderCode=&purchaseNature=&operationStartTime=2022-04-18%2010:16:35&operationEndTime=2022-04-19%2010:16:35&selectTimeName=noticeTime&cityOrArea=>
+Set-Cookie: JSESSIONID=043449AEFB18FC18F4475A546F368205; Path=/freecms; HttpOnly
+
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.ccgp-shaanxi.gov.cn/freecms/rest/v1/notice/selectInfoMoreChannel.do?&siteId=a7a15d60-de5b-42f2-b35a-7e3efc34e54f&channel=1eb454a2-7ff7-4a3b-b12c-12acc2685bd1&currPage=1&pageSize=100&noticeType=001021,001022,001023,001024,001025,001026,001029,001006&regionCode=&purchaseManner=3&title=&openTenderCode=&purchaseNature=&operationStartTime=2022-04-18%2010:16:35&operationEndTime=2022-04-19%2010:16:35&selectTimeName=noticeTime&cityOrArea=> (referer: None)
+DEBUG:scrapy.downloadermiddlewares.cookies:Received cookies from: <200 http://www.ccgp-shaanxi.gov.cn/freecms/rest/v1/notice/selectInfoMoreChannel.do?&siteId=a7a15d60-de5b-42f2-b35a-7e3efc34e54f&channel=1eb454a2-7ff7-4a3b-b12c-12acc2685bd1&currPage=1&pageSize=100&noticeType=001021,001022,001023,001024,001025,001026,001029,001006&regionCode=&purchaseManner=4&title=&openTenderCode=&purchaseNature=&operationStartTime=2022-04-18%2010:16:35&operationEndTime=2022-04-19%2010:16:35&selectTimeName=noticeTime&cityOrArea=>
+Set-Cookie: JSESSIONID=504490B87A21E20177EA417C845BE974; Path=/freecms; HttpOnly
+
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.ccgp-shaanxi.gov.cn/freecms/rest/v1/notice/selectInfoMoreChannel.do?&siteId=a7a15d60-de5b-42f2-b35a-7e3efc34e54f&channel=1eb454a2-7ff7-4a3b-b12c-12acc2685bd1&currPage=1&pageSize=100&noticeType=001021,001022,001023,001024,001025,001026,001029,001006&regionCode=&purchaseManner=4&title=&openTenderCode=&purchaseNature=&operationStartTime=2022-04-18%2010:16:35&operationEndTime=2022-04-19%2010:16:35&selectTimeName=noticeTime&cityOrArea=> (referer: None)
+DEBUG:scrapy.downloadermiddlewares.cookies:Received cookies from: <200 http://www.ccgp-shaanxi.gov.cn/freecms/rest/v1/notice/selectInfoMoreChannel.do?&siteId=a7a15d60-de5b-42f2-b35a-7e3efc34e54f&channel=1eb454a2-7ff7-4a3b-b12c-12acc2685bd1&currPage=1&pageSize=100&noticeType=001021,001022,001023,001024,001025,001026,001029,001006&regionCode=&purchaseManner=5&title=&openTenderCode=&purchaseNature=&operationStartTime=2022-04-18%2010:16:35&operationEndTime=2022-04-19%2010:16:35&selectTimeName=noticeTime&cityOrArea=>
+Set-Cookie: JSESSIONID=E29844BCDD436772E8F0347A3290CD57; Path=/freecms; HttpOnly
+
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.ccgp-shaanxi.gov.cn/freecms/rest/v1/notice/selectInfoMoreChannel.do?&siteId=a7a15d60-de5b-42f2-b35a-7e3efc34e54f&channel=1eb454a2-7ff7-4a3b-b12c-12acc2685bd1&currPage=1&pageSize=100&noticeType=001021,001022,001023,001024,001025,001026,001029,001006&regionCode=&purchaseManner=5&title=&openTenderCode=&purchaseNature=&operationStartTime=2022-04-18%2010:16:35&operationEndTime=2022-04-19%2010:16:35&selectTimeName=noticeTime&cityOrArea=> (referer: None)
+INFO:scrapy.crawler:Received SIGINT, shutting down gracefully. Send again to force 
+INFO:scrapy.core.engine:Closing spider (shutdown)
+DEBUG:scrapy.downloadermiddlewares.cookies:Received cookies from: <200 http://www.ccgp-shaanxi.gov.cn/freecms/rest/v1/notice/selectInfoMoreChannel.do?&siteId=a7a15d60-de5b-42f2-b35a-7e3efc34e54f&channel=1eb454a2-7ff7-4a3b-b12c-12acc2685bd1&currPage=1&pageSize=100&noticeType=001021,001022,001023,001024,001025,001026,001029,001006&regionCode=&purchaseManner=6&title=&openTenderCode=&purchaseNature=&operationStartTime=2022-04-18%2010:16:35&operationEndTime=2022-04-19%2010:16:35&selectTimeName=noticeTime&cityOrArea=>
+Set-Cookie: JSESSIONID=287F2F76DABA4175A3ABA0D92FCC1B88; Path=/freecms; HttpOnly
+
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.ccgp-shaanxi.gov.cn/freecms/rest/v1/notice/selectInfoMoreChannel.do?&siteId=a7a15d60-de5b-42f2-b35a-7e3efc34e54f&channel=1eb454a2-7ff7-4a3b-b12c-12acc2685bd1&currPage=1&pageSize=100&noticeType=001021,001022,001023,001024,001025,001026,001029,001006&regionCode=&purchaseManner=6&title=&openTenderCode=&purchaseNature=&operationStartTime=2022-04-18%2010:16:35&operationEndTime=2022-04-19%2010:16:35&selectTimeName=noticeTime&cityOrArea=> (referer: None)
+INFO:scrapy.crawler:Received SIGINT twice, forcing unclean shutdown

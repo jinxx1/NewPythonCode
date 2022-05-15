@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Filter Table</title>
+
+
+
+      <link rel="stylesheet" href="css/style.css">
+
+
+</head>
+
+<body>
+<!--  <script src="{{ url_for('static', filename = 'jquery.min.js') }}"></script>-->
+
+
+
+<html>
+    <head>
+        <script type="text/javascript" src="custom.js"> </script>
+<!--        <link rel="stylesheet" type="text/css" href="../common/style.css" />-->
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename = 'style.css') }}" />
+        <script type="text/javascript" src="../common/angular.js"> </script>
+        <script type="text/javascript" src="../common/jquery.min.js"> </script>
+        <script type="text/javascript" src="../common/corner.js"> </script>
+        <script type="text/javascript" src="custom.js"> </script>
+        <style>
+            .filter {float:left}
+        </style>
+    </head>
+    <body>
+    <h1>Selenium By Needs [Login Example]</h1>
+
+    <div id="form-example" class="example">
+        <div class="filter">
+
+        </div>
+        <div class="clear"></div>
+        <div ng-app="myapp" ng-controller="employeeController">
+<!--            <table>-->
+<!--               <tr>-->
+<!--                   <td>-->
+<!--                        <div class="advFilter">-->
+<!--                        <input type="search" class="light-table-filter" data-table="order-table" placeholder="Filter"/>-->
+<!--                        </div>-->
+<!--                    </td>-->
+<!--                </tr>-->
+<!--            </table>-->
+
+
+            <table class="order-table">
+               <thead>
+               <tr><th>序号</th>
+                   <th>一级模块</th>
+                   <th>二级模块</th>
+                   <th>三级模块<font color="red">(鼠标悬停显示功能介绍)</font></th>
+<!--                   <th>功能描述</th>-->
+                   <th name="not">选择</th></tr>
+               </thead>
+               <tbody>
+               {% for item in info %}
+               <tr ng-repeat="x in names">
+                   <td>{{ item.l0 }}</td>
+                   <td>{{ item.l1 }}</td>
+                   <td>{{ item.l2 }}</td>
+                   <td><a title="{{ item.mark }}">{{ item.l3 }}</a></td>
+<!--                   <td>1111</td>-->
+                   <td>
+<!--                       <select>-->
+
+<!--                   <option ng-selected="{{op.value == x.ratting}}" value="{{op.value}}" ng-repeat="op in ratings">-->
+<!--                       {{op.option}}-->
+
+<!--                   </option>-->
+
+<!--                </select>-->
+                   </td>
+                   {% endfor %}
+<!--               <tr ng-repeat="x in names">-->
+<!--                   <td>{{x.name + ' ' + x.lastname }}</td>-->
+<!--                   <td>{{x.designation}}</td>-->
+<!--                   <td>{{x.department}}</td>-->
+<!--                   <td>{{x.country}}</td>-->
+<!--                   <td><select>-->
+
+<!--                   <option ng-selected="{{op.value == x.ratting}}" value="{{op.value}}" ng-repeat="op in ratings">-->
+<!--                       {{op.option}}-->
+
+<!--                   </option>-->
+
+<!--                </select></td>-->
+
+
+                  </tr>
+               </tbody>
+           </table>
+        </div>
+    </div>
+    <div class="overlay" id="overlay" style="display:none;">
+        <img src="../common/loading.gif" alt="Loading"/>
+    </div>
+
+    </body>
+</html>
+
+<!--  <script src="{{ url_for('static', filename = 'jquery.min.js') }}"></script>-->
+<!--  <script src="{{ url_for('static', filename = 'angular.min.js') }}"></script>-->
+<!--  <script src="{{ url_for('static', filename = 'index.js') }}"></script>-->
+
+
+<!--  <script src='js/jquery.min.js'></script>-->
+<!--<script src='js/angular.min.js'></script>-->
+
+<!--  -->
+
+<!--    <script  src="js/index.js"></script>-->
+
+
+
+
+</body>
+
+</html>

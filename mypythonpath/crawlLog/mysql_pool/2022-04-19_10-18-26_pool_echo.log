@@ -1,0 +1,373 @@
+INFO:scrapy.utils.log:Scrapy 2.4.1 started (bot: shangQing)
+INFO:scrapy.utils.log:Versions: lxml 4.6.4.0, libxml2 2.9.12, cssselect 1.1.0, parsel 1.6.0, w3lib 1.22.0, Twisted 20.3.0, Python 3.8.12 | packaged by conda-forge | (default, Oct 12 2021, 21:22:46) [MSC v.1916 64 bit (AMD64)], pyOpenSSL 21.0.0 (OpenSSL 1.1.1n  15 Mar 2022), cryptography 35.0.0, Platform Windows-10-10.0.19043-SP0
+DEBUG:scrapy.utils.log:Using reactor: twisted.internet.selectreactor.SelectReactor
+INFO:scrapy.crawler:Overridden settings:
+{'BOT_NAME': 'shangQing',
+ 'CLOSESPIDER_ERRORCOUNT': 10,
+ 'CONCURRENT_REQUESTS': 32,
+ 'CONCURRENT_REQUESTS_PER_IP': 16,
+ 'COOKIES_DEBUG': True,
+ 'DOWNLOAD_DELAY': 3,
+ 'DOWNLOAD_TIMEOUT': 120,
+ 'NEWSPIDER_MODULE': 'shangQing.spiders',
+ 'SPIDER_MODULES': ['shangQing.spiders']}
+INFO:scrapy.extensions.telnet:Telnet Password: e44244086064b1d5
+INFO:scrapy.middleware:Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.closespider.CloseSpider',
+ 'scrapy.extensions.logstats.LogStats']
+INFO:scrapy.middleware:Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+INFO:scrapy.middleware:Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+INFO:scrapy.middleware:Enabled item pipelines:
+['shangQing.pipelines.ShangqingPipeline']
+INFO:scrapy.core.engine:Spider opened
+INFO:scrapy.extensions.logstats:Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+INFO:scrapy.extensions.telnet:Telnet console listening on 127.0.0.1:6023
+DEBUG:scrapy.downloadermiddlewares.cookies:Received cookies from: <200 http://www.ccgp-shaanxi.gov.cn/freecms/rest/v1/notice/selectInfoMoreChannel.do?&siteId=a7a15d60-de5b-42f2-b35a-7e3efc34e54f&channel=1eb454a2-7ff7-4a3b-b12c-12acc2685bd1&currPage=1&pageSize=100&noticeType=001011,001012,001013,001014,001016,001019&regionCode=&purchaseManner=1&title=&openTenderCode=&purchaseNature=&operationStartTime=2022-04-18%2010:18:26&operationEndTime=2022-04-19%2010:18:26&selectTimeName=noticeTime&cityOrArea=>
+Set-Cookie: JSESSIONID=4E4B8270728D552B13A7E895A11C558F; Path=/freecms; HttpOnly
+
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.ccgp-shaanxi.gov.cn/freecms/rest/v1/notice/selectInfoMoreChannel.do?&siteId=a7a15d60-de5b-42f2-b35a-7e3efc34e54f&channel=1eb454a2-7ff7-4a3b-b12c-12acc2685bd1&currPage=1&pageSize=100&noticeType=001011,001012,001013,001014,001016,001019&regionCode=&purchaseManner=1&title=&openTenderCode=&purchaseNature=&operationStartTime=2022-04-18%2010:18:26&operationEndTime=2022-04-19%2010:18:26&selectTimeName=noticeTime&cityOrArea=> (referer: None)
+DEBUG:scrapy.downloadermiddlewares.cookies:Received cookies from: <200 http://www.ccgp-shaanxi.gov.cn/freecms/rest/v1/notice/selectInfoMoreChannel.do?&siteId=a7a15d60-de5b-42f2-b35a-7e3efc34e54f&channel=1eb454a2-7ff7-4a3b-b12c-12acc2685bd1&currPage=1&pageSize=100&noticeType=001054,00100B&regionCode=&purchaseManner=1&title=&openTenderCode=&purchaseNature=&operationStartTime=2022-04-18%2010:18:26&operationEndTime=2022-04-19%2010:18:26&selectTimeName=noticeTime&cityOrArea=>
+Set-Cookie: JSESSIONID=0A0FCE5686000AB609855ACE3EC4B8F4; Path=/freecms; HttpOnly
+
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.ccgp-shaanxi.gov.cn/freecms/rest/v1/notice/selectInfoMoreChannel.do?&siteId=a7a15d60-de5b-42f2-b35a-7e3efc34e54f&channel=1eb454a2-7ff7-4a3b-b12c-12acc2685bd1&currPage=1&pageSize=100&noticeType=001054,00100B&regionCode=&purchaseManner=1&title=&openTenderCode=&purchaseNature=&operationStartTime=2022-04-18%2010:18:26&operationEndTime=2022-04-19%2010:18:26&selectTimeName=noticeTime&cityOrArea=> (referer: None)
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.ccgp-shaanxi.gov.cn/freecms/rest/v1/notice/selectInfoMoreChannel.do?&siteId=a7a15d60-de5b-42f2-b35a-7e3efc34e54f&channel=1eb454a2-7ff7-4a3b-b12c-12acc2685bd1&currPage=1&pageSize=100&noticeType=001011,001012,001013,001014,001016,001019&regionCode=&purchaseManner=1&title=&openTenderCode=&purchaseNature=&operationStartTime=2022-04-18%2010:18:26&operationEndTime=2022-04-19%2010:18:26&selectTimeName=noticeTime&cityOrArea=>
+{'business_type': '火工品专用设备',
+ 'city_name': '',
+ 'issue_time': '2022-04-19 9:48:00',
+ 'page_url': 'http://www.ccgp-shaanxi.gov.cn/freecms/site/shaanxi/ggxx/info/2022/8a69c3a2803c3c1c01803f3daeaf4b7b.html',
+ 'project_amount': '4470000.0000',
+ 'province_name': '陕西省',
+ 'purchase_type': '公开招标',
+ 'site': 'www.ccgp-shaanxi.gov.cn',
+ 'subclass': '采购公告',
+ 'title': '人工影响天气中心人工增雨弹采购项目招标公告',
+ 'ztb_project_agent': '东方（西安）国际招标有限公司'}
+DEBUG:scrapy.downloadermiddlewares.cookies:Received cookies from: <200 http://www.ccgp-shaanxi.gov.cn/freecms/rest/v1/notice/selectInfoMoreChannel.do?&siteId=a7a15d60-de5b-42f2-b35a-7e3efc34e54f&channel=1eb454a2-7ff7-4a3b-b12c-12acc2685bd1&currPage=1&pageSize=100&noticeType=001011,001012,001013,001014,001016,001019&regionCode=&purchaseManner=3&title=&openTenderCode=&purchaseNature=&operationStartTime=2022-04-18%2010:18:26&operationEndTime=2022-04-19%2010:18:26&selectTimeName=noticeTime&cityOrArea=>
+Set-Cookie: JSESSIONID=EAE94EAB077F41CC770E6144549A3465; Path=/freecms; HttpOnly
+
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.ccgp-shaanxi.gov.cn/freecms/rest/v1/notice/selectInfoMoreChannel.do?&siteId=a7a15d60-de5b-42f2-b35a-7e3efc34e54f&channel=1eb454a2-7ff7-4a3b-b12c-12acc2685bd1&currPage=1&pageSize=100&noticeType=001011,001012,001013,001014,001016,001019&regionCode=&purchaseManner=3&title=&openTenderCode=&purchaseNature=&operationStartTime=2022-04-18%2010:18:26&operationEndTime=2022-04-19%2010:18:26&selectTimeName=noticeTime&cityOrArea=> (referer: None)
+DEBUG:scrapy.downloadermiddlewares.cookies:Received cookies from: <200 http://www.ccgp-shaanxi.gov.cn/freecms/rest/v1/notice/selectInfoMoreChannel.do?&siteId=a7a15d60-de5b-42f2-b35a-7e3efc34e54f&channel=1eb454a2-7ff7-4a3b-b12c-12acc2685bd1&currPage=1&pageSize=100&noticeType=001054,00100B&regionCode=&purchaseManner=2&title=&openTenderCode=&purchaseNature=&operationStartTime=2022-04-18%2010:18:26&operationEndTime=2022-04-19%2010:18:26&selectTimeName=noticeTime&cityOrArea=>
+Set-Cookie: JSESSIONID=A3E48F36EBE1F01D37C73BD19ABBD3A9; Path=/freecms; HttpOnly
+
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.ccgp-shaanxi.gov.cn/freecms/rest/v1/notice/selectInfoMoreChannel.do?&siteId=a7a15d60-de5b-42f2-b35a-7e3efc34e54f&channel=1eb454a2-7ff7-4a3b-b12c-12acc2685bd1&currPage=1&pageSize=100&noticeType=001054,00100B&regionCode=&purchaseManner=2&title=&openTenderCode=&purchaseNature=&operationStartTime=2022-04-18%2010:18:26&operationEndTime=2022-04-19%2010:18:26&selectTimeName=noticeTime&cityOrArea=> (referer: None)
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.ccgp-shaanxi.gov.cn/freecms/rest/v1/notice/selectInfoMoreChannel.do?&siteId=a7a15d60-de5b-42f2-b35a-7e3efc34e54f&channel=1eb454a2-7ff7-4a3b-b12c-12acc2685bd1&currPage=1&pageSize=100&noticeType=001011,001012,001013,001014,001016,001019&regionCode=&purchaseManner=3&title=&openTenderCode=&purchaseNature=&operationStartTime=2022-04-18%2010:18:26&operationEndTime=2022-04-19%2010:18:26&selectTimeName=noticeTime&cityOrArea=>
+{'business_type': '体育场馆用房施工',
+ 'city_name': '榆林市',
+ 'issue_time': '2022-04-19 8:59:49',
+ 'page_url': 'http://www.ccgp-shaanxi.gov.cn/freecms/site/shaanxi/ggxx/info/2022/8a69c3a2803c3c1c01803f48fd1b6c0d.html',
+ 'project_amount': '3897400.0000',
+ 'province_name': '陕西省',
+ 'purchase_type': '竞争性谈判',
+ 'site': 'www.ccgp-shaanxi.gov.cn',
+ 'subclass': '采购公告',
+ 'title': '榆林市体育中心（网球馆、体育馆）维修改造项目竞争性谈判公告',
+ 'ztb_project_agent': '榆林众文项目管理有限公司'}
+DEBUG:scrapy.downloadermiddlewares.cookies:Received cookies from: <200 http://www.ccgp-shaanxi.gov.cn/freecms/rest/v1/notice/selectInfoMoreChannel.do?&siteId=a7a15d60-de5b-42f2-b35a-7e3efc34e54f&channel=1eb454a2-7ff7-4a3b-b12c-12acc2685bd1&currPage=1&pageSize=100&noticeType=001054,00100B&regionCode=&purchaseManner=3&title=&openTenderCode=&purchaseNature=&operationStartTime=2022-04-18%2010:18:26&operationEndTime=2022-04-19%2010:18:26&selectTimeName=noticeTime&cityOrArea=>
+Set-Cookie: JSESSIONID=C562AD4CDC670BC7BD954C6EA10B674F; Path=/freecms; HttpOnly
+
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.ccgp-shaanxi.gov.cn/freecms/rest/v1/notice/selectInfoMoreChannel.do?&siteId=a7a15d60-de5b-42f2-b35a-7e3efc34e54f&channel=1eb454a2-7ff7-4a3b-b12c-12acc2685bd1&currPage=1&pageSize=100&noticeType=001054,00100B&regionCode=&purchaseManner=3&title=&openTenderCode=&purchaseNature=&operationStartTime=2022-04-18%2010:18:26&operationEndTime=2022-04-19%2010:18:26&selectTimeName=noticeTime&cityOrArea=> (referer: None)
+DEBUG:scrapy.downloadermiddlewares.cookies:Received cookies from: <200 http://www.ccgp-shaanxi.gov.cn/freecms/rest/v1/notice/selectInfoMoreChannel.do?&siteId=a7a15d60-de5b-42f2-b35a-7e3efc34e54f&channel=1eb454a2-7ff7-4a3b-b12c-12acc2685bd1&currPage=1&pageSize=100&noticeType=001011,001012,001013,001014,001016,001019&regionCode=&purchaseManner=4&title=&openTenderCode=&purchaseNature=&operationStartTime=2022-04-18%2010:18:26&operationEndTime=2022-04-19%2010:18:26&selectTimeName=noticeTime&cityOrArea=>
+Set-Cookie: JSESSIONID=479BAD0B5D8171959815D0BF72F56CFA; Path=/freecms; HttpOnly
+
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.ccgp-shaanxi.gov.cn/freecms/rest/v1/notice/selectInfoMoreChannel.do?&siteId=a7a15d60-de5b-42f2-b35a-7e3efc34e54f&channel=1eb454a2-7ff7-4a3b-b12c-12acc2685bd1&currPage=1&pageSize=100&noticeType=001011,001012,001013,001014,001016,001019&regionCode=&purchaseManner=4&title=&openTenderCode=&purchaseNature=&operationStartTime=2022-04-18%2010:18:26&operationEndTime=2022-04-19%2010:18:26&selectTimeName=noticeTime&cityOrArea=> (referer: None)
+DEBUG:scrapy.downloadermiddlewares.cookies:Received cookies from: <200 http://www.ccgp-shaanxi.gov.cn/freecms/rest/v1/notice/selectInfoMoreChannel.do?&siteId=a7a15d60-de5b-42f2-b35a-7e3efc34e54f&channel=1eb454a2-7ff7-4a3b-b12c-12acc2685bd1&currPage=1&pageSize=100&noticeType=001011,001012,001013,001014,001016,001019&regionCode=&purchaseManner=6&title=&openTenderCode=&purchaseNature=&operationStartTime=2022-04-18%2010:18:26&operationEndTime=2022-04-19%2010:18:26&selectTimeName=noticeTime&cityOrArea=>
+Set-Cookie: JSESSIONID=50D4A81D4BED7FD991ADA47270F416DF; Path=/freecms; HttpOnly
+
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.ccgp-shaanxi.gov.cn/freecms/rest/v1/notice/selectInfoMoreChannel.do?&siteId=a7a15d60-de5b-42f2-b35a-7e3efc34e54f&channel=1eb454a2-7ff7-4a3b-b12c-12acc2685bd1&currPage=1&pageSize=100&noticeType=001011,001012,001013,001014,001016,001019&regionCode=&purchaseManner=6&title=&openTenderCode=&purchaseNature=&operationStartTime=2022-04-18%2010:18:26&operationEndTime=2022-04-19%2010:18:26&selectTimeName=noticeTime&cityOrArea=> (referer: None)
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.ccgp-shaanxi.gov.cn/freecms/rest/v1/notice/selectInfoMoreChannel.do?&siteId=a7a15d60-de5b-42f2-b35a-7e3efc34e54f&channel=1eb454a2-7ff7-4a3b-b12c-12acc2685bd1&currPage=1&pageSize=100&noticeType=001011,001012,001013,001014,001016,001019&regionCode=&purchaseManner=6&title=&openTenderCode=&purchaseNature=&operationStartTime=2022-04-18%2010:18:26&operationEndTime=2022-04-19%2010:18:26&selectTimeName=noticeTime&cityOrArea=>
+{'business_type': '地质勘测服务',
+ 'city_name': '商洛市',
+ 'issue_time': '2022-04-19 8:59:50',
+ 'page_url': 'http://www.ccgp-shaanxi.gov.cn/freecms/site/shaanxi/ggxx/info/2022/8a69c931802b13d101803571744e1268.html',
+ 'project_amount': '289820.0000',
+ 'province_name': '陕西省',
+ 'purchase_type': '竞争性磋商',
+ 'site': 'www.ccgp-shaanxi.gov.cn',
+ 'subclass': '采购公告',
+ 'title': '丹凤县职业技术教育培训中心改扩建项目地质勘探采购竞争性磋商公告',
+ 'ztb_project_agent': '陕西省九标项目管理有限责任公司'}
+DEBUG:scrapy.downloadermiddlewares.cookies:Received cookies from: <200 http://www.ccgp-shaanxi.gov.cn/freecms/rest/v1/notice/selectInfoMoreChannel.do?&siteId=a7a15d60-de5b-42f2-b35a-7e3efc34e54f&channel=1eb454a2-7ff7-4a3b-b12c-12acc2685bd1&currPage=1&pageSize=100&noticeType=001054,00100B&regionCode=&purchaseManner=4&title=&openTenderCode=&purchaseNature=&operationStartTime=2022-04-18%2010:18:26&operationEndTime=2022-04-19%2010:18:26&selectTimeName=noticeTime&cityOrArea=>
+Set-Cookie: JSESSIONID=1CF0DC358CE93829AF2567EF11BB30C7; Path=/freecms; HttpOnly
+
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.ccgp-shaanxi.gov.cn/freecms/rest/v1/notice/selectInfoMoreChannel.do?&siteId=a7a15d60-de5b-42f2-b35a-7e3efc34e54f&channel=1eb454a2-7ff7-4a3b-b12c-12acc2685bd1&currPage=1&pageSize=100&noticeType=001054,00100B&regionCode=&purchaseManner=4&title=&openTenderCode=&purchaseNature=&operationStartTime=2022-04-18%2010:18:26&operationEndTime=2022-04-19%2010:18:26&selectTimeName=noticeTime&cityOrArea=> (referer: None)
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.ccgp-shaanxi.gov.cn/freecms/rest/v1/notice/selectInfoMoreChannel.do?&siteId=a7a15d60-de5b-42f2-b35a-7e3efc34e54f&channel=1eb454a2-7ff7-4a3b-b12c-12acc2685bd1&currPage=1&pageSize=100&noticeType=001054,00100B&regionCode=&purchaseManner=4&title=&openTenderCode=&purchaseNature=&operationStartTime=2022-04-18%2010:18:26&operationEndTime=2022-04-19%2010:18:26&selectTimeName=noticeTime&cityOrArea=>
+{'city_name': '宝鸡市',
+ 'issue_time': '2022-04-19 9:00:02',
+ 'page_url': 'http://www.ccgp-shaanxi.gov.cn/freecms/site/shaanxi/ggxx/info/2022/8a69c93f803c403101803f5560f20240.html',
+ 'project_amount': '136000.00',
+ 'province_name': '陕西省',
+ 'purchase_type': '询价',
+ 'site': 'www.ccgp-shaanxi.gov.cn',
+ 'subclass': '合同公示',
+ 'title': '千阳县图书馆图书供货合同书政府采购合同公告',
+ 'ztb_project_agent': '千阳县图书馆'}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.ccgp-shaanxi.gov.cn/freecms/rest/v1/notice/selectInfoMoreChannel.do?&siteId=a7a15d60-de5b-42f2-b35a-7e3efc34e54f&channel=1eb454a2-7ff7-4a3b-b12c-12acc2685bd1&currPage=1&pageSize=100&noticeType=001054,00100B&regionCode=&purchaseManner=4&title=&openTenderCode=&purchaseNature=&operationStartTime=2022-04-18%2010:18:26&operationEndTime=2022-04-19%2010:18:26&selectTimeName=noticeTime&cityOrArea=>
+{'city_name': '渭南市',
+ 'issue_time': '2022-04-19 10:06:17',
+ 'page_url': 'http://www.ccgp-shaanxi.gov.cn/freecms/site/shaanxi/ggxx/info/2022/8a69c3a4803f5cbd01803f91ccc5017c.html',
+ 'project_amount': '559000.00',
+ 'province_name': '陕西省',
+ 'purchase_type': '询价',
+ 'site': 'www.ccgp-shaanxi.gov.cn',
+ 'subclass': '合同公示',
+ 'title': '富平县林业局（本级）薛镇赵老峪北村铁南生态植被恢复工程政府采购合同公告',
+ 'ztb_project_agent': '富平县林业局（本级）'}
+DEBUG:scrapy.downloadermiddlewares.cookies:Received cookies from: <200 http://www.ccgp-shaanxi.gov.cn/freecms/rest/v1/notice/selectInfoMoreChannel.do?&siteId=a7a15d60-de5b-42f2-b35a-7e3efc34e54f&channel=1eb454a2-7ff7-4a3b-b12c-12acc2685bd1&currPage=1&pageSize=100&noticeType=001021,001022,001023,001024,001025,001026,001029,001006&regionCode=&purchaseManner=1&title=&openTenderCode=&purchaseNature=&operationStartTime=2022-04-18%2010:18:26&operationEndTime=2022-04-19%2010:18:26&selectTimeName=noticeTime&cityOrArea=>
+Set-Cookie: JSESSIONID=F714736076567DD48BC49D7F37691723; Path=/freecms; HttpOnly
+
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.ccgp-shaanxi.gov.cn/freecms/rest/v1/notice/selectInfoMoreChannel.do?&siteId=a7a15d60-de5b-42f2-b35a-7e3efc34e54f&channel=1eb454a2-7ff7-4a3b-b12c-12acc2685bd1&currPage=1&pageSize=100&noticeType=001021,001022,001023,001024,001025,001026,001029,001006&regionCode=&purchaseManner=1&title=&openTenderCode=&purchaseNature=&operationStartTime=2022-04-18%2010:18:26&operationEndTime=2022-04-19%2010:18:26&selectTimeName=noticeTime&cityOrArea=> (referer: None)
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.ccgp-shaanxi.gov.cn/freecms/rest/v1/notice/selectInfoMoreChannel.do?&siteId=a7a15d60-de5b-42f2-b35a-7e3efc34e54f&channel=1eb454a2-7ff7-4a3b-b12c-12acc2685bd1&currPage=1&pageSize=100&noticeType=001021,001022,001023,001024,001025,001026,001029,001006&regionCode=&purchaseManner=1&title=&openTenderCode=&purchaseNature=&operationStartTime=2022-04-18%2010:18:26&operationEndTime=2022-04-19%2010:18:26&selectTimeName=noticeTime&cityOrArea=>
+{'business_type': '其他建筑物施工',
+ 'city_name': '',
+ 'issue_time': '2022-04-19 9:47:36',
+ 'page_url': 'http://www.ccgp-shaanxi.gov.cn/freecms/site/shaanxi/ggxx/info/2022/8a69c399802b13dd01803bee80df7123.html',
+ 'project_amount': '2000000.0000',
+ 'province_name': '陕西省',
+ 'purchase_type': '公开招标',
+ 'site': 'www.ccgp-shaanxi.gov.cn',
+ 'subclass': '结果公告',
+ 'title': '陕西省应急管理厅特种专业用车防护棚及车位改造项目（一期）1标段废标公告',
+ 'ztb_project_agent': '陕西开源招标有限公司'}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.ccgp-shaanxi.gov.cn/freecms/rest/v1/notice/selectInfoMoreChannel.do?&siteId=a7a15d60-de5b-42f2-b35a-7e3efc34e54f&channel=1eb454a2-7ff7-4a3b-b12c-12acc2685bd1&currPage=1&pageSize=100&noticeType=001021,001022,001023,001024,001025,001026,001029,001006&regionCode=&purchaseManner=1&title=&openTenderCode=&purchaseNature=&operationStartTime=2022-04-18%2010:18:26&operationEndTime=2022-04-19%2010:18:26&selectTimeName=noticeTime&cityOrArea=>
+{'business_type': '其他专业技术服务',
+ 'city_name': '西安市',
+ 'issue_time': '2022-04-19 9:44:31',
+ 'page_url': 'http://www.ccgp-shaanxi.gov.cn/freecms/site/shaanxi/ggxx/info/2022/8a69c399802b13dd01803bdfdd033cb9.html',
+ 'project_amount': '5122903.3400',
+ 'province_name': '陕西省',
+ 'purchase_type': '公开招标',
+ 'site': 'www.ccgp-shaanxi.gov.cn',
+ 'subclass': '结果公告',
+ 'title': '高新区GX3-17-33号宗地考古发掘及劳务外包项目中标结果公告',
+ 'ztb_project_agent': '龙寰项目管理咨询有限公司'}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.ccgp-shaanxi.gov.cn/freecms/rest/v1/notice/selectInfoMoreChannel.do?&siteId=a7a15d60-de5b-42f2-b35a-7e3efc34e54f&channel=1eb454a2-7ff7-4a3b-b12c-12acc2685bd1&currPage=1&pageSize=100&noticeType=001021,001022,001023,001024,001025,001026,001029,001006&regionCode=&purchaseManner=1&title=&openTenderCode=&purchaseNature=&operationStartTime=2022-04-18%2010:18:26&operationEndTime=2022-04-19%2010:18:26&selectTimeName=noticeTime&cityOrArea=>
+{'business_type': '市场调查和民意测验服务',
+ 'city_name': '渭南市',
+ 'issue_time': '2022-04-19 8:41:03',
+ 'page_url': 'http://www.ccgp-shaanxi.gov.cn/freecms/site/shaanxi/ggxx/info/2022/8a69c399802b13dd01803b4a00db57f7.html',
+ 'project_amount': '2180000.0000',
+ 'province_name': '陕西省',
+ 'purchase_type': '公开招标',
+ 'site': 'www.ccgp-shaanxi.gov.cn',
+ 'subclass': '结果公告',
+ 'title': '渭南市临渭区应急管理局临渭区城区房屋建筑自然灾害综合风险普查采购项目采购结果公告',
+ 'ztb_project_agent': '新瑞建设有限公司'}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.ccgp-shaanxi.gov.cn/freecms/rest/v1/notice/selectInfoMoreChannel.do?&siteId=a7a15d60-de5b-42f2-b35a-7e3efc34e54f&channel=1eb454a2-7ff7-4a3b-b12c-12acc2685bd1&currPage=1&pageSize=100&noticeType=001021,001022,001023,001024,001025,001026,001029,001006&regionCode=&purchaseManner=1&title=&openTenderCode=&purchaseNature=&operationStartTime=2022-04-18%2010:18:26&operationEndTime=2022-04-19%2010:18:26&selectTimeName=noticeTime&cityOrArea=>
+{'business_type': '餐饮服务',
+ 'city_name': '榆林市',
+ 'issue_time': '2022-04-19 10:14:09',
+ 'page_url': 'http://www.ccgp-shaanxi.gov.cn/freecms/site/shaanxi/ggxx/info/2022/8a69c3a2803c3c1c01803f84fc90350e.html',
+ 'project_amount': '4161362.0000',
+ 'province_name': '陕西省',
+ 'purchase_type': '公开招标',
+ 'site': 'www.ccgp-shaanxi.gov.cn',
+ 'subclass': '结果公告',
+ 'title': '榆林市机关事务服务中心市民大厦办公区餐饮服务项目中标结果公告',
+ 'ztb_project_agent': '陕西新世纪工程管理咨询有限公司'}
+DEBUG:scrapy.downloadermiddlewares.cookies:Received cookies from: <200 http://www.ccgp-shaanxi.gov.cn/freecms/rest/v1/notice/selectInfoMoreChannel.do?&siteId=a7a15d60-de5b-42f2-b35a-7e3efc34e54f&channel=1eb454a2-7ff7-4a3b-b12c-12acc2685bd1&currPage=1&pageSize=100&noticeType=001054,00100B&regionCode=&purchaseManner=5&title=&openTenderCode=&purchaseNature=&operationStartTime=2022-04-18%2010:18:26&operationEndTime=2022-04-19%2010:18:26&selectTimeName=noticeTime&cityOrArea=>
+Set-Cookie: JSESSIONID=9CDB72E272059CFA3A927FF5C7C26BEE; Path=/freecms; HttpOnly
+
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.ccgp-shaanxi.gov.cn/freecms/rest/v1/notice/selectInfoMoreChannel.do?&siteId=a7a15d60-de5b-42f2-b35a-7e3efc34e54f&channel=1eb454a2-7ff7-4a3b-b12c-12acc2685bd1&currPage=1&pageSize=100&noticeType=001054,00100B&regionCode=&purchaseManner=5&title=&openTenderCode=&purchaseNature=&operationStartTime=2022-04-18%2010:18:26&operationEndTime=2022-04-19%2010:18:26&selectTimeName=noticeTime&cityOrArea=> (referer: None)
+DEBUG:scrapy.downloadermiddlewares.cookies:Received cookies from: <200 http://www.ccgp-shaanxi.gov.cn/freecms/rest/v1/notice/selectInfoMoreChannel.do?&siteId=a7a15d60-de5b-42f2-b35a-7e3efc34e54f&channel=1eb454a2-7ff7-4a3b-b12c-12acc2685bd1&currPage=1&pageSize=100&noticeType=001054,00100B&regionCode=&purchaseManner=6&title=&openTenderCode=&purchaseNature=&operationStartTime=2022-04-18%2010:18:26&operationEndTime=2022-04-19%2010:18:26&selectTimeName=noticeTime&cityOrArea=>
+Set-Cookie: JSESSIONID=B828D81B88C15B4472837125E5221943; Path=/freecms; HttpOnly
+
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.ccgp-shaanxi.gov.cn/freecms/rest/v1/notice/selectInfoMoreChannel.do?&siteId=a7a15d60-de5b-42f2-b35a-7e3efc34e54f&channel=1eb454a2-7ff7-4a3b-b12c-12acc2685bd1&currPage=1&pageSize=100&noticeType=001054,00100B&regionCode=&purchaseManner=6&title=&openTenderCode=&purchaseNature=&operationStartTime=2022-04-18%2010:18:26&operationEndTime=2022-04-19%2010:18:26&selectTimeName=noticeTime&cityOrArea=> (referer: None)
+DEBUG:scrapy.downloadermiddlewares.cookies:Received cookies from: <200 http://www.ccgp-shaanxi.gov.cn/freecms/rest/v1/notice/selectInfoMoreChannel.do?&siteId=a7a15d60-de5b-42f2-b35a-7e3efc34e54f&channel=1eb454a2-7ff7-4a3b-b12c-12acc2685bd1&currPage=1&pageSize=100&noticeType=001021,001022,001023,001024,001025,001026,001029,001006&regionCode=&purchaseManner=3&title=&openTenderCode=&purchaseNature=&operationStartTime=2022-04-18%2010:18:26&operationEndTime=2022-04-19%2010:18:26&selectTimeName=noticeTime&cityOrArea=>
+Set-Cookie: JSESSIONID=2889A7E0BB1168460E2D77DEFB6E3735; Path=/freecms; HttpOnly
+
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.ccgp-shaanxi.gov.cn/freecms/rest/v1/notice/selectInfoMoreChannel.do?&siteId=a7a15d60-de5b-42f2-b35a-7e3efc34e54f&channel=1eb454a2-7ff7-4a3b-b12c-12acc2685bd1&currPage=1&pageSize=100&noticeType=001021,001022,001023,001024,001025,001026,001029,001006&regionCode=&purchaseManner=3&title=&openTenderCode=&purchaseNature=&operationStartTime=2022-04-18%2010:18:26&operationEndTime=2022-04-19%2010:18:26&selectTimeName=noticeTime&cityOrArea=> (referer: None)
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.ccgp-shaanxi.gov.cn/freecms/rest/v1/notice/selectInfoMoreChannel.do?&siteId=a7a15d60-de5b-42f2-b35a-7e3efc34e54f&channel=1eb454a2-7ff7-4a3b-b12c-12acc2685bd1&currPage=1&pageSize=100&noticeType=001021,001022,001023,001024,001025,001026,001029,001006&regionCode=&purchaseManner=3&title=&openTenderCode=&purchaseNature=&operationStartTime=2022-04-18%2010:18:26&operationEndTime=2022-04-19%2010:18:26&selectTimeName=noticeTime&cityOrArea=>
+{'business_type': '其他专业技术服务',
+ 'city_name': '延安市',
+ 'issue_time': '2022-04-19 9:47:52',
+ 'page_url': 'http://www.ccgp-shaanxi.gov.cn/freecms/site/shaanxi/ggxx/info/2022/8a69c3a2803c3c1c01803f7a147503e2.html',
+ 'project_amount': '460000.0000',
+ 'province_name': '陕西省',
+ 'purchase_type': '竞争性谈判',
+ 'site': 'www.ccgp-shaanxi.gov.cn',
+ 'subclass': '结果公告',
+ 'title': '延安市安塞区经济发展局关于《安塞区“十四五”制造业高质量发展规划》编制服务采购项目中标（成交）结果公告',
+ 'ztb_project_agent': '延安市安塞区政府采购中心'}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.ccgp-shaanxi.gov.cn/freecms/rest/v1/notice/selectInfoMoreChannel.do?&siteId=a7a15d60-de5b-42f2-b35a-7e3efc34e54f&channel=1eb454a2-7ff7-4a3b-b12c-12acc2685bd1&currPage=1&pageSize=100&noticeType=001021,001022,001023,001024,001025,001026,001029,001006&regionCode=&purchaseManner=3&title=&openTenderCode=&purchaseNature=&operationStartTime=2022-04-18%2010:18:26&operationEndTime=2022-04-19%2010:18:26&selectTimeName=noticeTime&cityOrArea=>
+{'business_type': '机柜,数据采集器,数字照相机,镜头及器材,电子白板,非接触式智能卡读写机,其他机房辅助设备,激光打印机,工业控制用计算机系统,支撑软件,计算机终端安全设备,信息安全软件',
+ 'city_name': '铜川市',
+ 'issue_time': '2022-04-19 8:09:09',
+ 'page_url': 'http://www.ccgp-shaanxi.gov.cn/freecms/site/shaanxi/ggxx/info/2022/8a69c3a2803c3c1c01803c6d64073998.html',
+ 'project_amount': '396000.0000',
+ 'province_name': '陕西省',
+ 'purchase_type': '竞争性谈判',
+ 'site': 'www.ccgp-shaanxi.gov.cn',
+ 'subclass': '结果公告',
+ 'title': '铜川市公安局印台分局公安局印台分局人员信息综合采集反馈系统采购项目中标（成交）结果公告',
+ 'ztb_project_agent': '陕西北衡全项目咨询有限公司'}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.ccgp-shaanxi.gov.cn/freecms/rest/v1/notice/selectInfoMoreChannel.do?&siteId=a7a15d60-de5b-42f2-b35a-7e3efc34e54f&channel=1eb454a2-7ff7-4a3b-b12c-12acc2685bd1&currPage=1&pageSize=100&noticeType=001021,001022,001023,001024,001025,001026,001029,001006&regionCode=&purchaseManner=3&title=&openTenderCode=&purchaseNature=&operationStartTime=2022-04-18%2010:18:26&operationEndTime=2022-04-19%2010:18:26&selectTimeName=noticeTime&cityOrArea=>
+{'business_type': '其他专业技术服务',
+ 'city_name': '延安市',
+ 'issue_time': '2022-04-19 10:01:49',
+ 'page_url': 'http://www.ccgp-shaanxi.gov.cn/freecms/site/shaanxi/ggxx/info/2022/8a69c3a2803c3c1c01803f8a035a519d.html',
+ 'project_amount': '400000.0000',
+ 'province_name': '陕西省',
+ 'purchase_type': '竞争性谈判',
+ 'site': 'www.ccgp-shaanxi.gov.cn',
+ 'subclass': '结果公告',
+ 'title': '延安市安塞区水务局关于安塞区水资源综合规划编制服务费采购项目结果公告',
+ 'ztb_project_agent': '延安市安塞区政府采购中心'}
+DEBUG:scrapy.downloadermiddlewares.cookies:Received cookies from: <200 http://www.ccgp-shaanxi.gov.cn/freecms/rest/v1/notice/selectInfoMoreChannel.do?&siteId=a7a15d60-de5b-42f2-b35a-7e3efc34e54f&channel=1eb454a2-7ff7-4a3b-b12c-12acc2685bd1&currPage=1&pageSize=100&noticeType=001054,00100B&regionCode=&purchaseManner=9&title=&openTenderCode=&purchaseNature=&operationStartTime=2022-04-18%2010:18:26&operationEndTime=2022-04-19%2010:18:26&selectTimeName=noticeTime&cityOrArea=>
+Set-Cookie: JSESSIONID=9C639E6D6B46198EBCC0CFDA42A897A0; Path=/freecms; HttpOnly
+
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.ccgp-shaanxi.gov.cn/freecms/rest/v1/notice/selectInfoMoreChannel.do?&siteId=a7a15d60-de5b-42f2-b35a-7e3efc34e54f&channel=1eb454a2-7ff7-4a3b-b12c-12acc2685bd1&currPage=1&pageSize=100&noticeType=001054,00100B&regionCode=&purchaseManner=9&title=&openTenderCode=&purchaseNature=&operationStartTime=2022-04-18%2010:18:26&operationEndTime=2022-04-19%2010:18:26&selectTimeName=noticeTime&cityOrArea=> (referer: None)
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.ccgp-shaanxi.gov.cn/freecms/rest/v1/notice/selectInfoMoreChannel.do?&siteId=a7a15d60-de5b-42f2-b35a-7e3efc34e54f&channel=1eb454a2-7ff7-4a3b-b12c-12acc2685bd1&currPage=1&pageSize=100&noticeType=001054,00100B&regionCode=&purchaseManner=9&title=&openTenderCode=&purchaseNature=&operationStartTime=2022-04-18%2010:18:26&operationEndTime=2022-04-19%2010:18:26&selectTimeName=noticeTime&cityOrArea=>
+{'city_name': '西安市',
+ 'issue_time': '2022-04-19 8:39:16',
+ 'page_url': 'http://www.ccgp-shaanxi.gov.cn/freecms/site/shaanxi/ggxx/info/2022/8a69c93f803c403101803f4226970218.html',
+ 'project_amount': '441480.00',
+ 'province_name': '陕西省',
+ 'purchase_type': '其他',
+ 'site': 'www.ccgp-shaanxi.gov.cn',
+ 'subclass': '合同公示',
+ 'title': '西安市中医医院西安市基层中医馆卫生技术人员中医药知识与技能培训酒店服务项目政府采购合同公告',
+ 'ztb_project_agent': '西安市中医医院'}
+DEBUG:scrapy.downloadermiddlewares.cookies:Received cookies from: <200 http://www.ccgp-shaanxi.gov.cn/freecms/rest/v1/notice/selectInfoMoreChannel.do?&siteId=a7a15d60-de5b-42f2-b35a-7e3efc34e54f&channel=1eb454a2-7ff7-4a3b-b12c-12acc2685bd1&currPage=1&pageSize=100&noticeType=001021,001022,001023,001024,001025,001026,001029,001006&regionCode=&purchaseManner=4&title=&openTenderCode=&purchaseNature=&operationStartTime=2022-04-18%2010:18:26&operationEndTime=2022-04-19%2010:18:26&selectTimeName=noticeTime&cityOrArea=>
+Set-Cookie: JSESSIONID=D83EA4287D667FC0BCDA2D3C577C7D0A; Path=/freecms; HttpOnly
+
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.ccgp-shaanxi.gov.cn/freecms/rest/v1/notice/selectInfoMoreChannel.do?&siteId=a7a15d60-de5b-42f2-b35a-7e3efc34e54f&channel=1eb454a2-7ff7-4a3b-b12c-12acc2685bd1&currPage=1&pageSize=100&noticeType=001021,001022,001023,001024,001025,001026,001029,001006&regionCode=&purchaseManner=4&title=&openTenderCode=&purchaseNature=&operationStartTime=2022-04-18%2010:18:26&operationEndTime=2022-04-19%2010:18:26&selectTimeName=noticeTime&cityOrArea=> (referer: None)
+DEBUG:scrapy.downloadermiddlewares.cookies:Received cookies from: <200 http://www.ccgp-shaanxi.gov.cn/freecms/rest/v1/notice/selectInfoMoreChannel.do?&siteId=a7a15d60-de5b-42f2-b35a-7e3efc34e54f&channel=1eb454a2-7ff7-4a3b-b12c-12acc2685bd1&currPage=1&pageSize=100&noticeType=001021,001022,001023,001024,001025,001026,001029,001006&regionCode=&purchaseManner=5&title=&openTenderCode=&purchaseNature=&operationStartTime=2022-04-18%2010:18:26&operationEndTime=2022-04-19%2010:18:26&selectTimeName=noticeTime&cityOrArea=>
+Set-Cookie: JSESSIONID=700DC0C16351E40BECAFA35E97F30D6E; Path=/freecms; HttpOnly
+
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.ccgp-shaanxi.gov.cn/freecms/rest/v1/notice/selectInfoMoreChannel.do?&siteId=a7a15d60-de5b-42f2-b35a-7e3efc34e54f&channel=1eb454a2-7ff7-4a3b-b12c-12acc2685bd1&currPage=1&pageSize=100&noticeType=001021,001022,001023,001024,001025,001026,001029,001006&regionCode=&purchaseManner=5&title=&openTenderCode=&purchaseNature=&operationStartTime=2022-04-18%2010:18:26&operationEndTime=2022-04-19%2010:18:26&selectTimeName=noticeTime&cityOrArea=> (referer: None)
+DEBUG:scrapy.downloadermiddlewares.cookies:Received cookies from: <200 http://www.ccgp-shaanxi.gov.cn/freecms/rest/v1/notice/selectInfoMoreChannel.do?&siteId=a7a15d60-de5b-42f2-b35a-7e3efc34e54f&channel=1eb454a2-7ff7-4a3b-b12c-12acc2685bd1&currPage=1&pageSize=100&noticeType=001021,001022,001023,001024,001025,001026,001029,001006&regionCode=&purchaseManner=6&title=&openTenderCode=&purchaseNature=&operationStartTime=2022-04-18%2010:18:26&operationEndTime=2022-04-19%2010:18:26&selectTimeName=noticeTime&cityOrArea=>
+Set-Cookie: JSESSIONID=38BD589D243C66CF5C61961502D29B7A; Path=/freecms; HttpOnly
+
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.ccgp-shaanxi.gov.cn/freecms/rest/v1/notice/selectInfoMoreChannel.do?&siteId=a7a15d60-de5b-42f2-b35a-7e3efc34e54f&channel=1eb454a2-7ff7-4a3b-b12c-12acc2685bd1&currPage=1&pageSize=100&noticeType=001021,001022,001023,001024,001025,001026,001029,001006&regionCode=&purchaseManner=6&title=&openTenderCode=&purchaseNature=&operationStartTime=2022-04-18%2010:18:26&operationEndTime=2022-04-19%2010:18:26&selectTimeName=noticeTime&cityOrArea=> (referer: None)
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.ccgp-shaanxi.gov.cn/freecms/rest/v1/notice/selectInfoMoreChannel.do?&siteId=a7a15d60-de5b-42f2-b35a-7e3efc34e54f&channel=1eb454a2-7ff7-4a3b-b12c-12acc2685bd1&currPage=1&pageSize=100&noticeType=001021,001022,001023,001024,001025,001026,001029,001006&regionCode=&purchaseManner=6&title=&openTenderCode=&purchaseNature=&operationStartTime=2022-04-18%2010:18:26&operationEndTime=2022-04-19%2010:18:26&selectTimeName=noticeTime&cityOrArea=>
+{'business_type': '公路工程施工',
+ 'city_name': '汉中市',
+ 'issue_time': '2022-04-19 9:05:23',
+ 'page_url': 'http://www.ccgp-shaanxi.gov.cn/freecms/site/shaanxi/ggxx/info/2022/8a69c3a2803c3c1c01803f5380510fe0.html',
+ 'project_amount': '900000.0000',
+ 'province_name': '陕西省',
+ 'purchase_type': '竞争性磋商',
+ 'site': 'www.ccgp-shaanxi.gov.cn',
+ 'subclass': '结果公告',
+ 'title': '洋县戚氏街道办事处2022年戚氏办下赵村八组瓜果蔬菜产业园生产路硬化项目中标（成交）结果公告',
+ 'ztb_project_agent': '泾清项目管理有限公司'}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.ccgp-shaanxi.gov.cn/freecms/rest/v1/notice/selectInfoMoreChannel.do?&siteId=a7a15d60-de5b-42f2-b35a-7e3efc34e54f&channel=1eb454a2-7ff7-4a3b-b12c-12acc2685bd1&currPage=1&pageSize=100&noticeType=001021,001022,001023,001024,001025,001026,001029,001006&regionCode=&purchaseManner=6&title=&openTenderCode=&purchaseNature=&operationStartTime=2022-04-18%2010:18:26&operationEndTime=2022-04-19%2010:18:26&selectTimeName=noticeTime&cityOrArea=>
+{'business_type': '公共服务',
+ 'city_name': '',
+ 'issue_time': '2022-04-19 8:57:06',
+ 'page_url': 'http://www.ccgp-shaanxi.gov.cn/freecms/site/shaanxi/ggxx/info/2022/8a69c3a2803c3c1c01803f49aeb96e2f.html',
+ 'project_amount': '870465.0000',
+ 'province_name': '陕西省',
+ 'purchase_type': '竞争性磋商',
+ 'site': 'www.ccgp-shaanxi.gov.cn',
+ 'subclass': '结果公告',
+ 'title': '神木市住房保障中心公租房运营管理服务采购项目中标（成交）结果公告',
+ 'ztb_project_agent': '陕西新世纪工程管理咨询有限公司'}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.ccgp-shaanxi.gov.cn/freecms/rest/v1/notice/selectInfoMoreChannel.do?&siteId=a7a15d60-de5b-42f2-b35a-7e3efc34e54f&channel=1eb454a2-7ff7-4a3b-b12c-12acc2685bd1&currPage=1&pageSize=100&noticeType=001021,001022,001023,001024,001025,001026,001029,001006&regionCode=&purchaseManner=6&title=&openTenderCode=&purchaseNature=&operationStartTime=2022-04-18%2010:18:26&operationEndTime=2022-04-19%2010:18:26&selectTimeName=noticeTime&cityOrArea=>
+{'business_type': '公路工程施工',
+ 'city_name': '安康市',
+ 'issue_time': '2022-04-19 8:29:00',
+ 'page_url': 'http://www.ccgp-shaanxi.gov.cn/freecms/site/shaanxi/ggxx/info/2022/8a69c399802b13dd01803b5e5a9c4903.html',
+ 'project_amount': '1006864.1000',
+ 'province_name': '陕西省',
+ 'purchase_type': '竞争性磋商',
+ 'site': 'www.ccgp-shaanxi.gov.cn',
+ 'subclass': '结果公告',
+ 'title': '白河县中厂镇顺利社区2022年产业配套设施建设项目中标（成交）结果公告',
+ 'ztb_project_agent': '安康市兴盛工程造价咨询有限公司'}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.ccgp-shaanxi.gov.cn/freecms/rest/v1/notice/selectInfoMoreChannel.do?&siteId=a7a15d60-de5b-42f2-b35a-7e3efc34e54f&channel=1eb454a2-7ff7-4a3b-b12c-12acc2685bd1&currPage=1&pageSize=100&noticeType=001021,001022,001023,001024,001025,001026,001029,001006&regionCode=&purchaseManner=6&title=&openTenderCode=&purchaseNature=&operationStartTime=2022-04-18%2010:18:26&operationEndTime=2022-04-19%2010:18:26&selectTimeName=noticeTime&cityOrArea=>
+{'business_type': '其他建筑物施工',
+ 'city_name': '渭南市',
+ 'issue_time': '2022-04-19 10:01:24',
+ 'page_url': 'http://www.ccgp-shaanxi.gov.cn/freecms/site/shaanxi/ggxx/info/2022/8a69c3a2803c3c1c01803f83a8292f8a.html',
+ 'project_amount': '1500000.0000',
+ 'province_name': '陕西省',
+ 'purchase_type': '竞争性磋商',
+ 'site': 'www.ccgp-shaanxi.gov.cn',
+ 'subclass': '结果公告',
+ 'title': '富平县薛镇人民政府（本级）薛镇村2021年美丽乡村提升改造建设项目中标（成交）结果公告',
+ 'ztb_project_agent': '陕西睿晟招标有限公司'}
+DEBUG:scrapy.downloadermiddlewares.cookies:Received cookies from: <200 http://www.ccgp-shaanxi.gov.cn/freecms/rest/v1/notice/selectInfoMoreChannel.do?&siteId=a7a15d60-de5b-42f2-b35a-7e3efc34e54f&channel=1eb454a2-7ff7-4a3b-b12c-12acc2685bd1&currPage=1&pageSize=100&noticeType=001031,001032&regionCode=&purchaseManner=1&title=&openTenderCode=&purchaseNature=&operationStartTime=2022-04-18%2010:18:26&operationEndTime=2022-04-19%2010:18:26&selectTimeName=noticeTime&cityOrArea=>
+Set-Cookie: JSESSIONID=A9AC08365511CD7D4A52039CA3235219; Path=/freecms; HttpOnly
+
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.ccgp-shaanxi.gov.cn/freecms/rest/v1/notice/selectInfoMoreChannel.do?&siteId=a7a15d60-de5b-42f2-b35a-7e3efc34e54f&channel=1eb454a2-7ff7-4a3b-b12c-12acc2685bd1&currPage=1&pageSize=100&noticeType=001031,001032&regionCode=&purchaseManner=1&title=&openTenderCode=&purchaseNature=&operationStartTime=2022-04-18%2010:18:26&operationEndTime=2022-04-19%2010:18:26&selectTimeName=noticeTime&cityOrArea=> (referer: None)
+DEBUG:scrapy.downloadermiddlewares.cookies:Received cookies from: <200 http://www.ccgp-shaanxi.gov.cn/freecms/rest/v1/notice/selectInfoMoreChannel.do?&siteId=a7a15d60-de5b-42f2-b35a-7e3efc34e54f&channel=1eb454a2-7ff7-4a3b-b12c-12acc2685bd1&currPage=1&pageSize=100&noticeType=001031,001032&regionCode=&purchaseManner=3&title=&openTenderCode=&purchaseNature=&operationStartTime=2022-04-18%2010:18:26&operationEndTime=2022-04-19%2010:18:26&selectTimeName=noticeTime&cityOrArea=>
+Set-Cookie: JSESSIONID=568CD03991BEB6E95920CE717F96E52C; Path=/freecms; HttpOnly
+
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.ccgp-shaanxi.gov.cn/freecms/rest/v1/notice/selectInfoMoreChannel.do?&siteId=a7a15d60-de5b-42f2-b35a-7e3efc34e54f&channel=1eb454a2-7ff7-4a3b-b12c-12acc2685bd1&currPage=1&pageSize=100&noticeType=001031,001032&regionCode=&purchaseManner=3&title=&openTenderCode=&purchaseNature=&operationStartTime=2022-04-18%2010:18:26&operationEndTime=2022-04-19%2010:18:26&selectTimeName=noticeTime&cityOrArea=> (referer: None)
+DEBUG:scrapy.downloadermiddlewares.cookies:Received cookies from: <200 http://www.ccgp-shaanxi.gov.cn/freecms/rest/v1/notice/selectInfoMoreChannel.do?&siteId=a7a15d60-de5b-42f2-b35a-7e3efc34e54f&channel=1eb454a2-7ff7-4a3b-b12c-12acc2685bd1&currPage=1&pageSize=100&noticeType=001031,001032&regionCode=&purchaseManner=4&title=&openTenderCode=&purchaseNature=&operationStartTime=2022-04-18%2010:18:26&operationEndTime=2022-04-19%2010:18:26&selectTimeName=noticeTime&cityOrArea=>
+Set-Cookie: JSESSIONID=460842EE57B41A263DC10D2868D10AF2; Path=/freecms; HttpOnly
+
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.ccgp-shaanxi.gov.cn/freecms/rest/v1/notice/selectInfoMoreChannel.do?&siteId=a7a15d60-de5b-42f2-b35a-7e3efc34e54f&channel=1eb454a2-7ff7-4a3b-b12c-12acc2685bd1&currPage=1&pageSize=100&noticeType=001031,001032&regionCode=&purchaseManner=4&title=&openTenderCode=&purchaseNature=&operationStartTime=2022-04-18%2010:18:26&operationEndTime=2022-04-19%2010:18:26&selectTimeName=noticeTime&cityOrArea=> (referer: None)
+DEBUG:scrapy.downloadermiddlewares.cookies:Received cookies from: <200 http://www.ccgp-shaanxi.gov.cn/freecms/rest/v1/notice/selectInfoMoreChannel.do?&siteId=a7a15d60-de5b-42f2-b35a-7e3efc34e54f&channel=1eb454a2-7ff7-4a3b-b12c-12acc2685bd1&currPage=1&pageSize=100&noticeType=001031,001032&regionCode=&purchaseManner=6&title=&openTenderCode=&purchaseNature=&operationStartTime=2022-04-18%2010:18:26&operationEndTime=2022-04-19%2010:18:26&selectTimeName=noticeTime&cityOrArea=>
+Set-Cookie: JSESSIONID=E1A5C6AB6B1D3D52BEBBA1404AE95680; Path=/freecms; HttpOnly
+
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.ccgp-shaanxi.gov.cn/freecms/rest/v1/notice/selectInfoMoreChannel.do?&siteId=a7a15d60-de5b-42f2-b35a-7e3efc34e54f&channel=1eb454a2-7ff7-4a3b-b12c-12acc2685bd1&currPage=1&pageSize=100&noticeType=001031,001032&regionCode=&purchaseManner=6&title=&openTenderCode=&purchaseNature=&operationStartTime=2022-04-18%2010:18:26&operationEndTime=2022-04-19%2010:18:26&selectTimeName=noticeTime&cityOrArea=> (referer: None)
+DEBUG:scrapy.downloadermiddlewares.cookies:Received cookies from: <200 http://www.ccgp-shaanxi.gov.cn/freecms/rest/v1/notice/selectInfoMoreChannel.do?&siteId=a7a15d60-de5b-42f2-b35a-7e3efc34e54f&channel=1eb454a2-7ff7-4a3b-b12c-12acc2685bd1&currPage=1&pageSize=100&noticeType=001004,001006&regionCode=&purchaseManner=1&title=&openTenderCode=&purchaseNature=&operationStartTime=2022-04-18%2010:18:26&operationEndTime=2022-04-19%2010:18:26&selectTimeName=noticeTime&cityOrArea=>
+Set-Cookie: JSESSIONID=130B1D39A9C928E2C27280A66709403F; Path=/freecms; HttpOnly
+
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.ccgp-shaanxi.gov.cn/freecms/rest/v1/notice/selectInfoMoreChannel.do?&siteId=a7a15d60-de5b-42f2-b35a-7e3efc34e54f&channel=1eb454a2-7ff7-4a3b-b12c-12acc2685bd1&currPage=1&pageSize=100&noticeType=001004,001006&regionCode=&purchaseManner=1&title=&openTenderCode=&purchaseNature=&operationStartTime=2022-04-18%2010:18:26&operationEndTime=2022-04-19%2010:18:26&selectTimeName=noticeTime&cityOrArea=> (referer: None)
+DEBUG:scrapy.downloadermiddlewares.cookies:Received cookies from: <200 http://www.ccgp-shaanxi.gov.cn/freecms/rest/v1/notice/selectInfoMoreChannel.do?&siteId=a7a15d60-de5b-42f2-b35a-7e3efc34e54f&channel=1eb454a2-7ff7-4a3b-b12c-12acc2685bd1&currPage=1&pageSize=100&noticeType=001051,00105F&regionCode=&purchaseManner=5&title=&openTenderCode=&purchaseNature=&operationStartTime=2022-04-18%2010:18:26&operationEndTime=2022-04-19%2010:18:26&selectTimeName=noticeTime&cityOrArea=>
+Set-Cookie: JSESSIONID=E34D745363270CAEF1D33B817DD96828; Path=/freecms; HttpOnly
+
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.ccgp-shaanxi.gov.cn/freecms/rest/v1/notice/selectInfoMoreChannel.do?&siteId=a7a15d60-de5b-42f2-b35a-7e3efc34e54f&channel=1eb454a2-7ff7-4a3b-b12c-12acc2685bd1&currPage=1&pageSize=100&noticeType=001051,00105F&regionCode=&purchaseManner=5&title=&openTenderCode=&purchaseNature=&operationStartTime=2022-04-18%2010:18:26&operationEndTime=2022-04-19%2010:18:26&selectTimeName=noticeTime&cityOrArea=> (referer: None)
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.ccgp-shaanxi.gov.cn/freecms/rest/v1/notice/selectInfoMoreChannel.do?&siteId=a7a15d60-de5b-42f2-b35a-7e3efc34e54f&channel=1eb454a2-7ff7-4a3b-b12c-12acc2685bd1&currPage=1&pageSize=100&noticeType=001051,00105F&regionCode=&purchaseManner=5&title=&openTenderCode=&purchaseNature=&operationStartTime=2022-04-18%2010:18:26&operationEndTime=2022-04-19%2010:18:26&selectTimeName=noticeTime&cityOrArea=>
+{'city_name': '安康市',
+ 'issue_time': '2022-04-19 9:27:03',
+ 'page_url': 'http://www.ccgp-shaanxi.gov.cn/freecms/site/shaanxi/ggxx/info/2022/8a69c703803aa15701803b4d21ea1eea.html',
+ 'province_name': '陕西省',
+ 'purchase_type': '单一来源',
+ 'site': 'www.ccgp-shaanxi.gov.cn',
+ 'subclass': '采购前公示',
+ 'title': '安康市中医医院安康市中医医院高新分院物业服务单一来源采购采购实行单一来源采购方式的公示',
+ 'ztb_project_agent': '安康市中医医院'}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.ccgp-shaanxi.gov.cn/freecms/rest/v1/notice/selectInfoMoreChannel.do?&siteId=a7a15d60-de5b-42f2-b35a-7e3efc34e54f&channel=1eb454a2-7ff7-4a3b-b12c-12acc2685bd1&currPage=1&pageSize=100&noticeType=001051,00105F&regionCode=&purchaseManner=5&title=&openTenderCode=&purchaseNature=&operationStartTime=2022-04-18%2010:18:26&operationEndTime=2022-04-19%2010:18:26&selectTimeName=noticeTime&cityOrArea=>
+{'city_name': '',
+ 'issue_time': '2022-04-19 10:18:04',
+ 'page_url': 'http://www.ccgp-shaanxi.gov.cn/freecms/site/shaanxi/ggxx/info/2022/8a69c703802869fc01802b37af2843f5.html',
+ 'province_name': '陕西省',
+ 'purchase_type': '单一来源',
+ 'site': 'www.ccgp-shaanxi.gov.cn',
+ 'subclass': '采购前公示',
+ 'title': '省人事考试中心2022年度事业单位公开招聘工作人员、公安机关面向公安院校公安转业毕业生招考补录笔试 '
+          '网上阅卷技术服务采购实行单一来源采购方式的公示',
+ 'ztb_project_agent': '省人事考试中心'}
+INFO:scrapy.core.engine:Closing spider (finished)
+INFO:scrapy.statscollectors:Dumping Scrapy stats:
+{'downloader/request_bytes': 15810,
+ 'downloader/request_count': 22,
+ 'downloader/request_method_count/GET': 22,
+ 'downloader/response_bytes': 21504,
+ 'downloader/response_count': 22,
+ 'downloader/response_status_count/200': 22,
+ 'elapsed_time_seconds': 53.809029,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2022, 4, 19, 2, 19, 20, 629276),
+ 'item_scraped_count': 19,
+ 'log_count/DEBUG': 63,
+ 'log_count/INFO': 10,
+ 'response_received_count': 22,
+ 'scheduler/dequeued': 22,
+ 'scheduler/dequeued/memory': 22,
+ 'scheduler/enqueued': 22,
+ 'scheduler/enqueued/memory': 22,
+ 'start_time': datetime.datetime(2022, 4, 19, 2, 18, 26, 820247)}
+INFO:scrapy.core.engine:Spider closed (finished)

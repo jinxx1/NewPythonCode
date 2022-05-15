@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4d394525-5f5c-43f2-8024-b36ccb823481" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/cicCrawl/mysql_processing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../home/homeScrapy/myscrapy/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../scrapySplash10086/spalsh10086/spalsh10086/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../scrapySplash10086/spalsh10086/spalsh10086/mysql_processing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../scrapySplash10086/spalsh10086/spalsh10086/scrapyParse.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../scrapySplash10086/spalsh10086/spalsh10086/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../newscrapy/newscrapy/gcable_run_guangdong.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../newscrapy/newscrapy/gcable_run_guangdong.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../newscrapy/newscrapy/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../newscrapy/newscrapy/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../newscrapy/newscrapy/spiders/ccgp.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../newscrapy/newscrapy/spiders/ccgp.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python_github/u1webcrwal/u1webcrwal/pipelines.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../python_github/u1webcrwal/u1webcrwal/pipelines.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1hLhCAYSe09mshgxecEKbgjbCzY" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\PythonCode\cicCrawl\cicCrawl\cicCrawl" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.test">
+    <configuration name="mysql_processing" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="cicCrawl" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/cicCrawl" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cicCrawl/mysql_processing.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="cicCrawl" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/cicCrawl" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cicCrawl/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.mysql_processing" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4d394525-5f5c-43f2-8024-b36ccb823481" name="Default Changelist" comment="" />
+      <created>1599796149171</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1599796149171</updated>
+      <workItem from="1599796153147" duration="24347000" />
+      <workItem from="1600391387860" duration="15447000" />
+      <workItem from="1600572035170" duration="11461000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="741" y="275" key="FileChooserDialogImpl" timestamp="1599808775374">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="741" y="275" key="FileChooserDialogImpl/0.0.1920.1040/-2160.0.960.1667@0.0.1920.1040" timestamp="1599808775374" />
+    <state width="1878" height="318" key="GridCell.Tab.0.bottom" timestamp="1600625759734">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1878" height="318" key="GridCell.Tab.0.bottom/0.0.1920.1040/-2160.0.960.1667@0.0.1920.1040" timestamp="1600625759734" />
+    <state width="1878" height="318" key="GridCell.Tab.0.center" timestamp="1600625759734">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1878" height="318" key="GridCell.Tab.0.center/0.0.1920.1040/-2160.0.960.1667@0.0.1920.1040" timestamp="1600625759734" />
+    <state width="1878" height="318" key="GridCell.Tab.0.left" timestamp="1600625759734">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1878" height="318" key="GridCell.Tab.0.left/0.0.1920.1040/-2160.0.960.1667@0.0.1920.1040" timestamp="1600625759734" />
+    <state width="1878" height="318" key="GridCell.Tab.0.right" timestamp="1600625759734">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1878" height="318" key="GridCell.Tab.0.right/0.0.1920.1040/-2160.0.960.1667@0.0.1920.1040" timestamp="1600625759734" />
+    <state width="1878" height="348" key="GridCell.Tab.1.bottom" timestamp="1599842580648">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1878" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040/-2160.0.960.1667@0.0.1920.1040" timestamp="1599842580648" />
+    <state width="1878" height="348" key="GridCell.Tab.1.center" timestamp="1599842580648">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1878" height="348" key="GridCell.Tab.1.center/0.0.1920.1040/-2160.0.960.1667@0.0.1920.1040" timestamp="1599842580648" />
+    <state width="1878" height="348" key="GridCell.Tab.1.left" timestamp="1599842580648">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1878" height="348" key="GridCell.Tab.1.left/0.0.1920.1040/-2160.0.960.1667@0.0.1920.1040" timestamp="1599842580648" />
+    <state width="1878" height="348" key="GridCell.Tab.1.right" timestamp="1599842580648">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1878" height="348" key="GridCell.Tab.1.right/0.0.1920.1040/-2160.0.960.1667@0.0.1920.1040" timestamp="1599842580648" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/cicCrawl$mysql_processing.coverage" NAME="mysql_processing Coverage Results" MODIFIED="1599807390256" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cicCrawl" />
+    <SUITE FILE_PATH="coverage/cicCrawl$test.coverage" NAME="test Coverage Results" MODIFIED="1600624982725" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cicCrawl" />
+  </component>
+</project>

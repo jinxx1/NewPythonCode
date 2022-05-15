@@ -1,0 +1,766 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="14c99fce-5ec0-4129-8c68-4346074fba32" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../NEW_GGZY/NEW_GGZY/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WebMidCrawl/MidCrawl/MidCrawl/MidWera_NewDemo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WebMidCrawl/MidCrawl/MidCrawl/couchdb_act.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bigJson.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GGZY/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../GGZY/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GGZY/Exist.py" beforeDir="false" afterPath="$PROJECT_DIR$/../GGZY/Exist.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GGZY/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../GGZY/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NEW_GGZY/.idea/NEW_GGZY.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../NEW_GGZY/.idea/NEW_GGZY.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NEW_GGZY/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../NEW_GGZY/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NEW_GGZY/NEW_GGZY/pipelines.py" beforeDir="false" afterPath="$PROJECT_DIR$/../NEW_GGZY/NEW_GGZY/pipelines.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NEW_GGZY/NEW_GGZY/spiders/BEIJING.py" beforeDir="false" afterPath="$PROJECT_DIR$/../NEW_GGZY/NEW_GGZY/spiders/BEIJING.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NEW_GGZY/NEW_GGZY/spiders/ccgp_henan.py" beforeDir="false" afterPath="$PROJECT_DIR$/../NEW_GGZY/NEW_GGZY/spiders/ccgp_henan.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NEW_GGZY/NEW_GGZY/spiders/ccgp_hubei.py" beforeDir="false" afterPath="$PROJECT_DIR$/../NEW_GGZY/NEW_GGZY/spiders/ccgp_hubei.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NEW_GGZY/NEW_GGZY/spiders/ccgp_liaoning.py" beforeDir="false" afterPath="$PROJECT_DIR$/../NEW_GGZY/NEW_GGZY/spiders/ccgp_liaoning.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NEW_GGZY/NEW_GGZY/spiders/ccgp_qinghai.py" beforeDir="false" afterPath="$PROJECT_DIR$/../NEW_GGZY/NEW_GGZY/spiders/ccgp_qinghai.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NEW_GGZY/NEW_GGZY/spiders/ccgp_shaanxi.py" beforeDir="false" afterPath="$PROJECT_DIR$/../NEW_GGZY/NEW_GGZY/spiders/ccgp_shaanxi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NEW_GGZY/NEW_GGZY/spiders/ccgp_tianjin.py" beforeDir="false" afterPath="$PROJECT_DIR$/../NEW_GGZY/NEW_GGZY/spiders/ccgp_tianjin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NEW_GGZY/NEW_GGZY/spiders/ccgp_zhejiang.py" beforeDir="false" afterPath="$PROJECT_DIR$/../NEW_GGZY/NEW_GGZY/spiders/ccgp_zhejiang.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NEW_GGZY/NEW_GGZY/supervisory.py" beforeDir="false" afterPath="$PROJECT_DIR$/../NEW_GGZY/NEW_GGZY/supervisory.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebMidCrawl/MidCrawl/MidCrawl/MYSQL_INFO.json" beforeDir="false" afterPath="$PROJECT_DIR$/../WebMidCrawl/MidCrawl/MidCrawl/MYSQL_INFO.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebMidCrawl/MidCrawl/MidCrawl/SechMySql.py" beforeDir="false" afterPath="$PROJECT_DIR$/../WebMidCrawl/MidCrawl/MidCrawl/SechMySql.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebMidCrawl/MidCrawl/MidCrawl/filterHtml.py" beforeDir="false" afterPath="$PROJECT_DIR$/../WebMidCrawl/MidCrawl/MidCrawl/filterHtml.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebMidCrawl/MidCrawl/MidCrawl/pipelines.py" beforeDir="false" afterPath="$PROJECT_DIR$/../WebMidCrawl/MidCrawl/MidCrawl/pipelines.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebMidCrawl/MidCrawl/MidCrawl/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../WebMidCrawl/MidCrawl/MidCrawl/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebMidCrawl/MidCrawl/MidCrawl/spiders/autoSpider.py" beforeDir="false" afterPath="$PROJECT_DIR$/../WebMidCrawl/MidCrawl/MidCrawl/spiders/autoSpider.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebMidCrawl/MidCrawl/MidCrawl/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../WebMidCrawl/MidCrawl/MidCrawl/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/bottle1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/bottle1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CssGetDef.py" beforeDir="false" afterPath="$PROJECT_DIR$/CssGetDef.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpiderTestModel.py" beforeDir="false" afterPath="$PROJECT_DIR$/SpiderTestModel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sql_in.py" beforeDir="false" afterPath="$PROJECT_DIR$/sql_in.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testxmlrpc.py" beforeDir="false" afterPath="$PROJECT_DIR$/testxmlrpc.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/tcl8.5/init.tcl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/Activate.ps1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/_asyncio.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/_bz2.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/_contextvars.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/_ctypes.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/_ctypes_test.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/_decimal.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/_distutils_findvs.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/_elementtree.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/_hashlib.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/_lzma.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/_msi.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/_multiprocessing.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/_overlapped.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/_queue.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/_socket.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/_sqlite3.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/_ssl.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/_testbuffer.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/_testcapi.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/_testconsole.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/_testimportmultiple.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/_testmultiphase.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/_tkinter.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/activate" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/activate.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/api-ms-win-core-console-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/api-ms-win-core-datetime-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/api-ms-win-core-debug-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/api-ms-win-core-errorhandling-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/api-ms-win-core-file-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/api-ms-win-core-file-l1-2-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/api-ms-win-core-file-l2-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/api-ms-win-core-handle-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/api-ms-win-core-heap-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/api-ms-win-core-interlocked-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/api-ms-win-core-libraryloader-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/api-ms-win-core-localization-l1-2-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/api-ms-win-core-memory-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/api-ms-win-core-namedpipe-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/api-ms-win-core-processenvironment-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/api-ms-win-core-processthreads-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/api-ms-win-core-processthreads-l1-1-1.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/api-ms-win-core-profile-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/api-ms-win-core-rtlsupport-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/api-ms-win-core-string-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/api-ms-win-core-synch-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/api-ms-win-core-synch-l1-2-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/api-ms-win-core-sysinfo-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/api-ms-win-core-timezone-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/api-ms-win-core-util-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/api-ms-win-crt-conio-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/api-ms-win-crt-convert-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/api-ms-win-crt-environment-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/api-ms-win-crt-filesystem-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/api-ms-win-crt-heap-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/api-ms-win-crt-locale-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/api-ms-win-crt-math-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/api-ms-win-crt-multibyte-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/api-ms-win-crt-private-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/api-ms-win-crt-process-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/api-ms-win-crt-runtime-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/api-ms-win-crt-stdio-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/api-ms-win-crt-string-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/api-ms-win-crt-time-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/api-ms-win-crt-utility-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/concrt140.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/deactivate.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/msvcp140.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/msvcp140_1.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/msvcp140_2.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/pyexpat.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/python.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/python3.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/python37.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/pythonw.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/select.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/tcl86t.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/tk86t.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/ucrtbase.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/unicodedata.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/vccorlib140.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/vcomp140.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/vcruntime140.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/winsound.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/xlwings32-0.15.1.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/xlwings64-0.15.1.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/pyvenv.cfg" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/bottle1$CssGetDef.coverage" NAME="CssGetDef Coverage Results" MODIFIED="1560322786057" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/bottle1$WebMiddSpiders.coverage" NAME="WebMiddSpiders Coverage Results" MODIFIED="1560319704823" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WebMiddSpiders.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4400">
+              <caret line="106" selection-start-line="106" selection-end-line="106" selection-end-column="18" />
+              <folding>
+                <element signature="e#79#117#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CssGetDef.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="91">
+              <caret line="64" column="5" lean-forward="true" selection-start-line="64" selection-start-column="5" selection-end-line="64" selection-end-column="5" />
+              <folding>
+                <element signature="e#17#44#0" expanded="true" />
+                <element signature="e#273#1483#0" />
+                <element signature="e#306#350#0" />
+                <element signature="e#369#409#0" />
+                <element signature="e#438#806#0" />
+                <element signature="e#824#1067#0" />
+                <element signature="e#852#937#0" />
+                <element signature="e#964#1067#0" />
+                <element signature="e#1125#1205#0" />
+                <element signature="e#1281#1483#0" />
+                <element signature="e#2107#2172#0" />
+                <element signature="e#2232#2233#0" />
+                <element signature="e#3726#3777#0" />
+                <element signature="e#6416#6880#0" />
+                <element signature="e#6941#8947#0" />
+                <element signature="e#7070#7298#0" />
+                <element signature="e#7149#7298#0" />
+                <element signature="e#7192#7252#0" />
+                <element signature="e#7339#7872#0" />
+                <element signature="e#7452#7872#0" />
+                <element signature="e#7579#7631#0" />
+                <element signature="e#7744#7872#0" />
+                <element signature="e#7905#7969#0" />
+                <element signature="e#8982#9040#0" />
+                <element signature="e#9533#9631#0" />
+                <element signature="e#10227#10353#0" />
+                <element signature="e#10414#10540#0" />
+                <element signature="e#10592#10799#0" />
+                <element signature="e#10826#10985#0" />
+                <element signature="e#11161#12170#0" />
+                <element signature="e#11223#12145#0" />
+                <element signature="e#11408#11492#0" />
+                <element signature="e#11758#12145#0" />
+                <element signature="e#11845#12145#0" />
+                <element signature="e#12011#12145#0" />
+                <element signature="e#12225#13210#0" />
+                <element signature="e#12315#12400#0" />
+                <element signature="e#12653#13185#0" />
+                <element signature="e#12767#13185#0" />
+                <element signature="e#12893#12945#0" />
+                <element signature="e#13057#13185#0" />
+                <element signature="e#13321#17923#0" />
+                <element signature="e#13517#13591#0" />
+                <element signature="e#13610#14559#0" />
+                <element signature="e#13793#13929#0" />
+                <element signature="e#14058#14291#0" />
+                <element signature="e#14220#14291#0" />
+                <element signature="e#14405#14508#0" />
+                <element signature="e#14591#14713#0" />
+                <element signature="e#14732#15610#0" />
+                <element signature="e#15280#15370#0" />
+                <element signature="e#15676#16547#0" />
+                <element signature="e#15767#15927#0" />
+                <element signature="e#16362#16452#0" />
+                <element signature="e#16623#17906#0" />
+                <element signature="e#16720#16891#0" />
+                <element signature="e#17087#17223#0" />
+                <element signature="e#17374#17571#0" />
+                <element signature="e#17500#17571#0" />
+                <element signature="e#17685#17788#0" />
+                <element signature="e#17959#19339#0" />
+                <element signature="e#18071#18321#0" />
+                <element signature="e#18391#18515#0" />
+                <element signature="e#18522#18610#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/SpiderTestModel.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="528">
+              <caret line="12" column="23" lean-forward="true" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+              <folding>
+                <element signature="e#17#32#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sql_in.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4312">
+              <caret line="99" column="5" selection-start-line="99" selection-start-column="5" selection-end-line="99" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testxmlrpc.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="22440">
+              <caret line="515" column="78" selection-start-line="515" selection-start-column="15" selection-end-line="515" selection-end-column="78" />
+              <folding>
+                <element signature="e#17#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package.json" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>区块链</find>
+      <find>markup_type</find>
+      <find>startUrl</find>
+      <find>SiteUrl</find>
+      <find>ListTitle</find>
+      <find>633871.shtml</find>
+      <find>cnrfont</find>
+      <find>LinkList</find>
+      <find>scrip</find>
+      <find>数你懂</find>
+      <find>https://new.qq.com/ch/tech/</find>
+      <find>'content'</find>
+      <find>post</find>
+      <find>get</find>
+      <find>cookies</find>
+      <find>prepare</find>
+      <find>27315</find>
+      <find>不是list-url</find>
+      <find>递工程专</find>
+      <find>XpathListLinkGet</find>
+      <find>ContentXpathGet</find>
+      <find>XpathGet</find>
+      <find>20190714A0H6L2_4</find>
+      <find>---********+++++++------</find>
+      <find>江苏已有22人获快递工程专业职</find>
+      <find>innerUsed_noticeDetails/index.html?noticeId=5966981</find>
+      <find>iframe</find>
+      <find>ifr</find>
+      <find>TitleList</find>
+      <find>splash</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/newDef.py" />
+        <option value="$PROJECT_DIR$/lesson_41.py" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/MYSQL_INFO.json" />
+        <option value="$PROJECT_DIR$/WebMiddSpiders.py" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/bigJson.py" />
+        <option value="$PROJECT_DIR$/sql_in.py" />
+        <option value="$PROJECT_DIR$/testxmlrpc.py" />
+        <option value="$PROJECT_DIR$/CssGetDef.py" />
+        <option value="$PROJECT_DIR$/SpiderTestModel.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1093" />
+    <option name="y" value="125" />
+    <option name="width" value="2704" />
+    <option name="height" value="2086" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="bottle1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bottle1" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Python" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.SpiderTestModel">
+    <configuration name="CssGetDef" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="bottle1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CssGetDef.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="SpiderTestModel" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="bottle1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SpiderTestModel.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="WebMiddSpiders" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="bottle1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/WebMiddSpiders.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="sql_in" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="bottle1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sql_in.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="testxmlrpc" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="bottle1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testxmlrpc.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.SpiderTestModel" />
+        <item itemvalue="Python.testxmlrpc" />
+        <item itemvalue="Python.CssGetDef" />
+        <item itemvalue="Python.WebMiddSpiders" />
+        <item itemvalue="Python.sql_in" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="14c99fce-5ec0-4129-8c68-4346074fba32" name="Default Changelist" comment="" />
+      <created>1559009961150</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1559009961150</updated>
+      <workItem from="1559009968649" duration="15933000" />
+      <workItem from="1559042695701" duration="23699000" />
+      <workItem from="1559094986110" duration="5973000" />
+      <workItem from="1559181590697" duration="4968000" />
+      <workItem from="1559613164754" duration="22048000" />
+      <workItem from="1559719110690" duration="2062000" />
+      <workItem from="1560005210763" duration="615000" />
+      <workItem from="1560132807617" duration="1458000" />
+      <workItem from="1560135888088" duration="2440000" />
+      <workItem from="1560147402900" duration="504000" />
+      <workItem from="1560150592213" duration="3117000" />
+      <workItem from="1560223055393" duration="4233000" />
+      <workItem from="1560228903643" duration="3579000" />
+      <workItem from="1560319656569" duration="3785000" />
+      <workItem from="1560345814182" duration="4599000" />
+      <workItem from="1560392992567" duration="1559000" />
+      <workItem from="1560749326547" duration="5447000" />
+      <workItem from="1560828243154" duration="3315000" />
+      <workItem from="1560835861528" duration="679000" />
+      <workItem from="1560840711320" duration="1335000" />
+      <workItem from="1560923620242" duration="1915000" />
+      <workItem from="1561037327083" duration="1101000" />
+      <workItem from="1561012028487" duration="3000" />
+      <workItem from="1561109333065" duration="22000" />
+      <workItem from="1561533327997" duration="7094000" />
+      <workItem from="1561643320856" duration="7500000" />
+      <workItem from="1561690269539" duration="599000" />
+      <workItem from="1561674727304" duration="621000" />
+      <workItem from="1562121859013" duration="130000" />
+      <workItem from="1562747479454" duration="4283000" />
+      <workItem from="1562761208941" duration="34955000" />
+      <workItem from="1563070982932" duration="34521000" />
+      <workItem from="1563374540252" duration="4585000" />
+      <workItem from="1563412191258" duration="45150000" />
+      <workItem from="1563507819060" duration="1395000" />
+      <workItem from="1563969040141" duration="1699000" />
+      <workItem from="1564037459706" duration="1128000" />
+      <workItem from="1564109487856" duration="2889000" />
+      <workItem from="1564193976385" duration="2929000" />
+      <workItem from="1564334753674" duration="13205000" />
+      <workItem from="1564454455533" duration="200000" />
+      <workItem from="1564550310051" duration="704000" />
+      <workItem from="1564559954590" duration="1176000" />
+      <workItem from="1564561704355" duration="884000" />
+      <workItem from="1564569155995" duration="2122000" />
+      <workItem from="1564625499467" duration="5887000" />
+      <workItem from="1564969669593" duration="2428000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="290473000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="995" y="-6" width="3745" height="2166" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.114740595" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.422449" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.58448756" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32929105" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32963988" />
+      <window_info anchor="bottom" id="Concurrent Activities Diagram" order="13" weight="0.32929105" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="R Graphics" order="5" />
+      <window_info anchor="right" id="R Packages" order="6" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint suspend="NONE" type="python-exception">
+          <properties exception="BaseException" />
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/bottle1$lesson_41.coverage" NAME="lesson_41 Coverage Results" MODIFIED="1560230716344" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/bottle1$newDef.coverage" NAME="newDef Coverage Results" MODIFIED="1559053511861" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/bottle1$SpiderTestModel.coverage" NAME="SpiderTestModel Coverage Results" MODIFIED="1564973411715" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/bottle1$WebMiddSpiders.coverage" NAME="WebMiddSpiders Coverage Results" MODIFIED="1564370393914" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/bottle1$CssGetDef.coverage" NAME="CssGetDef Coverage Results" MODIFIED="1564371854020" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/bottle1$sql_in.coverage" NAME="sql_in Coverage Results" MODIFIED="1561648485251" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/bottle1$testxmlrpc.coverage" NAME="testxmlrpc Coverage Results" MODIFIED="1564637476498" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://C:/Anaconda3/Lib/site-packages/requests/utils.py" />
+    <entry file="file://C:/Anaconda3/Lib/html/__init__.py" />
+    <entry file="file://C:/Anaconda3/Lib/site-packages/bs4/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/lesson_41.py" />
+    <entry file="file://$PROJECT_DIR$/newDef.py" />
+    <entry file="file://$PROJECT_DIR$/help.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/filterHtml.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="16" column="35" lean-forward="true" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codespider.py" />
+    <entry file="file://$USER_HOME$/anaconda3/lib/python3.7/site-packages/requests/sessions.py" />
+    <entry file="file://$USER_HOME$/anaconda3/lib/python3.7/site-packages/jsonlines/jsonlines.py" />
+    <entry file="file://$USER_HOME$/.PyCharm2019.1/system/python_stubs/-1265671913/builtins.py" />
+    <entry file="file://$USER_HOME$/anaconda3/lib/python3.7/site-packages/requests/api.py" />
+    <entry file="file://$USER_HOME$/anaconda3/lib/python3.7/site-packages/scrapy_splash/request.py" />
+    <entry file="file://$PROJECT_DIR$/bigJson.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1576">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/lib/python3.7/site-packages/requests/cookies.py" />
+    <entry file="file://$PROJECT_DIR$/MYSQL_INFO.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="934">
+          <caret line="44" column="40" selection-start-line="44" selection-start-column="29" selection-end-line="44" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebMiddSpiders.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4400">
+          <caret line="106" selection-start-line="106" selection-end-line="106" selection-end-column="18" />
+          <folding>
+            <element signature="e#79#117#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sql_in.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4312">
+          <caret line="99" column="5" selection-start-line="99" selection-start-column="5" selection-end-line="99" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testxmlrpc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22440">
+          <caret line="515" column="78" selection-start-line="515" selection-start-column="15" selection-end-line="515" selection-end-column="78" />
+          <folding>
+            <element signature="e#17#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CssGetDef.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="91">
+          <caret line="64" column="5" lean-forward="true" selection-start-line="64" selection-start-column="5" selection-end-line="64" selection-end-column="5" />
+          <folding>
+            <element signature="e#17#44#0" expanded="true" />
+            <element signature="e#273#1483#0" />
+            <element signature="e#306#350#0" />
+            <element signature="e#369#409#0" />
+            <element signature="e#438#806#0" />
+            <element signature="e#824#1067#0" />
+            <element signature="e#852#937#0" />
+            <element signature="e#964#1067#0" />
+            <element signature="e#1125#1205#0" />
+            <element signature="e#1281#1483#0" />
+            <element signature="e#2107#2172#0" />
+            <element signature="e#2232#2233#0" />
+            <element signature="e#3726#3777#0" />
+            <element signature="e#6416#6880#0" />
+            <element signature="e#6941#8947#0" />
+            <element signature="e#7070#7298#0" />
+            <element signature="e#7149#7298#0" />
+            <element signature="e#7192#7252#0" />
+            <element signature="e#7339#7872#0" />
+            <element signature="e#7452#7872#0" />
+            <element signature="e#7579#7631#0" />
+            <element signature="e#7744#7872#0" />
+            <element signature="e#7905#7969#0" />
+            <element signature="e#8982#9040#0" />
+            <element signature="e#9533#9631#0" />
+            <element signature="e#10227#10353#0" />
+            <element signature="e#10414#10540#0" />
+            <element signature="e#10592#10799#0" />
+            <element signature="e#10826#10985#0" />
+            <element signature="e#11161#12170#0" />
+            <element signature="e#11223#12145#0" />
+            <element signature="e#11408#11492#0" />
+            <element signature="e#11758#12145#0" />
+            <element signature="e#11845#12145#0" />
+            <element signature="e#12011#12145#0" />
+            <element signature="e#12225#13210#0" />
+            <element signature="e#12315#12400#0" />
+            <element signature="e#12653#13185#0" />
+            <element signature="e#12767#13185#0" />
+            <element signature="e#12893#12945#0" />
+            <element signature="e#13057#13185#0" />
+            <element signature="e#13321#17923#0" />
+            <element signature="e#13517#13591#0" />
+            <element signature="e#13610#14559#0" />
+            <element signature="e#13793#13929#0" />
+            <element signature="e#14058#14291#0" />
+            <element signature="e#14220#14291#0" />
+            <element signature="e#14405#14508#0" />
+            <element signature="e#14591#14713#0" />
+            <element signature="e#14732#15610#0" />
+            <element signature="e#15280#15370#0" />
+            <element signature="e#15676#16547#0" />
+            <element signature="e#15767#15927#0" />
+            <element signature="e#16362#16452#0" />
+            <element signature="e#16623#17906#0" />
+            <element signature="e#16720#16891#0" />
+            <element signature="e#17087#17223#0" />
+            <element signature="e#17374#17571#0" />
+            <element signature="e#17500#17571#0" />
+            <element signature="e#17685#17788#0" />
+            <element signature="e#17959#19339#0" />
+            <element signature="e#18071#18321#0" />
+            <element signature="e#18391#18515#0" />
+            <element signature="e#18522#18610#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpiderTestModel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="12" column="23" lean-forward="true" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+          <folding>
+            <element signature="e#17#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

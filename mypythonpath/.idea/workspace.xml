@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c147791f-d0b6-43cd-bfcf-7443b9d122ac" name="更改" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="22j63bupoaQUhGeZjUHSvISu06C" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\PythonCode\mypythonpath" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.web_driver">
+    <configuration name="crawltools" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="mypythonpath" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/crawltools.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="requests_obj" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="mypythonpath" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/requests_obj.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="mypythonpath" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="uxue_orm" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Anaconda3\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/uxue_orm.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="web_driver" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="mypythonpath" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/web_driver.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.web_driver" />
+        <item itemvalue="Python.requests_obj" />
+        <item itemvalue="Python.crawltools" />
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.uxue_orm" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="c147791f-d0b6-43cd-bfcf-7443b9d122ac" name="更改" comment="" />
+      <created>1640338451343</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1640338451343</updated>
+      <workItem from="1640338452726" duration="2020000" />
+      <workItem from="1640414328349" duration="484000" />
+      <workItem from="1640415297779" duration="1315000" />
+      <workItem from="1641279709499" duration="2498000" />
+      <workItem from="1641283216908" duration="3933000" />
+      <workItem from="1641351576671" duration="4676000" />
+      <workItem from="1641693210369" duration="10764000" />
+      <workItem from="1641783313020" duration="6339000" />
+      <workItem from="1641823458093" duration="9634000" />
+      <workItem from="1641867591523" duration="6569000" />
+      <workItem from="1641979262106" duration="382000" />
+      <workItem from="1642038153004" duration="646000" />
+      <workItem from="1642039986294" duration="2410000" />
+      <workItem from="1642384095474" duration="3887000" />
+      <workItem from="1642470469013" duration="9244000" />
+      <workItem from="1642556848240" duration="10314000" />
+      <workItem from="1642643076550" duration="8000" />
+      <workItem from="1642643131402" duration="9083000" />
+      <workItem from="1642745004685" duration="1621000" />
+      <workItem from="1643281758589" duration="2662000" />
+      <workItem from="1643436255739" duration="1198000" />
+      <workItem from="1643852063493" duration="2284000" />
+      <workItem from="1644825485247" duration="8981000" />
+      <workItem from="1644891357114" duration="3184000" />
+      <workItem from="1644976401853" duration="7161000" />
+      <workItem from="1645059428337" duration="25274000" />
+      <workItem from="1645149522825" duration="10794000" />
+      <workItem from="1645236691819" duration="15046000" />
+      <workItem from="1645324381667" duration="8901000" />
+      <workItem from="1645410095735" duration="593000" />
+      <workItem from="1645496733708" duration="11576000" />
+      <workItem from="1645579280067" duration="751000" />
+      <workItem from="1645580138328" duration="7844000" />
+      <workItem from="1645669383698" duration="6240000" />
+      <workItem from="1645757253245" duration="3071000" />
+      <workItem from="1646013286398" duration="11860000" />
+      <workItem from="1646104109153" duration="606000" />
+      <workItem from="1646193921086" duration="10162000" />
+      <workItem from="1646285649310" duration="1995000" />
+      <workItem from="1646308481508" duration="1189000" />
+      <workItem from="1646359119975" duration="9054000" />
+      <workItem from="1646449481885" duration="3371000" />
+      <workItem from="1646558077023" duration="6191000" />
+      <workItem from="1646616469915" duration="4488000" />
+      <workItem from="1646707306678" duration="6351000" />
+      <workItem from="1646832304358" duration="2345000" />
+      <workItem from="1646879993481" duration="5513000" />
+      <workItem from="1646962772531" duration="4412000" />
+      <workItem from="1647114984595" duration="595000" />
+      <workItem from="1647238528972" duration="1200000" />
+      <workItem from="1647485498007" duration="1213000" />
+      <workItem from="1647566686469" duration="1207000" />
+      <workItem from="1647776079753" duration="2844000" />
+      <workItem from="1647779735458" duration="6728000" />
+      <workItem from="1647826695517" duration="20274000" />
+      <workItem from="1648004626942" duration="7599000" />
+      <workItem from="1648034847280" duration="4941000" />
+      <workItem from="1648052660236" duration="594000" />
+      <workItem from="1648092083676" duration="2478000" />
+      <workItem from="1648178517665" duration="3898000" />
+      <workItem from="1648278386117" duration="594000" />
+      <workItem from="1648369587859" duration="1188000" />
+      <workItem from="1648436961044" duration="6134000" />
+      <workItem from="1648521441444" duration="614000" />
+      <workItem from="1648603306371" duration="7200000" />
+      <workItem from="1648693740693" duration="1243000" />
+      <workItem from="1648742481311" duration="662000" />
+      <workItem from="1648782379520" duration="1235000" />
+      <workItem from="1648969692251" duration="1517000" />
+      <workItem from="1649222540346" duration="9661000" />
+      <workItem from="1649309729792" duration="6806000" />
+      <workItem from="1651124468130" duration="1189000" />
+      <workItem from="1651198356594" duration="1304000" />
+      <workItem from="1651203411911" duration="730000" />
+      <workItem from="1651543037530" duration="1206000" />
+      <workItem from="1651588599023" duration="630000" />
+      <workItem from="1651716639390" duration="605000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
