@@ -2,6 +2,8 @@
 var hexcase = 0;
 var b64pad = "";
 var chrsz = 16;
+
+var jinxiao = 121212121;
 function hex_md5(a) {
     return binl2hex(core_md5(str2binl(a), a.length * chrsz))
 }
